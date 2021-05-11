@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a20c645-684e-48ef-ad07-597f8f28ec74" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1at0p571QWH4uIXVFLEWA3RTG7a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../JS Stuff" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a20c645-684e-48ef-ad07-597f8f28ec74" name="Default Changelist" comment="" />
+      <created>1587539761902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587539761902</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="456" y="61" key="#Project_Structure" timestamp="1587539774613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="61" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587539774613" />
+    <state x="627" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1588494296568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="627" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588494296568" />
+    <state x="482" y="165" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1587717830160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="165" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1587717830160" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1590157231650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590157231650" />
+    <state x="335" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1590157005218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="335" y="147" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590157005218" />
+    <state x="209" y="34" key="new project wizard" timestamp="1590157043571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590157043571" />
+    <state x="0" y="65" key="refactoring.ChangeSignatureDialog" timestamp="1587546928534">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="65" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587546928534" />
+  </component>
+</project>

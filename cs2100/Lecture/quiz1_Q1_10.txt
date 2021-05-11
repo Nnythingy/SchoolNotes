@@ -1,0 +1,89 @@
+
+Q1.
+What is the other name for radix complement in octal (base 8) number system?
+
+A. 1's complement
+B. 2's complement
+C. 7's complement
+D. 8's complement
+
+
+Q2.
+What is the other name for diminished radix complement in quaternary (base 4) number system?
+
+A. 1's complement
+B. 2's complement
+C. 3's complement
+D. 4's complement
+
+Q3.
+Consider the decimal number 27.  How is this number represented as a 5-bit unsigned binary number?
+
+A. 11010
+B. 11011
+C. 10101
+D. 10011
+E. None of the above
+
+Q4.
+Consider the decimal number 27.  How is this number represented as a 6-bit radix complement signed binary number?
+
+A. 100100
+B. 100101
+C. 010101
+D. 011011
+E. None of the above
+
+Q5.
+Consider the decimal number 27.  How is this number represented as a 6-bit diminished radix complement signed binary number?
+
+A. 100100
+B. 100101
+C. 010101
+D. 011011
+E. None of the above
+
+Q6.
+Consider the decimal number 27.  How is this number represented as a 4-digit radix complement signed decimal number?
+
+A. 0027
+B. 0028
+C. 9972
+D. 9973
+E. None of the above
+
+Q7.
+Consider the decimal number -23.  How is this number represented as a 6-bit sign-and-magnitude signed binary number?
+
+A. 010111
+B. 110111
+C. 101000
+D. 101001
+E. None of the above
+
+Q8.
+Consider the decimal number -23.  How is this number represented as a 6-bit radix complement signed binary number?
+
+A. 010111
+B. 110111
+C. 101000
+D. 101001
+E. None of the above
+
+Q9.
+Consider the decimal number -23.  How is this number represented as a 4-digit diminished radix complement signed decimal number?
+
+A. 0023
+B. 9923
+C. 9976
+D. 9977
+E. None of the above
+
+Q10.
+Consider the decimal number -23.  How is this number represented as a 5-digit radix complement signed senary (base 6) number?
+
+A. 50021
+B. 55521
+C. 55532
+D. 55533
+E. None of the above

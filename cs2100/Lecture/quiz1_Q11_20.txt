@@ -1,0 +1,93 @@
+Number systems (part 2)
+
+Q11.
+In base 2, the 1's-complement of 011010 is ____________.
+
+A. 000101
+B. 011011
+C. 100101
+D. 111010
+E. 100110
+
+Q12.
+Consider this 8-bit number 1011 0001.  What decimal number does this bit sequence represent if it is an unsigned binary number?
+
+A. -79
+B. -78
+C. -49
+D. 177
+E. None of the above
+
+Q13.
+Consider an 8-bit number 1011 0001.  What decimal number does this bit sequence represent if it is a sign-and-magnitude signed binary 
+number?
+
+A. -79
+B. -78
+C. -49
+D. 177
+E. None of the above
+
+Q14.
+Consider an 8-bit number 1011 0001.  What decimal number does this bit sequence represent if it is a 2's-complement signed binary 
+number?
+
+A. -79
+B. -78
+C. -49
+D. 177
+E. None of the above
+
+Q15.
+Consider an 8-bit number 1011 0001.  What decimal number does this bit sequence represent if it is a ones-complement signed binary 
+number with two fractional bits?
+
+A. -19.05
+B. -19.25
+C. -19.50
+D. -19.75
+E. None of the above
+
+
+Q16.
+Assuming that the values are unsigned, what is x if (325)_x = (10A)_16?
+
+A. 6
+B. 7
+C. 8
+D. 9
+E. 10
+
+Q17.
+Assuming that the values are unsigned, if (31x3)_4 = (333)_8, what is x?
+
+A. 0
+B. 1
+C. 2
+D. 3
+E. Insufficient information.
+
+Q18.
+Convert the decimal value 73.12 into octal (base 8), correct to 3 octal places.
+
+A. 59.960
+B. 59.075
+C. 111.075
+D. 111.960
+
+Q19.
+Convert the decimal value 73.12 into quaternary (base 4), correct to 3 quaternary places.
+
+A. 111.013
+B. 421.013
+C. 1021.013
+D. 1021.020 (error corrected; C was the wrong answer)
+
+Q20.
+Convert the hexadecimal value DE.AD into decimal, correct to 3 decimal places.
+
+A. 205.672
+B. 222.675
+C. 222.676
+D. 239.742
+

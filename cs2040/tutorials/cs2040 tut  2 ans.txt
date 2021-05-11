@@ -1,0 +1,11 @@
+1. a) Quick Sort, need in-place sorting for a floating point
+   b) Radix sort allows us group ints togetehr regardless of string, need stable sort
+   c) Quick sort, as there will be many students with similar marks so it is easy to get an accurate mean, and little sorting will be done
+   d) bubble sort w termination/Insertion will allow us to to check if there are any misplaced numbers
+
+2. a) Merge algorithim, return kth-1 element
+   b) Quicksort till element k-1th, my answer is correct as all elemnts up to k-1th will be sorted in order
+
+3. Sort patients using a merge sort in order of waiting time, then sum up sum += (time for patient i)*(array.length - 1 - i)
+
+4. Create a seperate array of missing numbers, perform a merge sort with the two arrays.

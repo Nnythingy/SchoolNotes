@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Heap\heap.hpp(140,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Heap\heap.hpp(136): message : while compiling class template member function 'void Heap<int>::printTree(void)'
+D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Heap\main.cpp(27): message : see reference to function template instantiation 'void Heap<int>::printTree(void)' being compiled
+D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Heap\main.cpp(18): message : see reference to class template instantiation 'Heap<int>' being compiled
+D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Heap\heap.hpp(140,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Heap\heap.hpp(141,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Heap.vcxproj -> D:\Workable Shit\notes\School\School given\CS2040C\Assignments\Lab4Heap\Heap\Debug\Heap.exe

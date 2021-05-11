@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <title>Guessing Game</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #282c34;
+            color: #56b6c2;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Fira Code', monospace;
+            font-size: 1.5rem;
+            letter-spacing: 0.15rem;
+        }
+
+        p {
+            margin-bottom: 0rem;
+        }
+
+        #description {
+            font-weight: 700;
+        }
+
+        #quote {
+            font-weight: 700;
+            color: #abb2bf;
+        }
+
+        #banner {
+            margin-bottom: 2rem;
+        }
+
+        input {
+            font-size: 1.2rem;
+            font-family: 'Fira Code', monospace;
+            font-weight: 700;
+            margin: 1rem;
+            color: #282c34;
+            border: 0.1rem solid #61afef;
+        }
+
+        #input {
+            margin-top: 2rem;
+        }
+
+        #guess {
+            width: 5rem;
+            text-align: center;
+            height: 2.8rem;
+            padding: 0.45rem;
+            cursor: none;
+            border-radius: 0.2rem;
+            margin-right: 0.1rem;
+        }
+
+        #submit {
+            font-size: 1.0rem;
+            letter-spacing: 0.2rem;
+            padding: 0.5rem 0.3rem 0.5rem 0.5rem;
+            height: 2.8rem;
+            text-align: center;
+            background-color: #61AFEF;
+            border-radius: 0.2rem;
+            margin-left: 0.1rem;
+        }
+
+        #wrong {
+            display: none;
+            text-align: center;
+            color: #e06c75;
+            font-weight: 700;
+        }
+
+        #answer {
+            font-weight: 700;
+            color: #e06c75;
+        }
+
+        #correct {
+            display: none;
+            font-weight: 700;
+            color: #98C379;
+        }
+
+        #score {
+            font-weight: 700;
+            color: #e5c07b;
+        }
+
+        #flag {
+            font-weight: 700;
+            color: #c678dd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="banner" src="https://braveintheattempt.files.wordpress.com/2017/07/aaeaaqaaaaaaaamdaaaajdk5zdg2zgy0ltg0zwmtngi5zi05zjcyltqwnwq3ndq2nwe4yw.jpg"/>
+        <p id="description">guess 10 correctly in a row to get the flag, guess wrong to fail the module</p>
+        <p id="quote">"Life is nothing but an RNG game." -all of us</p>
+
+        <div id="input">
+            <input type="text" id="guess" maxlength="1" />
+            <input type="submit" value="GUESS" id="submit" />
+        </div>
+
+        <p id="wrong">FALSE:  <span id="answer">123456</span></p>
+        <p id="correct">TRUE</p>
+        <p id="score"></p>
+        <p id="flag">flag{GUESS_CORRECTLY_TO_GET_THE_REAL_FLAG}</p>
+    </div>
+
+    <script>
+        $("#flag").text("")
+        $("#submit").click(() => {
+            var guess = $("#guess").val()
+            console.log(guess)
+            $.post("/submit", { "guess": guess }, res => {
+                if (res.correct) {
+                    $("#correct").show()
+                    $("#wrong").hide()
+                }
+                else {
+                    $("#wrong").show()
+                    $("#correct").hide()
+                    $("#answer").text(res.answer)
+                    $("#attempts").text(res.attempts)
+                }
+                if (res.flag)
+                    $("#flag").text(res.flag)
+
+                $("#score").text(res.score + "/10")
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+Type: sha256
+Secret length: 32
+New signature: 2506352116cf576836e784c06b4e687e5fb09060565da7acfeac33491c6aa5a2
+New string: O%3a4%3a%22User%22%3a2%3a%7bs%3a15%3a%22%00User%00userlevel%22%3bi%3a10%3bs%3a14%3a%22%00User%00username%22%3bs%3a8%3a%22John+Doe%22%3b%7d%3cx%3eO%3a4%3a%22User%22%3a2%3a%7bs%3a15%3a%22%00User%00userlevel%22%3bi%3a33%3bs%3a14%3a%22%00User%00username%22%3bs%3a12%3a%22Peter+Parker%22%3b%7d%3cx%3eO%3a4%3a%22User%22%3a2%3a%7bs%3a15%3a%22%00User%00userlevel%22%3bi%3a87%3bs%3a14%3a%22%00User%00username%22%3bs%3a11%3a%22Gabe+Newell%22%3b%7d%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%08%f8%3cx%3eO%3a4%3a%22User%22%3a2%3a%7bs%3a15%3a%22%00User%00userlevel%22%3bi%3a999%3bs%3a14%3a%22%00User%00username%22%3bs%3a8%3a%22Long+Fow%22%3b%7d
+
+//cs2107{W3LC0m3_D34r_h4x0R}

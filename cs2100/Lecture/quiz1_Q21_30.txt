@@ -1,0 +1,97 @@
+Number systems (part 3)
+
+Q21.
+In excess-8 representation, what decimal value does the binary number 1101 represent?
+
+A. -13
+B. 5
+C. 13
+D. 21
+E. None of the above
+
+Q22.
+In excess-10 representation, what decimal value does the binary number 0011 represent?
+
+A. -7
+B. -3
+C. 3
+D. 13
+E. None of the above
+
+Q23.
+To represent positive and negative integers using 6-bit excess representation, what is the most suitable bias?
+
+A. 6
+B. 7 or 8
+C. 15 or 16
+D. 31 or 32
+E. 63 or 64
+
+Q24.
+Unsigned binary numbers: 10011 * 10001 = ?
+
+A. 1001110011
+B. 10101011
+C. 101110011
+D. 100110011
+E. None of the above
+
+Q25.
+1's-complement signed binary numbers: (1000011)_1s - (1000001)_1s = ?
+
+A. (1000100)_2
+B. (0000001)_2
+C. -(0000010)_2
+D. (0000010)_2
+E. overflow
+
+Q26.
+2's-complement signed binary numbers: (0000011)_2s - (1000001)_2s = ?
+
+A. (1000010)_2
+B. (1000100)_2
+C. -(0111110)_2
+D. (0000010)_2
+E. overflow
+
+Q27.
+Which of the following operations on 5-bit numbers will cause an overflow?
+
+A. (10110)_2s + (11111)_2s
+B. (10110)_2s - (10011)_2s
+C. (01001)_1s - (01111)_1s
+D. (01001)_1s - (10010)_1s
+E. (10111)_1s + (11101)_1s
+
+Q28.
+A certain floating-point representation follows the IEEE 754 format but uses only 8 bits: 1 bit for sign, 3 bits with a
+bias of 3 for the exponent, and 4 bits for the mantissa.
+
+What is the largest decimal value that can be stored using this representation?
+A. 15
+B. 31
+C. 63
+D. 248
+E. None of the above
+
+Q29.
+Using the IEEE 754 single-precision floating-point representation, how is the decimal value -82.5 represented? 
+The answers below are in hexadecimal form.
+
+A. 42A50000
+B. 83250000
+C. C2A50000
+D. C2D21000
+E. None of the above
+
+Q30.
+Given a floating point scheme with: 1-bit sign, 5-bit unnormalised mantissa, followed by 6-bit twos-complement exponent.
+Which of the following is the smallest positive number in this scheme? (For option (D), the 11 is eleven.)
+
+A. 0.09375
+B. 0.34375
+C. 1.5
+D. 11 x 2^122
+E. None of the above
+
+

@@ -1,0 +1,16 @@
+1st step is to find the format of png image
+89 50 4e 47 0d 0a 1a 0a is the magic number
+
+hexdump encrypted_file.png > hexdump
+
+so take the 1st 4 bytes and xor with the magic number, and this will get the key
+5089474e0a0d0a1a XOR 60ed223e3a696f6a = d0ped0pe
+
+since supposed to be 8950..., had to swap the endianness
+
+89 50 4e 47 0d 0a 1a 0a XOR ed 60 3e 22 69 3a 6a 6f
+
+playing on cyberchef gets me the key d0ped0pe
+place the file into cyberchef and using the key to perform XOR operation
+
+save the file and open

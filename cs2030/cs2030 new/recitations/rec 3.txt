@@ -1,0 +1,9 @@
+1.a) they are not fully instatiated classes, only abstract interfaces, therefore they cannot method call
+  b) no as abstract classes cannot method call either
+  c) Yes
+
+2. It might override multiple parent classes, but since interfaces have differnet fields, the same issue does not occur
+
+3. It violates, as it has its overriding method does not return the same, so the subclaass cannot effective;y replace the parent class
+
+4. it compiles even if we switch around, as each class has the same properties nd camn effectively substitute one another
