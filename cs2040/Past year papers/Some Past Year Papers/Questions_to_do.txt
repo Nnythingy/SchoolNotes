@@ -1,7 +1,0 @@
-CS1020_1213SEM2 -> Section A: Q1,Q3,Q4,Q5,Q6.
-                   Section B: Q9,Q11,Q13,Q14,Q15
-CS1020_1314SEM1 -> All questions
-CS1020_1112SEM2 -> All questions
-CS2040_1819SEM4_Midterm -> All questions
-CS2040_1920SEM1_Midterm -> All questions
-
