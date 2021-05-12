@@ -6,7 +6,7 @@ These are the study materials I have used when taking these mods.
  ### Sem 1 ###
   Module | Grade
   ------ | ------
-  [`CS1010`] (https://github.com/Nnythingy/SchoolNotes/tree/main/cs1010) | A-
+  CS1010(https://github.com/Nnythingy/SchoolNotes/tree/main/cs1010) | A-
   CS1231S | C+
   IS1103 | A+
   MA1101R | B+
