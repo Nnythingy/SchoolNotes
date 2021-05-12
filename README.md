@@ -7,10 +7,10 @@ These are the study materials I have used when taking these mods.
   Module | Grade
   ------ | ------
   [CS1010](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1010) | A-
-  CS1231S | C+
-  IS1103 | A+
-  MA1101R | B+
-  GER1000 | B+
+  [CS1231S](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1231S) | C+
+  [IS1103](https://github.com/Nnythingy/SchoolNotes/tree/main/IS1103) | A+
+  [MA1101R](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1101R) | B+
+  [GER1000](https://github.com/Nnythingy/SchoolNotes/tree/main/GER1000) | B+
  ### Sem 2 ###
   Module | Grade
   ------ | ------
