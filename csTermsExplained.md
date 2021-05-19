@@ -4,7 +4,7 @@ This file includes terms/jargon/lingo explained by a Singaporean.
 Agar Agar how long your program will take in n. 
 
 ## Loops
-Like someone who is nagging, will keep repeating and never stop until its time to go home. (A condition is met/broken)
+Like someone who is nagging, will keep repeating and never stop until its time to go home (A condition is met/broken).
 Always ensure that the condition can be reached or can end, if not the nagging will not stop
 
 ### [While Loops](https://en.wikipedia.org/wiki/While_loop)
