@@ -8,22 +8,12 @@ Hi! These are the study materials I have used when taking these mods.
 5. My grades for each mod are added at the bottom as disclosure as some mods might not be my strengths and hence any notes and submissions might not be as accurate.
 
 ## AY20/21 ##
- ### Sem 1 ###
-  Module |
-  ------ |
-  [CS1010](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1010) |
-  [CS1231S](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1231S) |
-  [IS1103](https://github.com/Nnythingy/SchoolNotes/tree/main/IS1103) |
-  [MA1101R](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1101R) |
-  [GER1000](https://github.com/Nnythingy/SchoolNotes/tree/main/GER1000) |
- ### Sem 2 ###
-  Module | Grade
-  ------ | ------
-  [CS2040C](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2040C) | B+
-  [CS2100](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2100) | A-
-  [CS2107](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2107) | A-
-  [MA1521](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1521) | B
-  [GEH1027](https://github.com/Nnythingy/SchoolNotes/tree/main/GEH1027) | B
-  [GES1038](https://github.com/Nnythingy/SchoolNotes/tree/main/GES1038) | B
-  
+ Sem 1 | Sem 2
+ ------ | ------
+ [CS1010](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1010) | [CS2040C](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2040C)
+ [CS1231S](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1231S) | [CS2100](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2100)
+ [IS1103](https://github.com/Nnythingy/SchoolNotes/tree/main/IS1103) | [CS2107](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2107)
+ [MA1101R](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1101R) | [MA1521](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1521)
+ [GER1000](https://github.com/Nnythingy/SchoolNotes/tree/main/GER1000) | [GEH1027](https://github.com/Nnythingy/SchoolNotes/tree/main/GEH1027)
+ | [GES1038](https://github.com/Nnythingy/SchoolNotes/tree/main/GES1038)
 
