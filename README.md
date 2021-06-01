@@ -15,5 +15,5 @@ Hi! These are the study materials I have used when taking these mods.
  [IS1103](https://github.com/Nnythingy/SchoolNotes/tree/main/IS1103) | [CS2107](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2107)
  [MA1101R](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1101R) | [MA1521](https://github.com/Nnythingy/SchoolNotes/tree/main/MA1521)
  [GER1000](https://github.com/Nnythingy/SchoolNotes/tree/main/GER1000) | [GEH1027](https://github.com/Nnythingy/SchoolNotes/tree/main/GEH1027)
- | [GES1038](https://github.com/Nnythingy/SchoolNotes/tree/main/GES1038)
+ | | [GES1038](https://github.com/Nnythingy/SchoolNotes/tree/main/GES1038)
 
