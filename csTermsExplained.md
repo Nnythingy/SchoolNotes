@@ -35,8 +35,9 @@ Similar to your mother asking you to start peeling carrots from 1pm to 7pm
     }
     // This means you start peeling carrots from 1pm to 7pm
     
-### For - each Loops
+### [For - each Loops](https://en.wikipedia.org/wiki/Foreach_loop)
 Use the things inside the set for the code, then loop them until the set has ended
+Do note that python for loops are similar to this
 
 ###### Example: 
     foreach carrot in bag:
