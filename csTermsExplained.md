@@ -52,14 +52,14 @@ Pointer = Your phone number
 When you call a number (pointer), it will find the correct phone (variable) to call and be able to call you.
 The number is hence just a reference for other people to contact your phone. Different phone, different number.
 
-##[Call by Reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)
+### [Call by Reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)
 Your friend has a project and creates a survey for people with iPhone 12 to answer. 
 A call by reference is your friend calling your number to specifically ask you to fill in the survey.
 Following the previous analogy, a call by reference would just mean that calling your number to get exactly your phone and hence your phone model.
 
 Used when you die die need to interact with that specific variable in your function
 
-##[Call by Value](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_value)
+### [Call by Value](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_value)
 Your friend has a project and creates a survey for people with iPhone 12 to answer. 
 A call by value is your friend calling any number and ask them to fill in the survey if they have an iPhone 12.
 Following the previous analogy, a call by value would just mean that the iPhone 12 is the focus and anyone with an iPhone 12 would be the same.
