@@ -48,8 +48,8 @@ Do note that python for loops are similar to this
 This has already been well explained in the slides for [cs1010](https://github.com/Nnythingy/SchoolNotes/tree/main/cs1010) and [cs2040c](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2040C) which uses the analogy of a pokeball which I personally like.
 Hence my attempt to create an analogy would be just trying to reinvent the wheel. 
 
-Variable = Your phone and the value/data stored would be your phone model (eg: iPhone 12)
-Pointer = Your phone number
+* Variable = Your phone and the value/data stored would be your phone model (eg: iPhone 12)
+* Pointer = Your phone number
 
 When you call a number (pointer), it will find the correct phone (variable) to call and be able to call you.
 The number is hence just a reference for other people to contact your phone. Different phone, different number.
