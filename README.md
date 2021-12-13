@@ -17,3 +17,13 @@ Hi! These are the study materials I have used when taking these mods.
  [GER1000](https://github.com/Nnythingy/SchoolNotes/tree/main/GER1000) | [GEH1027](https://github.com/Nnythingy/SchoolNotes/tree/main/GEH1027)
  | | [GES1038](https://github.com/Nnythingy/SchoolNotes/tree/main/GES1038)
 
+
+## AY21/22 ##
+ Sem 1 | Sem 2
+ ------ | ------
+ [CS2102](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2102) | 
+ [CS2105](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2105) | 
+ [CS2106](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2106) | 
+ [IS4231](https://github.com/Nnythingy/SchoolNotes/tree/main/is4231) | 
+ GEQ1000 |
+ 
