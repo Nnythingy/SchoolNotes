@@ -1,0 +1,4 @@
+Lines 1 to 3 are for the TCP handshake to start the session.
+The HTTP in line 4 would be to send a GET request to /~maylim/streaming/bbb.mpd using HTTP/1.1 from the host monterosa.d2.comp.nus.edu.sg.
+The next few lines would be to download the file over TCP. HTTP response 200 OK in line 7 is sent back to the client from the server to indicate that the download has finished.
+Lastly the lines 8-11 would be to end the connection.

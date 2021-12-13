@@ -1,0 +1,718 @@
+
+LECTURE 5
+=========
+
+
+-- Find the name and population of all cities with a population greater than 10 Million.
+
+SELECT name, population
+FROM cities
+WHERE population > 10000000;
+
+
+
+-- Find the name and population of all countries in Asia and Europe with a population between 5 and 6 Million.
+
+SELECT name, population
+FROM countries
+WHERE (continent = 'Asia' OR continent = 'Europe')
+AND (population > 5000000 AND population < 6000000);
+      
+-- or
+      
+SELECT *
+FROM countries
+WHERE (continent = 'Asia' OR continent = 'Europe')
+AND (population BETWEEN 5000000 AND 6000000);      
+      
+      
+      
+
+
+-- Find the name and the all countries the GDP per capita in SGD rounded to the nearest dollar for all countries.
+
+SELECT name, 'S$ ' || ROUND((gdp / population)*1.35) AS gdp_per_capita
+FROM countries;
+
+
+
+
+-- Find all country codes for which cities are available in the database.
+
+-- Wrong way
+SELECT country_iso2 AS code
+FROM cities;
+      
+
+-- The right way
+SELECT DISTINCT country_iso2 AS code
+FROM cities;
+-- or
+SELECT DISTINCT(country_iso2) AS code
+FROM cities;
+
+
+
+
+
+-- SELECT Clause — Duplicates with NULL Values
+
+SELECT name, capital
+FROM cities;
+
+-- vs.
+
+SELECT DISTINCT name, capital
+FROM cities;
+      
+      
+      
+      
+-- Find all codes of countries that have no land border with another country.      
+
+SELECT country1_iso2 AS code
+FROM borders
+WHERE country2_iso2 IS NULL;
+
+SELECT country1_iso2 AS code
+FROM borders
+WHERE country2_iso2 = NULL;
+
+
+
+
+-- Find all cities that start with "Si" and end with "re".
+
+SELECT name
+FROM cities
+WHERE name LIKE 'Si%re';
+
+
+
+
+
+-- Find all names that refer to both a city and a country.
+
+(SELECT name FROM cities)
+INTERSECT ALL
+(SELECT name FROM countries);
+
+
+
+-- Find the codes of all the countries for which there is not city in the database.
+
+(SELECT iso2
+ FROM countries)
+EXCEPT
+(SELECT DISTINCT(country_iso2)
+ FROM cities);
+
+
+
+
+-- Find all airports located in cities named "Singapore" or "Perth".
+
+SELECT *
+FROM airports
+WHERE city = 'Singapore'
+   OR city = 'Perth';
+
+-- or
+
+(SELECT * FROM airports 
+ WHERE city = 'Singapore')
+UNION 
+(SELECT * FROM airports
+ WHERE city = 'Perth');
+ 
+ 
+ 
+ 
+ 
+ 
+-- For all cities, find their names together with the names of the countries they are located in.
+
+SELECT c.name, n.name
+FROM cities AS c, countries AS n
+WHERE c.country_iso2 = n.iso2;
+
+-- or
+
+SELECT c.name, n.name
+FROM cities c INNER JOIN countries n
+  ON c.country_iso2 = n.iso2;
+
+-- or
+
+SELECT c.name, n.name
+FROM cities c JOIN countries n
+  ON c.country_iso2 = n.iso2;
+
+
+
+
+-- Find all names that refer to both a city and a country.
+
+SELECT DISTINCT(name)
+FROM (SELECT name FROM cities) t1
+     NATURAL JOIN
+     (SELECT name FROM countries) t2;
+            
+            
+            
+-- Find the all the countries for which there is not city in the database.
+            
+SELECT n.name
+FROM countries n LEFT OUTER JOIN cities c
+ON n.iso2 = c.country_iso2
+WHERE c.country_iso2 IS NULL;
+
+
+
+
+-- Find all airports in European countries without a land border which cannot be reached by plane given the existing routes in the database.
+
+SELECT t1.country, t1.city, t1.airport
+FROM
+    (SELECT n.name AS country, c.name AS city, a.name AS airport, a.code
+     FROM borders b, countries n, cities c, airports a
+     WHERE  b.country1_iso2 = n.iso2
+     AND n.iso2 = c.country_iso2
+     AND c.name = a.city
+     AND b.country2_iso2 IS NULL
+     AND n.continent = 'Europe') t1
+LEFT OUTER JOIN
+    routes r
+ON t1.code = r.to_code
+WHERE r.to_code IS NULL;
+
+
+
+
+-- Find all names that refer to both a city and a country.
+
+SELECT name 
+FROM countries
+WHERE name IN (SELECT name FROM cities);
+
+
+
+
+-- Find the codes of all the countries for which there is not city in the database.
+
+SELECT iso2 
+FROM countries
+WHERE iso2 NOT IN (SELECT country_iso2 FROM cities);
+
+
+
+-- Find all countries in Asia and Europe with a population between 5 and 6 Million.
+
+SELECT *
+FROM countries
+WHERE continent IN ('Asia', 'Europe')
+  AND population BETWEEN 5000000 AND 6000000;
+  
+  
+  
+-- Find all countries with a population size smaller than any city called "London" (there are actually 4 cities called "London" on the database).
+
+SELECT name, population 
+FROM countries
+WHERE population < ANY (SELECT population FROM cities WHERE name = 'London')
+
+
+
+
+-- Find all countries with a population size smaller than all cities called "London" (there are actually 4 cities called "London" on the database)
+
+SELECT name, population 
+FROM countries
+WHERE population < ALL (SELECT population FROM cities WHERE name = 'London');
+
+
+
+
+-- For each continent, find the country with the highest GDP.
+
+SELECT name, continent, gdp
+FROM countries c1
+WHERE gdp >= ALL (SELECT gdp FROM countries c2 WHERE c2.continent = c1.continent);
+
+
+
+
+-- Find all names that refer to both a city and a country.
+
+SELECT n.name 
+FROM countries n
+WHERE EXISTS (SELECT c.name
+              FROM cities c
+              WHERE c.name = n.name);
+
+
+
+-- Find the all the countries for which there is not city in the database.
+
+SELECT n.name
+FROM countries n
+WHERE NOT EXISTS (SELECT * 
+                  FROM cities c
+                  WHERE c.country_iso2 = n.iso2);
+                  
+                  
+                  
+-- For all cities, find their names together with the names of the countries they are located in.
+
+SELECT name AS city,
+       (SELECT name AS country
+        FROM countries n
+        WHERE n.iso2 = c.country_iso2)
+FROM cities c;
+                 
+                 
+                 
+
+-- Find all cities that are located in a country with a country population smaller than the population of all cities called "London" (there are actually 4 cities called "London" on the database).
+   
+              SELECT c.name AS city, c.country_iso2 AS country, c.population
+FROM cities c
+WHERE (SELECT population 
+       FROM countries n 
+       WHERE n.iso2 = c.country_iso2) < ALL (SELECT population
+                                             FROM cities
+                                             WHERE name = 'London');
+                                             
+
+
+
+-- Find all countries with a higher population or higher gdp than France or Germany
+
+SELECT name, population, gdp
+FROM countries
+WHERE ROW(population, gdp) > ANY (SELECT population, gdp 
+                                  FROM countries 
+                                  WHERE name IN ('Germany', 'France'));
+                                  
+                                  
+                                  
+                                  
+-- Find all the airports in Denmark.
+
+SELECT name, city
+FROM airports
+WHERE city IN (SELECT name
+               FROM cities
+               WHERE country_iso2 IN (SELECT iso2
+                                      FROM countries
+                                      WHERE name = 'Denmark')
+              );
+              
+-- or
+
+SELECT a.name, a.city
+FROM airports a, cities c, countries n
+WHERE a.city = c.name
+AND c.country_iso2 = n.iso2
+AND n.name = 'Denmark';
+
+
+
+
+-- Find the GDP per capita for all countries sorted from highest to lowest.
+
+SELECT name, (gdp/population) AS gdp_per_capita
+FROM countries
+ORDER BY gdp_per_capita DESC;
+
+
+
+
+-- Find all cities sorted by country (ascending from A to Z) and for each country with respect to the cities' population size in descending order.
+
+SELECT n.name AS country, c.name AS city, c.population
+FROM cities c, countries n
+WHERE c.country_iso2 = n.iso2
+ORDER BY n.name ASC, c.population DESC;
+
+
+
+-- Find the top-5 countries regarding their GDP per capita for all countries.
+
+SELECT name, (gdp/population) AS gdp_per_capita
+FROM countries
+ORDER BY gdp_per_capita DESC
+LIMIT 5;
+
+
+
+-- Find the "second" top-5 countries regarding their GDP per capita for all countries.
+
+SELECT name, (gdp/population) AS gdp_per_capita
+FROM countries
+ORDER BY gdp_per_capita DESC
+OFFSET 5
+LIMIT 5;
+
+
+
+
+
+-- Find all names that refer to both a city and a country.
+
+(SELECT name FROM cities)
+INTERSECT ALL
+(SELECT name FROM countries);
+
+-- or
+
+SELECT DISTINCT(name)
+FROM (SELECT name FROM cities) t1
+     NATURAL JOIN
+     (SELECT name FROM countries) t2;
+     
+-- or
+
+SELECT n.name 
+FROM countries n
+WHERE EXISTS (SELECT c.name
+              FROM cities c
+              WHERE c.name = n.name);
+              
+-- or
+
+SELECT name 
+FROM countries
+WHERE name IN (SELECT name
+               FROM cities);
+
+
+
+ 
+                  
+
+LECTURE 6
+=========
+
+
+-- Find find the lowest and highest population sizes among all countries, as well as the global population size (= sum over all countries).
+
+SELECT MIN(population) AS lowest, 
+       MAX(population) AS highest, 
+       SUM(population) AS global
+FROM countries;
+
+
+
+-- Find the first last city in the United States with respect to their lexicographic sorting.
+
+SELECT MIN(name) AS lexi_first, MAX(name) AS lexi_last
+FROM cities
+WHERE country_iso2 = 'US';
+
+
+
+-- Find the number countries with at least 10% of the population compared to the country with the largest population size.
+
+SELECT COUNT(*) AS num_big_countries
+FROM countries
+WHERE population >= 0.1 * (SELECT MAX(population) FROM countries);
+
+
+
+
+-- For each continent, find find the lowest and highest population sizes among all countries, as well as the overall population size for that continent.
+
+SELECT continent,
+       MIN(population) AS lowest, 
+       MAX(population) AS highest, 
+       SUM(population) AS overall
+FROM countries
+GROUP BY continent;
+
+
+
+
+-- For each route, find the number of airlines that serve that route.
+
+SELECT from_code, to_code, COUNT(*) AS num_airlines
+FROM routes
+GROUP BY from_code, to_code;
+
+
+
+
+-- Find all routes that are served by more than 12 airlines.
+
+SELECT from_code, to_code, COUNT(*) AS num_airlines
+FROM routes
+GROUP BY from_code, to_code
+HAVING COUNT(*) > 12;
+
+
+
+
+-- Find all countries that have at least one city with a population size large than the average population size of all European countries
+
+SELECT n.name, n.continent
+FROM cities c, countries n
+WHERE c.country_iso2 = n.iso2
+GROUP BY n.name, n.continent
+HAVING MAX(c.population) > (SELECT AVG(population)
+                            FROM countries 
+                            WHERE continent = 'Europe');
+                            
+                            
+                            
+-- Find the number of all cities regarding the classification (defined by a cities population size).
+
+SELECT class, COUNT(*) AS city_count
+FROM 
+(SELECT name, CASE
+         WHEN population > 10000000 THEN 'Super City'
+         WHEN population > 5000000 THEN 'Mega City'
+         WHEN population > 1000000 THEN 'Large City'
+         WHEN population > 500000 THEN 'Medium City'
+         ELSE 'Small City' END AS class
+ FROM cities) t
+GROUP BY class;
+
+
+
+
+-- Find all countries and return the continent in Tamil.
+
+SELECT name, CASE continent
+     WHEN 'Africa' THEN 'ஆப்பிரிக்கா'
+     WHEN 'Asia' THEN 'ஆசியா'
+     WHEN 'Europe' THEN 'ஐரோப்பா'
+     WHEN 'North America' THEN 'வட அமெரிக்கா'
+     WHEN 'South America' THEN 'தென் அமெரிக்கா'
+     WHEN 'Oceania' THEN 'ஓசியானியா'
+        ELSE NULL END AS continent
+FROM countries;
+
+
+
+-- Find the number of cities for each city type; consider cities with NULL for column "capital" as "other".
+
+SELECT capital, COUNT(*) AS city_count
+FROM (SELECT COALESCE(capital, 'other') AS capital 
+      FROM cities) t
+GROUP BY capital;
+
+
+
+-- Find the minimum and average GDP across all countries (unknown GDP values are represented by 0)
+
+SELECT MIN(NULLIF(gdp, 0)) AS min_gdp, 
+       ROUND(AVG(NULLIF(gdp, 0))) AS avg_gdp
+FROM countries;
+
+
+
+
+-- Find all airports in European countries without a land border which cannot be reached by plane given the existing routes in the database.
+
+SELECT t1.country, t1.city, t1.airport
+FROM
+    (SELECT n.name AS country, c.name AS city, a.name AS airport, a.code
+     FROM borders b, countries n, cities c, airports a
+     WHERE  b.country1_iso2 = n.iso2
+     AND n.iso2 = c.country_iso2
+     AND c.name = a.city
+     AND b.country2_iso2 IS NULL
+     AND n.continent = 'Europe') t1
+LEFT OUTER JOIN
+    routes r
+ON t1.code = r.to_code
+WHERE r.to_code IS NULL;
+
+-- or with CTE
+
+WITH AirportsInIsolatedEuropeanCountries AS (
+      SELECT n.name AS country, c.name AS city, a.name AS airport, a.code
+      FROM borders b, countries n, cities c, airports a
+      WHERE  b.country1_iso2 = n.iso2
+      AND n.iso2 = c.country_iso2
+      AND c.name = a.city
+      AND b.country2_iso2 IS NULL
+      AND n.continent = 'Europe')
+SELECT i.country, i.city, i.airport
+FROM AirportsInIsolatedEuropeanCountries i LEFT OUTER JOIN routes r
+     ON i.code = r.to_code
+WHERE r.to_code IS NULL;
+
+-- or
+
+WITH IsolatedEuropeanCountries AS (
+         SELECT n.iso2, n.name AS country
+         FROM borders b, countries n
+         WHERE  b.country1_iso2 = n.iso2
+         AND b.country2_iso2 IS NULL
+         AND n.continent = 'Europe'),
+     AirportsInIsolatedEuropeanCountries AS (
+         SELECT n.country, c.name AS city, a.code, a.name AS airport
+         FROM IsolatedEuropeanCountries n, cities c, airports a
+         WHERE n.iso2 = c.country_iso2
+         AND c.name = a.city),
+     UnusedJustForFun AS (
+         SELECT COUNT(*)
+         FROM IsolatedEuropeanCountries)
+SELECT i.country, i.city, i.airport
+FROM AirportsInIsolatedEuropeanCountries i LEFT OUTER JOIN routes r
+  ON i.code = r.to_code
+WHERE r.to_code IS NULL;
+
+
+
+
+-- Find all airports in European countries without a land border which cannot be reached by plane given the existing routes in the database.
+
+CREATE VIEW IsolatedEuropeanCountries AS
+SELECT n.iso2, n.name AS country
+FROM borders b, countries n
+WHERE b.country1_iso2 = n.iso2
+AND b.country2_iso2 IS NULL
+AND n.continent = 'Europe';
+
+WITH AirportsInIsolatedEuropeanCountries AS (
+       SELECT n.country, c.name AS city, a.code, a.name AS airport
+       FROM IsolatedEuropeanCountries n, cities c, airports a
+       WHERE n.iso2 = c.country_iso2
+       AND c.name = a.city)
+SELECT i.country, i.city, i.airport
+FROM AirportsInIsolatedEuropeanCountries i LEFT OUTER JOIN routes r
+  ON i.code = r.to_code
+WHERE r.to_code IS NULL;
+
+
+
+-- Find all countries with a urbanization rate below 10%
+
+CREATE VIEW CountryUrbanizationStats AS
+SELECT n.iso2, n.name, n.population AS overall_population, SUM(c.population) AS city_population, 
+       SUM(c.population) / CAST(n.population AS NUMERIC) AS urbanization_rate
+FROM cities c, countries n
+WHERE c.country_iso2 = n.iso2
+GROUP BY n.iso2;
+
+SELECT name, urbanization_rate
+FROM CountryUrbanizationStats
+WHERE urbanization_rate < 0.1
+ORDER BY urbanization_rate ASC;
+
+
+
+
+-- Find the names of all users that have visited all countries.
+
+SELECT user_id, name
+FROM users u
+WHERE NOT EXISTS (SELECT n.iso2
+                  FROM countries n
+                  WHERE NOT EXISTS (SELECT 1
+                                    FROM visited v
+                                    WHERE v.iso2 = n.iso2
+                                    AND v.user_id = u.user_id)
+                 );
+
+
+
+
+-- Find the names of all users that have visited all countries.
+
+SELECT u.user_id, u.name
+FROM users u, visited v
+WHERE u.user_id = v.user_id
+GROUP BY u.user_id
+HAVING COUNT(*) = (SELECT COUNT(*) FROM countries);
+
+
+
+-- Find all airports that can be reached from SIN non-stop.
+
+SELECT to_code
+FROM connections
+WHERE from_code = 'SIN';
+
+
+
+
+-- Find all airports that can be reached from SIN with 1 stop.
+
+SELECT DISTINCT(c2.to_code) AS to_code
+FROM 
+    connections c1, 
+    connections c2
+WHERE c1.to_code = c2.from_code
+  AND c1.from_code = 'SIN';
+  
+  
+  
+-- Find all airports that can be reached from SIN with 2 stop.
+
+SELECT DISTINCT(c3.to_code) AS to_code
+FROM
+    connections c1,
+    connections c2,
+    connections c3
+WHERE c1.to_code = c2.from_code
+  AND c2.to_code = c3.from_code
+  AND c1.from_code = 'SIN';
+
+
+
+
+-- Find all airports that can be reached from SIN with 0..2 stops.
+
+WITH RECURSIVE flight_path AS (
+  SELECT from_code, to_code, 0 AS stops
+  FROM connections
+  WHERE from_code = 'SIN'
+ UNION ALL
+  SELECT c.from_code, c.to_code, p.stops+1
+  FROM flight_path p, connections c
+  WHERE p.to_code = c.from_code
+  AND p.stops <= 2
+)
+SELECT DISTINCT to_code, stops
+FROM flight_path
+ORDER BY stops ASC;
+
+-- or
+
+WITH RECURSIVE flight_path (airport_codes, stops, is_visited) AS (
+  SELECT
+        ARRAY[from_code, to_code],
+        0 AS stops,
+        from_code = to_code
+  FROM connections
+  WHERE from_code = 'SIN'
+ UNION ALL
+  SELECT
+        (airport_codes || to_code)::char(3)[],
+        p.stops + 1,
+        c.to_code = ANY(p.airport_codes)
+  FROM
+      connections c,
+      flight_path p
+  WHERE p.airport_codes[ARRAY_LENGTH(airport_codes, 1)] = c.from_code
+  AND NOT p.is_visited
+  AND p.stops < 2
+)
+SELECT DISTINCT airport_codes, stops
+FROM flight_path
+ORDER BY stops;
+
+
+
+
+
+
+
+
+
+
+
+

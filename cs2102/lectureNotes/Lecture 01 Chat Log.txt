@@ -1,0 +1,746 @@
+11:41:46 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	hello everyone, it's nice to see such enthusiasm to come to the lecture early
+11:59:56 From  newspaper  to  Everyone:
+	cs3230 gang rise up
+12:00:12 From  Jay Aljelo Saez Ting  to  Everyone:
+	where's elon musk and jeff bezos
+12:17:20 From  Vanshiqa  to  Everyone:
+	are the exams open book?
+12:19:24 From  Sean Tan  to  Everyone:
+	So coding and implementation starts only after recess week?
+12:20:55 From  Zheng Shaopeng  to  Everyone:
+	Project grading base on backend implementation or front end design?
+12:21:01 From  YH  to  Everyone:
+	When will the project details come out?
+12:21:57 From  dan phone  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Hi Sir, the welcome email u sent on last Fri (6 Aug) ended up in junk folder in my email. Not sure why. Somemore it was LumiNUS announcement I think :/
+12:23:15 From  dan phone  to  Adi Yoga Sidi Prabawa(Direct Message):
+	I am also at my med appt and tuning in from CGH while waiting haha
+12:25:28 From  Dan Alden Varsobia Baterisna  to  Everyone:
+	can we store our notes in a database we will query during tests?
+12:26:15 From  Ang Hui Xuan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	hi prodf, i tried installing examplify but it says i do not have access to it
+12:27:56 From  Sean Tan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	So exam is coding or answering qns?
+12:29:04 From  Sim Tian Boon  to  Adi Yoga Sidi Prabawa(Direct Message):
+	is there any specific version to install?
+12:29:35 From  Huang Che Yen  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Is it necessary to learn SQL from scratch beforehand before attending the first lecture?
+12:30:01 From  Sean Tan  to  Everyone:
+	Do we use command line or GUI
+12:31:37 From  Le Van Minh - Hedgehog  to  Everyone:
+	https://t.me/joinchat/cT-bo-KaGp4wMjU1
+12:31:46 From  Le Van Minh - Hedgehog  to  Everyone:
+	telegram group guys and gals
+12:32:53 From  Lmao Ze Dong  to  Everyone:
+	What is this stack builder thing anyone knows
+12:33:52 From  Ian Yong Yew Chuang  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Hi Prof, can we run postgres on Windows Subsystem for Linux or must it run in Windows directly?
+12:34:24 From  Ian Yong Yew Chuang  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Ok, thank you!
+12:34:37 From  Rayasam Harshini  to  Adi Yoga Sidi Prabawa(Direct Message):
+	How about (using non-standard features) the group project?
+12:37:03 From  Galen Cheung  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Hello! I'm not sure if you answered this previously but will you upload the webcast on the same day as the lecture?
+12:38:17 From  Galen Cheung  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Okay thank you!
+12:38:28 From  dan phone  to  Everyone:
+	#cs1010e
+12:39:58 From  dan phone  to  Everyone:
+	#acceptancerecord
+12:41:45 From  Lim Zhong Zhi  to  Adi Yoga Sidi Prabawa(Direct Message):
+	What if you took inspiration from someone else when looking for solutions on Stackoverflow, is it still plagiarism? 
+12:43:05 From  nicki minaj the queen ❤️  to  Everyone:
+	would u be open to letting us draw on screen before lecture starts, like uncle soo does? :)
+12:44:51 From  prof chris fan <3  to  Everyone:
+	Where is prof chris from? :)
+12:45:05 From  Mu Changrui  to  Everyone:
+	Germany?
+12:45:17 From  prof chris fan <3  to  Everyone:
+	Same as Prof Martin Henz!
+12:45:25 From  newspaper  to  Everyone:
+	Guten Tag!
+12:48:59 From  prof chris fan <3  to  Everyone:
+	Sir, can I sub to your YouTube channel?
+12:50:10 From  curious student  to  Everyone:
+	is Excel a file-based system?
+12:52:48 From  Sean Tan  to  Everyone:
+	Hi Prof what time does lecture end?
+12:53:03 From  curious student  to  Everyone:
+	is there a fixed definition of “transaction” eg 1 read 2 writes, or is it defined by the database operator?
+12:53:06 From  Sean Tan  to  Everyone:
+	Thanks!
+12:53:31 From  prof chris fan <3  to  Everyone:
+	Gogo Deutschland!! 🇩🇪 🇩🇪🇩🇪
+	
+	Okok, I shall focus & pay attn :)
+12:53:40 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	Also, I'm here to answer some of the questions that I can
+12:54:41 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"is there a fixed definition of “transaction” eg 1 read 2 writes, or is it defined by the database operator?"	==> here, you see that a transaction can be created by user by using "begin T" and ending with either "commit T" or "abort T"
+12:55:41 From  Sean Tan  to  Everyone:
+	What language is this example coded?
+12:55:54 From  prof chris fan <3  to  Everyone:
+	SQL?
+12:56:04 From  prof chris fan <3  to  Everyone:
+	Oh wait nvm
+12:56:05 From  Zhang Shaoqian  to  Everyone:
+	Ummm... pseuto?
+12:56:08 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	pseudo
+12:56:09 From  Ong Jing Hao  to  Everyone:
+	Its just pseudocode
+12:56:13 From  prof chris fan <3  to  Everyone:
+	Yea
+12:56:23 From  Le Van Minh - Hedgehog  to  Everyone:
+	@curious student: I think Excel acts like one but it hardly classified as dbs or file-based system. It's spreadsheet software, it display, calculate and work with table rathethan storing data, because it would be real slow.
+12:59:02 From  Lok Ke Wen  to  Everyone:
+	Is the addition value for the second table swapped?
+12:59:33 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	The first table on the left is T1(B, 500) and on the right is T2(B, 100)
+12:59:55 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	but for the other two tables, it's T1(B, 100) on the left and T2(B, 500) on the right
+13:00:17 From  Lok Ke Wen  to  Everyone:
+	Yes but for the second table the B = B + 100 is under T2(B, 500)
+13:00:56 From  prof chris fan <3  to  Everyone:
+	@Dr Adi, atb 2 u this sem and take care as well! :)
+13:01:05 From  Zheng Shaopeng  to  Everyone:
+	lol.. it is just pass in different value for the parameter
+13:01:07 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	yes, I just realized that too, but the details of the value do not exactly matter in this case just the general behaviour
+13:01:23 From  Violet Tan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Hi prof, does the data get "publicised" when its write or commit?
+13:01:31 From  Adi Yoga Sidi Prabawa  to  prof chris fan <3(Direct Message):
+	"@Dr Adi, atb 2 u this sem and take care as well! :)"	Thanks
+13:01:41 From  Lok Ke Wen  to  Everyone:
+	Okay thanks!
+13:01:44 From  prof chris fan <3  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Welcome ^^
+13:02:52 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Hi prof, does the data get "publicised" when its write or commit?"	==> after commit, that is when the data is finalized because after write there can be abort
+13:02:59 From  prof chris fan <3  to  Everyone:
+	Is the learning curve from the prereqs of CS2102 steep?
+13:03:54 From  prof chris fan <3  to  Everyone:
+	Also, any reasons why CS2102 is more and more popular in recent sems? :o
+13:04:00 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Is the learning curve from the prereqs of CS2102 steep?"	==> I might be biased in this case so not a good judge of it
+13:04:18 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Also, any reasons why CS2102 is more and more popular in recent sems? :o"	==> likely because of the rise of big data and data analysis
+13:04:20 From  prof chris fan <3  to  Everyone:
+	Ok thanks,  no worries 🙂
+13:05:39 From  Chen Siyu  to  Everyone:
+	Can I handle this course in the second-half semester if I do not have the foundation of discrete mathmatics?
+13:06:31 From  prof chris fan <3  to  Everyone:
+	Oh meaning, CS1231/MA1100 isn’t a hard pre-req? (I thought it is..?)
+13:08:11 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Can I handle this course in the second-half semester if I do not have the foundation of discrete mathmatics?"	==> to answer this, yes but it might be hard.  we try to make sure the content is accessible regardless of the level you are at CS1231.		the kind of intuition that I can give for the second half is like "calculus".  in the end, it is a "tool".  at some point, you do not need to know why D(x^n) = n x^(n-1) (where D(f) is the derivative of f) as there are ways you can still compute it by knowing the rules.  but your understanding may be at a superficial level of just using it.
+13:09:05 From  Lim Zhong Zhi  to  Everyone:
+	lmao excel is third 
+13:09:13 From  Zhang Shaoqian  to  Everyone:
+	We need more rust jobs
+13:09:30 From  Sean Tan  to  Everyone:
+	There’s powerpoint also
+13:09:31 From  YH  to  Everyone:
+	What data structure is used to store tables on disk in RDBMS?
+13:11:07 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"What data structure is used to store tables on disk in RDBMS?"	==> covered in CS3223, I believe, if you are interested
+13:11:19 From  prof chris fan <3  to  Everyone:
+	Will the project/assignments be related to covid? Lol
+13:11:46 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	We'll see
+13:11:52 From  prof chris fan <3  to  Everyone:
+	^^
+13:12:02 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	I can neither confirm nor deny
+13:12:28 From  Lei Zemin  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Hi Prof! What is the significance of talking about transactions at the beginning? Is it to highlight the importance of using a RDBMS? :)
+13:12:36 From  prof chris fan <3  to  Everyone:
+	I also guess finals will likely be e-exam
+13:14:06 From  Ong Jing Hao  to  Everyone:
+	4
+13:14:07 From  Lincoln Lim  to  Everyone:
+	4
+13:14:07 From  Haziq Hakim Bin Abdul Rahman  to  Everyone:
+	4
+13:14:09 From  Radian Krisno  to  Everyone:
+	4
+13:14:09 From  Sam Chris  to  Everyone:
+	4,9
+13:14:09 From  Lok Ke Wen  to  Everyone:
+	4
+13:14:11 From  Li Huankang  to  Everyone:
+	4
+13:14:11 From  Silin Chen  to  Everyone:
+	9
+13:14:12 From  Samay Sagar  to  Everyone:
+	9
+13:14:13 From  Lim Yu Yang (Phone)  to  Everyone:
+	4
+13:14:13 From  HAN LIU  to  Everyone:
+	4, 9
+13:14:13 From  Radian Krisno  to  Everyone:
+	9
+13:14:13 From  Haziq Hakim Bin Abdul Rahman  to  Everyone:
+	9
+13:14:13 From  Tay Yi Hsuen  to  Everyone:
+	4 and 9
+13:14:13 From  Lok Ke Wen  to  Everyone:
+	9
+13:14:15 From  Ren Hao  to  Everyone:
+	4
+13:14:18 From  Ren Hao  to  Everyone:
+	9
+13:14:19 From  Li Huankang  to  Everyone:
+	9
+13:14:21 From  Lei Zemin  to  Adi Yoga Sidi Prabawa(Direct Message):
+	4, 9
+13:14:21 From  Aryan Sarswat  to  Everyone:
+	4,9
+13:14:26 From  [PC] Gabriel Goh Kheng Lin  to  Everyone:
+	7
+13:14:28 From  30 Lim Wen Feng  to  Everyone:
+	7?
+13:14:29 From  curious student  to  Everyone:
+	1 and 8 are the same?
+13:14:29 From  S2 Tiffany Lin  to  Everyone:
+	7
+13:14:29 From  Li Huankang  to  Everyone:
+	7
+13:14:31 From  Kezia Kew Kai Yun  to  Everyone:
+	6
+13:14:31 From  Radian Krisno  to  Everyone:
+	8
+13:14:35 From  [PC] Gabriel Goh Kheng Lin  to  Everyone:
+	8
+13:15:01 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Hi Prof! What is the significance of talking about transactions at the beginning? Is it to highlight the importance of using a RDBMS? :)"	==> partly yes.  transaction is an abstraction that allows us to --in the end-- talks about all the rest of the functionality (like concurrency is talked about in terms of concurrent transaction, not concurrent queries).		the complexity of it means that implementing your own DBMS is difficult, so you might as well exploit other people's expertise in creating DBMS and you are just using it.
+13:16:20 From  Lim Yee Chern  to  Adi Yoga Sidi Prabawa(Direct Message):
+	hi prof, this may be a trivial question but may i know what does schema mean?
+13:17:39 From  Le Van Minh - Hedgehog  to  Everyone:
+	is consistency constraints and integrity constraints the same?
+13:17:41 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"hi prof, this may be a trivial question but may i know what does schema mean?"	==> no question is trivial and misunderstanding can be costly, so you should just ask away		schema is simplistically the "header" of the table.  it is the description of what the table is without the entry.  like the template for the table.
+13:19:22 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	is an execution the same as a schedule?
+13:19:41 From  Adi Yoga Sidi Prabawa  to  Wong Jun Long(Direct Message):
+	actually that one I am not sure
+13:19:50 From  prof chris fan <3  to  Everyone:
+	Oh I just realized prof chris is using Ubuntu I think . Or a virtual box, hahaha
+13:19:52 From  Adi Yoga Sidi Prabawa  to  Wong Jun Long(Direct Message):
+	I was answering previous answers so I might have missed the context
+13:19:58 From  Zhang Shaoqian  to  Everyone:
+	Does this mean that null can be a key but not a primary key
+13:20:00 From  Zhang Shaoqian  to  Everyone:
+	0.0
+13:20:16 From  Le Van Minh - Hedgehog  to  Everyone:
+	usually key are non-null only
+13:20:44 From  Le Van Minh - Hedgehog  to  Everyone:
+	because other table cannot refer to "null" as foreign key
+13:20:49 From  Zhang Shaoqian  to  Everyone:
+	Yeah but if there’s only one row that is null technically it uniquely identifies that row...
+13:20:51 From  Muhammad Niaaz Wahab  to  Everyone:
+	How are primary keys different from superkey?
+13:20:55 From  \  to  Adi Yoga Sidi Prabawa(Direct Message):
+	based on these definitions can superkeys be primary keys as well?\
+13:20:59 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	ahh I see, its a separate qn from other qns hahas
+13:21:04 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	its alright, i'll stick to execution
+13:21:05 From  Le Van Minh - Hedgehog  to  Everyone:
+	primary key is the chosen one
+13:21:42 From  Goh Yee Chong, Gabriel  to  Everyone:
+	Is an example of candidate keys the name column of the table
+13:22:05 From  Ang Hui Xuan  to  Everyone:
+	superkey > d,e,f,g
+13:22:07 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Does this mean that null can be a key but not a primary key"	==> let's not go that far into the rabbit hole.  there are some SQL engine that allows this but there are lots of complications that may arise from this...  we can easily just assume that key cannot be null and stick with it.
+13:22:07 From  30 Lim Wen Feng  to  Everyone:
+	D E F G superkey?
+13:22:08 From  Sam Chris  to  Everyone:
+	Superkey: E, G
+13:22:13 From  Le Van Minh - Hedgehog  to  Everyone:
+	superkeys: A, D, E, G
+13:22:13 From  Zheng Shaopeng  to  Everyone:
+	Superkey can be any permutation?
+13:22:13 From  Ren Hao  to  Everyone:
+	DEFG
+13:22:16 From  Ang Hui Xuan  to  Everyone:
+	key, A,B,C,D
+13:22:17 From  Sam Chris  to  Everyone:
+	Key: AC
+13:22:17 From  Simon Julian Lauw  to  Everyone:
+	superkey -> A, D, E, G
+13:22:19 From  Lim Yu Yang (Phone)  to  Everyone:
+	i kinda thought all of them are superkeys HAHA
+13:22:22 From  Wang Changxing  to  Everyone:
+	all are superkey?
+13:22:22 From  Ng Wen Jun, Felix  to  Everyone:
+	Superkey: all
+13:22:24 From  Le Van Minh - Hedgehog  to  Everyone:
+	key: A
+13:22:28 From  Tay Yi Hsuen  to  Everyone:
+	All are superkeys, but only ABC are keys
+13:22:28 From  Zhang Shaoqian  to  Everyone:
+	All are super keys but ABC might be key
+13:22:31 From  Wang Changxing  to  Everyone:
+	key is ABC
+13:22:32 From  Edmund Teo Wei Xin  to  Everyone:
+	Superkey: all, Key: only one
+13:22:34 From  Jian Yiee  to  Everyone:
+	Super key A,D,E,G	Key: A
+13:22:40 From  Le Van Minh - Hedgehog  to  Everyone:
+	{name} cannot be superkey
+13:22:40 From  Samyukta Sounderraman  to  Everyone:
+	Key: A, Superkey: D,E,G
+13:22:42 From  A0200556N Pang Jun Wen, Adric  to  Everyone:
+	superkeys: A,D,E,G	Keys: A
+13:22:43 From  Dan Alden Varsobia Baterisna  to  Everyone:
+	None of the above
+13:22:49 From  Edmund Teo Wei Xin  to  Everyone:
+	lol
+13:23:15 From  Adi Yoga Sidi Prabawa  to  \(Direct Message):
+	"based on these definitions can superkeys be primary keys as well?\"	==> it will not be a good choice as you will see later in the analysis for FD
+13:23:19 From  [PC] Li Xi Yuan  to  Everyone:
+	why do you need to distinguish between superkey and key?
+13:23:31 From  [PC] Li Xi Yuan  to  Everyone:
+	key seems already useful enough
+13:23:33 From  \  to  Adi Yoga Sidi Prabawa(Direct Message):
+	I see, thank you!
+13:24:00 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Prof, do you mind if I check with Prof Chris the difference between execution and schedule?
+13:24:03 From  Quek Xian Yi  to  Everyone:
+	When will the slides with the quiz questions be uploaded?
+13:24:09 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"why do you need to distinguish between superkey and key?"	==> the main thing is the key, but some of our definition for normal form uses superkey
+13:24:24 From  Le Van Minh - Hedgehog  to  Everyone:
+	they're different, only that makes it important to distinguish one from another
+13:24:56 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	key is "minimal", so it's like a subset of superkey (hence the super, which is the superset of key).  it we know key, we know superkey.
+13:25:13 From  Chong Wen Hao  to  Everyone:
+	Is there any situation where we will need a superkey?
+13:25:24 From  Adi Yoga Sidi Prabawa  to  Wong Jun Long(Direct Message):
+	I'll ask after the lecture, at the worst case, we may answer that on forum
+13:25:29 From  Li Huankang  to  Everyone:
+	so a foreign key is just a primary key that comes from another table?
+13:25:31 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	got it
+13:26:00 From  Le Van Minh - Hedgehog  to  Everyone:
+	yes
+13:26:44 From  Jamie Tan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	hi prof, I want to confirm what keys are, they are the minimal set of attributes which can define a relation... so its columns must be unique?
+13:26:46 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Is there any situation where we will need a superkey?"	==> what I can think of at the top of my head is:	A table is in BCNF if in all non-trivial and decomposed functional dependency A -> B, A is a superkey
+13:26:47 From  Le Van Minh - Hedgehog  to  Everyone:
+	"Is there any situation where we will need a superkey?" -> I think it's useful conceptually rather than pragmatically
+13:26:51 From  Zheng Shaopeng  to  Everyone:
+	Does the underscore means something?
+13:27:01 From  Le Van Minh - Hedgehog  to  Everyone:
+	primary key
+13:27:13 From  Ang Hui Xuan  to  Everyone:
+	S2
+13:27:15 From  Zhang Simian  to  Everyone:
+	S2
+13:27:21 From  Siddharth SRIVASTAVA  to  Everyone:
+	S2
+13:27:22 From  Cheong Chee Keat  to  Everyone:
+	sry how do we read the foreign key constraint agn
+13:27:26 From  [PC] Gabriel Goh Kheng Lin  to  Everyone:
+	r3
+13:27:27 From  newspaper  to  Everyone:
+	R3
+13:27:28 From  A0208043R Shreyas Kumar  to  Everyone:
+	R3
+13:27:32 From  Rayasam Harshini  to  Everyone:
+	R5
+13:27:34 From  Sam Chris  to  Everyone:
+	S5/S1?
+13:27:39 From  Dan Alden Varsobia Baterisna  to  Everyone:
+	R1/5 S1/5
+13:27:40 From  [PC] Gabriel Goh Kheng Lin  to  Everyone:
+	r1/r5
+13:27:52 From  Aiden Low  to  Everyone:
+	R1 / R5 and S2
+13:28:32 From  30 Lim Wen Feng  to  Everyone:
+	R3 is coz primary key must be no-null is it?
+13:28:44 From  30 Lim Wen Feng  to  Everyone:
+	thank you
+13:28:57 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"hi prof, I want to confirm what keys are, they are the minimal set of attributes which can define a relation... so its columns must be unique?"	==> it reduces to that.  if you have a table	| A | B | C |	such that (A, B) is a key.  since you cannot have (A1, B1, C1) and (A1, B1, C2) (i.e., same values on A,B but different value for C), the way you can enforce the key-ness of (A,B) is by making it unique
+13:29:00 From  Xiang Qingyi  to  Everyone:
+	whats wrong with s2
+13:29:50 From  Dan Alden Varsobia Baterisna  to  Everyone:
+	Does S1 having D=null violate the foreign key constraint?
+13:30:59 From  Ng Wen Jun, Felix  to  Everyone:
+	I think it can be null based on Slide 29
+13:31:03 From  prof chris fan <3  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Hi sir, will the chat log be shared in recording also? For learning purposes maybe? Haha
+13:31:07 From  prof chris fan <3  to  Adi Yoga Sidi Prabawa(Direct Message):
+	If not it’s fine too ig
+13:31:18 From  Ong Jing Hao  to  Everyone:
+	I don’t think it violates
+13:31:45 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Does S1 having D=null violate the foreign key constraint?"	==> null is fine
+13:31:45 From  Quek Xian Yi  to  Everyone:
+	What are structural integrity constraints and application-independent constraints?
+13:33:29 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	application-dependent is basically it depends on what the applications wants.  like flight-path database consists only of valid airports and not just any name (i.e., TEXT)
+13:33:50 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	but application-independent does not depend on the application itself but more general
+13:34:07 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Hi sir, will the chat log be shared in recording also? For learning purposes maybe? Haha"	==> chat log will be shared
+13:34:11 From  .  to  Everyone:
+	Does the set of candidate keys contain all the superkeys?
+13:34:37 From  Mu Changrui  to  Everyone:
+	Candidate keys should be minimal?
+13:34:38 From  Cheong Chee Keat  to  Everyone:
+	must foreign key be a primary key in anoter table
+13:34:49 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Does the set of candidate keys contain all the superkeys?"	==> no because superkeys may not be keys
+13:34:51 From  Li Huankang  to  Everyone:
+	I think so
+13:35:05 From  Low Ee Ter  to  Everyone:
+	i think that's the definition
+13:35:09 From  Jonathan  to  Everyone:
+	Yes. Slide 29
+13:35:28 From  newspaper  to  Everyone:
+	candidate keys = powerset(keys)
+13:35:29 From  Zhang Shaoqian  to  Everyone:
+	Otherwise you don’t know which row in Table B is Table A referring to
+13:35:31 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	but I understand what you want to ask, from the set of candidate keys, you can derive all the superkeys
+13:35:43 From  Li Huankang  to  Everyone:
+	Superkey may not be a key, but one of the attributes is a key, is this definition correct?
+13:35:53 From  Sam Chris  to  Everyone:
+	Hi prof, sorry but can you quickly explain the S.D->R.A again, like what it means
+13:35:54 From  Mu Changrui  to  Everyone:
+	Can we use piazza?
+13:36:29 From  Ranice Tan Yue Xuan  to  Everyone:
+	Hi will the lecture be in the form of a zoom cloud recording where we are able to look through the questions asked in the chat during lecture?
+13:36:44 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	@Chris, there is a question, "what the difference between execution and schedule?"
+13:36:44 From  [PC] Li Xi Yuan  to  Everyone:
+	Thank you prof
+13:36:51 From  Quek Xian Yi  to  Everyone:
+	How can we test our knowledge after each lecture? Will there be any other quiz questions or resources we can use?
+13:36:59 From  Cheong Chee Keat  to  Everyone:
+	but if its null it wont ref a primary key
+13:37:01 From  prof chris fan <3  to  Everyone:
+	If we have prof Chee yong’s notes 📝, would it be still relevant? (Basically prev sem materials)
+13:37:20 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	are all keys unique?
+13:37:22 From  prof chris fan <3  to  Everyone:
+	Or maybe just focus on the materials this sem would be btr 👍🏻
+13:37:29 From  Aiden Low  to  Everyone:
+	In the last quiz about foreign keys, is S1 invalid as well? As it’s D attribute is null whereas it’s a foreign key and we mentioned that primary keys cannot be null
+13:37:30 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Superkey may not be a key, but one of the attributes is a key, is this definition correct?"	==> almost correct, the *subset* of attributes which may not be just one attribute
+13:38:06 From  Galen Cheung  to  Everyone:
+	Hello! Is there any tele grp?
+13:38:07 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Hi will the lecture be in the form of a zoom cloud recording where we are able to look through the questions asked in the chat during lecture?"	==> yes
+13:38:26 From  Jay Aljelo Saez Ting  to  Everyone:
+	https://t.me/joinchat/cT-bo-KaGp4wMjU1
+13:38:35 From  Galen Cheung  to  Everyone:
+	Thanks!
+13:38:36 From  Ranice Tan Yue Xuan  to  Everyone:
+	hell yea awesome
+13:38:36 From  prof chris fan <3  to  Everyone:
+	#greyarea.. ughhh
+13:38:46 From  Aiden Low  to  Everyone:
+	But primary keys can’t be null right?
+13:38:49 From  Aiden Low  to  Everyone:
+	And D is a foreign key
+13:38:52 From  Lim Yee Chern  to  Everyone:
+	hi may i know how do you read S.D -> R.A
+13:39:05 From  Aiden Low  to  Everyone:
+	Wait oh it’s C*
+13:39:05 From  Sam Chris  to  Everyone:
+	+1 to Lim Yee Chern
+13:39:07 From  Aiden Low  to  Everyone:
+	sorry
+13:39:31 From  Chan Shi Yuan  to  Everyone:
+	what is the purpose of key, im sorry if its answered ar
+13:39:39 From  Jerry Ho Jia Jie  to  Everyone:
+	what's the difference between key and primary key again?
+13:39:40 From  Chan Shi Yuan  to  Everyone:
+	alr*
+13:40:01 From  Adi Yoga Sidi Prabawa  to  Wong Jun Long(Direct Message):
+	"are all keys unique?"	==> not sure about the question.  if you can clarify it.
+13:40:05 From  prof chris fan <3  to  Everyone:
+	To add on just now, prev sem(s)*
+13:40:16 From  Ngo Duc Binh  to  Everyone:
+	i think S.D -> R.A means attribute of relation S serves as the foreign key pointing to attribute A as primary key of relation R
+13:40:26 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	Prof. Chan's notes should have been the basis of this notes
+13:40:41 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	so last sem notes should still be mainly relevant, except for certain symbols used in ER diagram
+13:40:45 From  prof chris fan <3  to  Everyone:
+	Alright but that means just look at this sem is enough lol
+13:41:02 From  Jamie Tan  to  Everyone:
+	primary key is one key chosen from key?
+13:41:04 From  prof chris fan <3  to  Everyone:
+	Ya it might vary slightly from sem to sem
+13:41:09 From  A0200556N Pang Jun Wen, Adric  to  Everyone:
+	what if ID was not in the "Movies" table, could you generate a primary key from two other attributes like {title,opened} because you know there is only a unique tuple for every {title.opened} 
+13:41:14 From  Quek Xian Yi  to  Everyone:
+	Can we have multiple primary keys?
+13:41:15 From  Chen Siyu  to  Everyone:
+	Hi prof, can you explain the problem of R3 in the last quiz?
+13:41:21 From  YH  to  Everyone:
+	Any example where the key contains multiple attributes?
+13:41:22 From  Chen Siyu  to  Everyone:
+	I might miss that, sorry.
+13:41:36 From  Jerry Ho Jia Jie  to  Everyone:
+	so primary key is just one of the keys that is chosen ? and each attribute by itself is a key?
+13:42:02 From  Lei Zemin  to  Everyone:
+	but email may not always be unique right?
+13:42:05 From  Cheong Chee Keat  to  Everyone:
+	can jump to the last quiz slide please prof, the slide is confidential on luminous._.
+13:42:07 From  prof chris fan <3  to  Everyone:
+	This mod prolly has a lot of CA too richt
+13:42:10 From  prof chris fan <3  to  Everyone:
+	Right*
+13:42:14 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"what is the purpose of key, im sorry if its answered ar"	==> key is used for many things.  for one, it is used to select which of these keys can be the "primary key".  primary key can be used for many things too (like foreign key, etc).  and it can be enforced by making things unique
+13:42:21 From  Zhang Yunkun  to  Everyone:
+	If name is unique for every account, can it be a key?
+13:42:26 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"primary key is one key chosen from key?"	==> yes
+13:42:31 From  nicki minaj the queen ❤️  to  Everyone:
+	must primary key be a key or can it be a superkey also
+13:42:45 From  prof chris fan <3  to  Everyone:
+	Might be typical SoC mod with 40 to up to 50% finals weight age
+13:42:57 From  Goh Wen Hao  to  Everyone:
+	Is {email, id} considered a key?
+13:43:00 From  Sean Tan  to  Everyone:
+	I like that Prof Adi is answering ins throughout, will this happen for subsequent lectures?
+13:43:04 From  Sean Tan  to  Everyone:
+	*qns
+13:43:09 From  Muhd Assyarul Ariffin Bin Omar  to  Everyone:
+	key can be a length of greater than 1 if a single attribute is insufficient to guarantee uniqueness right?
+13:43:13 From  Siddharth SRIVASTAVA  to  Everyone:
+	can we have a superkey that does not have the primary key for that table
+13:43:18 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"so primary key is just one of the keys that is chosen ? and each attribute by itself is a key?"	==> not each attribute.  primary key is one of the keys.  if your key contains multiple attributes, then each attribute is definitely not a key.
+13:43:28 From  Xihao Chen  to  Everyone:
+	must primary key be a key or can it be a superkey also -> a primay key must be selected from a key, a key must be a superkey
+13:43:36 From  Mu Changrui  to  Everyone:
+	What if id and email are both not unique
+13:43:41 From  Natalie Gordon  to  Everyone:
+	just to confirm, not all attributes are necessarily potential keys right
+13:43:45 From  Mu Changrui  to  Everyone:
+	But <id,email> is unique
+13:43:49 From  Siddharth SRIVASTAVA  to  Everyone:
+	key is not a superkey
+13:43:57 From  Mu Changrui  to  Everyone:
+	What if id and email are both not unique,But <id,email> is unique
+13:44:06 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"I like that Prof Adi is answering ins throughout, will this happen for subsequent lectures?"	==> that's the plan
+13:44:12 From  Sean Tan  to  Everyone:
+	Thanks Prof
+13:44:15 From  Yoong Yi En  to  Everyone:
+	Just to confirm, every primary key is both a super key and a key?
+13:44:18 From  Lim Yu Yang (Phone)  to  Everyone:
+	wait i thought a key is also a super key
+13:44:27 From  Chan Shi Yuan  to  Everyone:
+	so keys are just for important reference like pk, fk?
+13:44:28 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	and the role is likely reversed in the second half of the sem
+13:44:29 From  Xihao Chen  to  Everyone:
+	the set of keys is a subset of the set of superkeys?
+13:44:33 From  Yoong Yi En  to  Everyone:
+	Thanks Prof!
+13:44:34 From  Lim Yee Chern  to  Everyone:
+	sorry i don't think the question is answered, may i know how do you read S.D -> R.A
+13:44:35 From  Cheong Chee Keat  to  Everyone:
+	can jump to last quiz slide please prof
+13:44:58 From  Zheng Shaopeng  to  Everyone:
+	I recall someone mention candidate key is the power set of keys. So {} is consider as candidate key too?
+13:45:31 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"key can be a length of greater than 1 if a single attribute is insufficient to guarantee uniqueness right?"	==> yes, the number of attributes can be more than 1
+13:45:40 From  Le Van Minh - Hedgehog  to  Everyone:
+	id was made to be unique
+13:45:45 From  Jonathan  to  Everyone:
+	Where does composite primary keys fall under this? If either of the parts used to formed the key is not unique but together, they are unique. It will not be considered as either a primary/superkey right?
+13:45:57 From  Li Huankang  to  Everyone:
+	how do you read S.D -> R.A:	Think of it as this:	table S, attribute D links to table R attribute A
+13:45:57 From  prof chris fan <3  to  Everyone:
+	Dr Adi is as efficient as Prof Ben 😂
+13:46:07 From  Le Van Minh - Hedgehog  to  Everyone:
+	it's literally "identification", so id must be unique
+13:46:18 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"the set of keys is a subset of the set of superkeys?"	==> the set of ALL keys is a subset of the set of ALL superkeys (without the ALL, there can be counter-example)
+13:46:32 From  Wu Zihao  to  Everyone:
+	so it is possible that there are no keys in a relation, when all columns are not unique?
+13:46:39 From  CS Student  to  Everyone:
+	Prof Ben like to talk alot
+13:46:51 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	must keys be unique?
+13:46:52 From  Mu Changrui  to  Everyone:
+	So attributes of a key must not be unique
+13:47:00 From  CS Student  to  Everyone:
+	Efficient meh
+13:47:03 From  Jamie Tan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	hi prof, what is the diff btw candidate keys and keys? are candidate keys sets of sets of possible keys (diff combinations)?
+13:47:08 From  30 Lim Wen Feng  to  Everyone:
+	whats the point of super key if we already have primary key or just key which are already unque?
+13:47:09 From  prof chris fan <3  to  Everyone:
+	I have never been taught by prof ben before actl
+13:47:15 From  Le Van Minh - Hedgehog  to  Everyone:
+	"so it is possible that there are no keys in a relation, when all columns are not unique?" -> then the key is the set of attr itself
+13:47:41 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"must keys be unique?"	==> as in, unique in the database sense?  the values in it must be unique?  unique-ness is the easiest way to ensure that whatever attributes you have is a key...
+13:47:42 From  Le Van Minh - Hedgehog  to  Everyone:
+	because relation is a "set", then all tuples are distinguishable
+13:48:13 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	yes, whether the values must be unique
+13:48:16 From  Wu Zihao  to  Everyone:
+	"then the key is the set of attr itself" -> but I thought keys should be minimal? Otherwise it is just a superkey
+13:48:32 From  Wong Jun Long  to  Adi Yoga Sidi Prabawa(Direct Message):
+	because in the quick quiz, columns A and C cannot have duplicated values
+13:48:36 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"hi prof, what is the diff btw candidate keys and keys? are candidate keys sets of sets of possible keys (diff combinations)?"	==> candidate keys = set of all possible keys	so if the keys are: {A, B} and {B, C}	then the candidate keys are {{A, B}, {B, C}}
+13:48:57 From  prof chris fan <3  to  Everyone:
+	Oh ya I think I realized zoom also increased their meeting size, for regular meetings. The zoom premium thingy etc etc yada yada
+13:49:24 From  prof chris fan <3  to  Everyone:
+	If not last time had to do webinar if too big size (idk what’s the limit)
+13:50:00 From  30 Lim Wen Feng  to  Everyone:
+	Hello Profs, I think using QnA function on zoom might make it easier to answer our questions. Just a suggestion
+13:50:13 From  Adi Yoga Sidi Prabawa  to  Wong Jun Long(Direct Message):
+	ok, that one I will need to check again
+13:50:21 From  Mu Changrui  to  Everyone:
+	Will the futher
+13:50:30 From  prof chris fan <3  to  Everyone:
+	It’s not easy to handle a big class also tho haha ><
+13:50:46 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Hello Profs, I think using QnA function on zoom might make it easier to answer our questions. Just a suggestion"	==> how to do that?
+13:50:55 From  prof chris fan <3  to  Everyone:
+	U mean poll?
+13:50:58 From  Chan Shi Yuan  to  Everyone:
+	prof chris so email here is being used as a key because its unique in a sense?
+13:50:58 From  Goh Yee Chong, Gabriel  to  Everyone:
+	for this quiz, are B and C also possible keys 	sry if I missed it
+13:51:18 From  Xihao Chen  to  Everyone:
+	is S.D -> R.A a formal notation?
+13:51:56 From  YH  to  Everyone:
+	Are candidate keys non-null?
+13:51:58 From  30 Lim Wen Feng  to  Everyone:
+	https://support.zoom.us/hc/en-us/articles/203686015-Using-Q-and-A-as-the-webinar-host		we will need a webinar adds on. If there isn't, I think poll everywhere might be better.
+13:52:09 From  Siddharth SRIVASTAVA  to  Everyone:
+	is it necessary for a primary key to be a key ie minimal super key?
+13:52:40 From  prof chris fan <3  to  Everyone:
+	Can put suggestions in forum!
+13:52:44 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"is it necessary for a primary key to be a key ie minimal super key?"	==> yes
+13:52:50 From  Siddharth SRIVASTAVA  to  Everyone:
+	thx
+13:53:17 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"https://support.zoom.us/hc/en-us/articles/203686015-Using-Q-and-A-as-the-webinar-host		we will need a webinar adds on. If there isn't, I think poll everywhere might be better."	==> thanks, will look into it, but likely poll everywhere is better since I am not sure if we have webinar license
+13:53:34 From  Xihao Chen  to  Everyone:
+	is S.D -> R.A a formal notation?
+13:53:43 From  Xihao Chen  to  Everyone:
+	why cant a primary key be a superkey?
+13:53:57 From  Yaxin Xia  to  Everyone:
+	so candidate key=superkey union key?
+13:54:00 From  Jerry Ho Jia Jie  to  Everyone:
+	under what scenarios will keys be {A,B}, like {id, email} ? in the example of Account(id, email and name), the keys are {id}, {email} individually right ?
+13:54:32 From  prof chris fan <3  to  Everyone:
+	Archipelago had problems?
+13:55:31 From  Mu Changrui  to  Everyone:
+	Sorry prof. What’s the difference between lost update and dirty read ?
+13:55:45 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"is it necessary for a primary key to be a key ie minimal super key?"	==> ok, so the answer got cut short here.	superkey cannot be primary key not the other way around.	the answer kind of hinges on several things:	1. we enfore key via unique-ness	2. if a subset of attributes is already unique then the superset of it will also be unique	so, by enforcing the minimal subset (i.e., the key) then the superkey is also enforced for free...
+13:55:49 From  prof chris fan <3  to  Everyone:
+	There are profs / lecturers that open specific timings during the lecture for questions. But ig diff lecturer, diff style. I am just saying tho ^^ ~
+13:57:06 From  Mu Changrui  to  Everyone:
+	Thanks!
+13:57:22 From  Jamie Tan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	hi prof, sorry if it has been asked. but a key attribute cannot contain null correct? and I couldn't catch the answer to "are candidate keys non-null?" - intuitively it shouldn't? because a null candidate key is basically just saying we can choose not to use any keys...
+13:57:23 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"under what scenarios will keys be {A,B}, like {id, email} ? in the example of Account(id, email and name), the keys are {id}, {email} individually right ?"	==> for example, if requirement of a table containing three attributes (module, room, time) states that no two lectures can be held in the same room at the same time then the key is {room, time}
+13:57:49 From  Jerry Ho  to  Everyone:
+	ah okay thanks prof!
+13:58:58 From  30 Lim Wen Feng  to  Everyone:
+	what is the primary key in this table (module, room, time)?
+13:59:10 From  \  to  Adi Yoga Sidi Prabawa(Direct Message):
+	do we have to manually manage the concurrent execution problems? or does the dbms do it for us?
+13:59:37 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"hi prof, sorry if it has been asked. but a key attribute cannot contain null correct? and I couldn't catch the answer to "are candidate keys non-null?" - intuitively it shouldn't? because a null candidate key is basically just saying we can choose not to use any keys..."	==> this is "definition" kind of problems.  it depends on the definition of the database itself.  allowing null to be key is problematic but it might be allowed in some cases.  but we can adjust all other definition to accommodate this or the other.
+13:59:52 From  Xihao Chen  to  Everyone:
+	can superkey be null?
+13:59:52 From  Mu Changrui  to  Everyone:
+	Can one integrity functions work on multiple attributes?
+14:00:16 From  Mu Changrui  to  Everyone:
+	Can one integrity constaint works on multiple attributes?
+14:00:19 From  Felix  to  Adi Yoga Sidi Prabawa(Direct Message):
+	halo pak kalau misalnya database nya based on cloud, masalah konkurensi bagaimana ya?
+14:00:31 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"do we have to manually manage the concurrent execution problems? or does the dbms do it for us?"	==> DBMS handles concurrency for us!  how simple is our lives because of that!  I cannot imagine handling concurrency myself...
+14:00:44 From  \  to  Adi Yoga Sidi Prabawa(Direct Message):
+	I see, thanks prof!
+14:00:49 From  Adi Yoga Sidi Prabawa  to  Felix(Direct Message):
+	waduh, jangan Bahasa inggris donk, gak bisa answer to everyone...
+14:01:12 From  Adi Yoga Sidi Prabawa  to  Felix(Direct Message):
+	tapi concurrency di handle sama DBMS automatically
+14:01:22 From  Mu Changrui  to  Everyone:
+	Thanks prof!
+14:01:24 From  prof chris fan <3  to  Everyone:
+	thank you profs
+14:01:27 From  Xihao Chen  to  Everyone:
+	if a superkey is null then how does it uniquely identify a relation?
+14:02:06 From  Felix  to  Adi Yoga Sidi Prabawa(Direct Message):
+	oke pak, bentar saya translate "hi sir, in the case of cloud database, how to solve the concurrency problem?"
+14:02:14 From  Goh Yee Chong, Gabriel  to  Everyone:
+	could you go back to the quiz slide again? thanks
+14:02:14 From  Xihao Chen  to  Everyone:
+	thank you
+14:02:27 From  Goh Yee Chong, Gabriel  to  Everyone:
+	the one with the super key and keys
+14:03:12 From  Goh Yee Chong, Gabriel  to  Everyone:
+	alright thanks prof
+14:03:40 From  Jamie Tan  to  Adi Yoga Sidi Prabawa(Direct Message):
+	Thanks for the reply prof, then can I just confirm, so superkeys, keys, candidate keys and primary keys can be null, its just it might not necessarily be useful/ might be problematic
+14:03:41 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"uniquely identify" can be abstracted/simplified to equality problem (if there are two things that are "equal", then it is not unique).  if we can define "equality" using NULL, we can define unique-ness w.r.t. NULL values.  but there can be multiple definition of equality.
+14:04:27 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"hi sir, in the case of cloud database, how to solve the concurrency problem?"	==> DBMS solves concurrency problem for us for free!  or for a fee if you use commercial database.
+14:04:27 From  \  to  Everyone:
+	Thanks profs!
+14:04:32 From  Quek Sze Long  to  Everyone:
+	thanks profs!
+14:04:52 From  Adi Yoga Sidi Prabawa  to  Everyone:
+	"Thanks for the reply prof, then can I just confirm, so superkeys, keys, candidate keys and primary keys can be null, its just it might not necessarily be useful/ might be problematic"	==> in general, we don't allow at least primary key to have null value
+14:05:21 From  Jamie Tan  to  Everyone:
+	thanks profs!
+14:05:47 From  Jerry Ho  to  Everyone:
+	not sure if this has been asked, but since primary key has to be unique, does this mean that candidate keys are unique as well ?
+14:09:04 From  G  to  Adi Yoga Sidi Prabawa(Direct Message):
+	sry noob question, can have 2 attributes as a primary key?
+14:10:40 From  G  to  Adi Yoga Sidi Prabawa(Direct Message):
+	thanks prof
+14:10:48 From  Jerry Ho  to  Everyone:
+	so you're saying we start off by looking at super keys then we try to narrow it down to the minimal subset that still makes it unique and that's the key?
+14:10:52 From  30 Lim Wen Feng  to  Everyone:
+	so this table does not have a single PK?
+14:11:31 From  Jerry Ho  to  Everyone:
+	ok thanks prof!
+14:11:49 From  30 Lim Wen Feng  to  Everyone:
+	yeap I meant that
+14:12:01 From  30 Lim Wen Feng  to  Everyone:
+	okay understood
+14:13:42 From  30 Lim Wen Feng  to  Everyone:
+	understood, thank you!
+14:14:04 From  Jerry Ho  to  Everyone:
+	thank you profs!
+14:14:08 From  30 Lim Wen Feng  to  Everyone:
+	thank you, have a good rest Profs
+14:14:21 From  Aarthi  to  Everyone:
+	thank you!
+14:14:22 From  Jay Aljelo Saez Ting  to  Everyone:
+	thanks profs
+14:14:25 From  prof chris fan <3  to  Everyone:
+	hope COM3 is not too noisy too
+14:14:29 From  prof chris fan <3  to  Everyone:
+	as in construction work
+14:14:32 From  prof chris fan <3  to  Everyone:
+	thank you!

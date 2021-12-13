@@ -1,0 +1,3 @@
+d:\ffmpeg\bin\
+ffmpeg.exe
+ffmpeg -i test.mp4 -ss 00:00:17 -s 640x480 -c:a copy -t 10 -an e2_t2_output.avi

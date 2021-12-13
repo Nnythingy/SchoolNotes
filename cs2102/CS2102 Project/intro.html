@@ -1,0 +1,753 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS2102 Project</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-2 bd-sidebar site-navigation show single-page" id="site-navigation">
+    
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/intro.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-application">
+   Application
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-functionalities">
+   Application Functionalities
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-deadlines">
+   Project Deadlines &amp; Deliverables
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toctree-l2 toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="intro.html#document-data">
+     ER Data Model Submissions (5 marks)
+    </a>
+   </li>
+   <li class="toctree-l2 toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="intro.html#document-report">
+     Project Report
+    </a>
+   </li>
+   <li class="toctree-l2 toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="intro.html#document-submission">
+     Project Submission (23 marks)
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="project-task">
+<h1>Project Task<a class="headerlink" href="#project-task" title="Permalink to this headline">¶</a></h1>
+<p>The objective of this team project is for you to apply what you have learned in class to design and develop a database application using <a class="reference external" href="https://www.postgresql.org/docs/current/index.html">PostgreSQL</a>.
+The project is to be done in teams of four students.</p>
+<p>You are to develop a database application for a company to book meeting rooms.
+Unfortunately, with the current pandemic, there are restrictions on the number of people to be in the meeting room.
+This project consists of the following five tasks:</p>
+<ol class="simple">
+<li><p>Design a ER data model for the application. Your ER model should capture as many of the application’s constraints as possible.</p></li>
+<li><p>Translate your ER data model into a relational database schema. Your relational schema should enforce as many of the application’s constraints as possible.</p></li>
+<li><p>Implement a SQL or PL/pgSQL function/procedure for each of the functionalities listed in Application Functionalities. You should implement appropriate triggers (if necessary) to enforce all the application’s constraints. You may use any of the PostgreSQL’s features and any SQL or PL/pgSQL constructs beyond what is covered in class.</p></li>
+<li><p>Populate each table in your database with synthetic data. Each table should have at least 10 records. You may use online data generators (<em>e.g.,</em> <a class="reference external" href="https://mockaroo.com">Mockaroo</a>, <a class="reference external" href="https://www.generatedata.com">Generate Data</a>) or write your own scripts to generate the synthetic data.</p></li>
+<li><p>For each table R in your database schema that is not in 3NF, find a dependency-preserving BCNF decomposition of R if it exists; if not, find a 3NF decomposition of R.</p></li>
+</ol>
+<div class="toctree-wrapper compound">
+<span id="document-application"></span><div class="section" id="application">
+<h2>Application<a class="headerlink" href="#application" title="Permalink to this headline">¶</a></h2>
+<p>Your company is a very large company with many employees and many meeting rooms available.
+For simplicity, the company is located at a single building.</p>
+<p>Unfortunately, with the current pandemic, the meeting rooms cannot be easily used and bookings must be done before any employee can come to office and use the meeting room.
+Due to interdependence of the components here, you are advised to read everything first before you start to design your ER diagram.</p>
+<p>You may want to do the following:</p>
+<ol class="simple">
+<li><p>Identify all the constraints as clearly as possible.</p></li>
+<li><p>Satisfy as many constraints as possible using ER diagram but you may have to identify constraints that can not be enforced.</p>
+<ul class="simple">
+<li><p>It’s okay not to enforce everything as long as you are clear which are not enforced.</p></li>
+<li><p>You may have to enforce this using triggers.</p></li>
+<li><p>Since you have not learnt triggers yet, you should at least recognize the constraints that are not currently enforced by your ER diagram so that you can enforce it later.</p></li>
+</ul>
+</li>
+<li><p>Draw the ER diagram and simulate the possibilities of violating the constraints.</p></li>
+</ol>
+<p>Note that the specifications are not formal to mimic a specification that is drafted by people who are not familiar with any database systems.
+As such, you are to fill in the informal or ambiguous specification with reasonable real-world constraints.
+Of course, in real-life, you have to ask for clarification about the project but in this project, you are given some flexibility to set your own constraints as long as they are reasonable.</p>
+<div class="section" id="employee">
+<h3>Employee<a class="headerlink" href="#employee" title="Permalink to this headline">¶</a></h3>
+<p>Each employee is assigned a unique employee ID and a unique email address when they are employed.
+Additionally, their name and contact number must be recorded along with other employee data.</p>
+<p>An employee must belong to a department which is identified by their department ID with their name recorded.
+There are three different kinds of employees:</p>
+<ol class="simple">
+<li><p><strong>Junior</strong></p></li>
+<li><p><strong>Senior</strong></p></li>
+<li><p><strong>Manager</strong></p></li>
+</ol>
+<p>Each employee must be one (<em>and only one</em>) of the three kinds of employees above.
+Currently, we do not allow <em>junior</em> employee to book any meeting rooms.
+They have to ask the <em>senior</em> employee or <em>manager</em> to book the room for them.</p>
+<div class="section" id="managerial-duty">
+<h4>Managerial Duty<a class="headerlink" href="#managerial-duty" title="Permalink to this headline">¶</a></h4>
+<p>A manager have additional duties with respect to the meeting room and bookings.</p>
+<ol class="simple">
+<li><p>Every booking must be approved by a manager from the same department.</p></li>
+<li><p>Every meeting room’s capacity can only be set by a manager to conform to social distancing measures.</p></li>
+</ol>
+</div>
+<div class="section" id="health-declaration">
+<h4>Health Declaration<a class="headerlink" href="#health-declaration" title="Permalink to this headline">¶</a></h4>
+<p>Every employee must do a daily health declaration.
+For simplicity, in the health declaration, they simply have to record their temperature.
+If the temperature is higher than 37.5 celsius, we say that they are having a fever.</p>
+<p>In the case of a fever being detected, all the people who have been in contact with the employee (<em>i.e.,</em> in the same meeting room) will have to contacted.
+We will explain about <a class="reference external" href="#contact-tracing">contact tracing</a> at a later part.</p>
+</div>
+</div>
+<div class="section" id="meeting-rooms">
+<h3>Meeting Rooms<a class="headerlink" href="#meeting-rooms" title="Permalink to this headline">¶</a></h3>
+<p>The meeting rooms can be uniquely identified by their floor number and their room number.
+Unfortunately, due to historical accident, the name of the room may not be unique.
+This has caused many grievances among the employees but everybody knows that there are many rooms named the “Database Meeting Room” located on different floors.</p>
+<p>Besides the name, each meeting room also has their maximum capacity.
+This capacity may be changed by a <a class="reference external" href="#employee">manager</a> depending on government regulations.</p>
+<div class="section" id="booking-procedure">
+<h4>Booking Procedure<a class="headerlink" href="#booking-procedure" title="Permalink to this headline">¶</a></h4>
+<p>A meeting room can be booked by either senior employees or managers.
+We do not allow junior employees to book a room.</p>
+<p>The booking is based on 1-hour sessions (<em>e.g.,</em> from 09:00 (<em>inclusive</em>) to 10:00 (<em>exclusive</em>), or [09:00, 10:00) for simplicity if you are familiar with the notation).
+So if an employee needs to book the room for more than 1 hour, they have to book multiple sessions.
+For obvious reason, each meeting room can only be booked by one group.</p>
+<p>The steps for booking is described as follows:</p>
+<ol class="simple">
+<li><p>A senior employee or a manager books a room by specifying the room and the session.</p>
+<ul class="simple">
+<li><p>If the room is not available for the given session, no booking can be done.</p></li>
+<li><p>If the employee is having a fever, they cannot book any room.</p></li>
+</ul>
+</li>
+<li><p>They then add the participants (<em>i.e.,</em> employees) to the booked room up to a maximum of the capacity of the room.</p>
+<ul class="simple">
+<li><p>The employee booking the room is also counted as a participant and should be counted towards the number of people in the room.</p></li>
+<li><p>If any of the participants are having a fever, they cannot be added.</p></li>
+</ul>
+</li>
+<li><p>A manager from the same department approves the booking.</p>
+<ul class="simple">
+<li><p>A manager may approve their own booking.</p></li>
+<li><p>A booking that is not approved are immediately deleted to allow for other people to book the room.</p></li>
+<li><p>Once approved, there should be no more changes in the participants and they will definitely come to the meeting room on the stipulated day.</p></li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="meeting-room-dynamics">
+<h4>Meeting Room Dynamics<a class="headerlink" href="#meeting-room-dynamics" title="Permalink to this headline">¶</a></h4>
+<p>When a meeting room has its capacity changed, any room booking <em>after the change date</em> with more participants (<strong>including</strong> the employee who made the booking) will automatically be removed.
+This is regardless of whether they are approved or not.</p>
+<p>The date when the capacity is changed is assumed to be today but it will be part of the input.</p>
+</div>
+</div>
+<div class="section" id="contact-tracing">
+<h3>Contact Tracing<a class="headerlink" href="#contact-tracing" title="Permalink to this headline">¶</a></h3>
+<p>Due to the pandemic, we have to be vigilant.
+If an employee is recorded to have a fever at a given day D, a few things must happen:</p>
+<ol class="simple">
+<li><p>The employee is removed from all future meeting room booking, approved or not.</p>
+<ul class="simple">
+<li><p>If the employee is the one booking the room, the booking is cancelled, approved or not.</p></li>
+<li><p>This employee cannot book a room until they are no longer having fever.</p></li>
+</ul>
+</li>
+<li><p>All employees in the same <em>approved</em> meeting room from the past 3 (<em>i.e.,</em> from day D-3 to day D) days are contacted.</p>
+<ul class="simple">
+<li><p>These employees are removed from future meeting in the next 7 days (<em>i.e.,</em> from day D to day D+7).</p></li>
+<li><p>We say that these employees were in <strong>close contact</strong> with the employee having a fever.</p></li>
+</ul>
+</li>
+</ol>
+<p>These restrictions are based on the assumptions that once approved, the meeting will occur with all participants attending.</p>
+<div class="section" id="resignation">
+<h4>Resignation<a class="headerlink" href="#resignation" title="Permalink to this headline">¶</a></h4>
+<p>When an employee resign, we still want to keep all the <em>past</em> records regarding this employee.
+Otherwise, the contact tracing may be compromised.</p>
+<p>However, they are no longer allowed to book or approve any meetings rooms.
+Additionally, any <em>future</em> records (<em>e.g.,</em> future meetings) are removed.</p>
+</div>
+</div>
+</div>
+<span id="document-functionalities"></span><div class="section" id="application-functionalities">
+<h2>Application Functionalities<a class="headerlink" href="#application-functionalities" title="Permalink to this headline">¶</a></h2>
+<p>Your application must support the following functionalities, each of which is to be implemented as a SQL or PL/pgSQL routine (<em>i.e.,</em> function or procedure).
+Some of these routines return a JSON value.
+PostgreSQL provides many useful functions for JSON data type (e.g., <a class="reference external" href="https://www.postgresql.org/docs/current/functions-json.html">row to JSON</a>, <a class="reference external" href="https://www.postgresql.org/docs/current/functions-aggregate.html">JSON aggregate</a>).</p>
+<p>Note that the specifications for the routines are incomplete by design; for example, the data types for the input parameters are not specified and certain parameters are not explicitly defined.
+For any criterion/process/design issue that is not explicitly stated, you are free to decide on how to address that issue in a reasonable way and justify your decisions in your project report.</p>
+<div class="section" id="basic">
+<h3>Basic<a class="headerlink" href="#basic" title="Permalink to this headline">¶</a></h3>
+<p>These functionalities are required to populate any data and other administrative works.</p>
+<ol>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_department</span></code>:
+This routine is used to add a new department.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Department ID</p></li>
+<li><p>Department ame</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_department</span></code>:
+This routine is used to remove a department.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Department ID</p></li>
+</ul>
+<p>When a department is removed, we assume that all employees belonging to that department have been either (1) transferred to other department or (2) removed.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_room</span></code>:
+This routine is used to add a new room.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Room name</p></li>
+<li><p>Room capacity</p></li>
+</ul>
+<p>Note that for simplicity, we never remove a room.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">change_capacity</span></code>:
+This routine is used to change the capacity of the room.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Capacity</p></li>
+<li><p>Date</p></li>
+</ul>
+<p>The date is assumed to be today but is given as part of the input for simplicity.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_employee</span></code>:
+This routine is used to add a new employee.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Employee name</p></li>
+<li><p>Employee contact number</p></li>
+<li><p>Kind (junior, senior or manager)</p></li>
+<li><p>Employee department</p></li>
+</ul>
+<p>The unique employee ID and email address are automatically generated by the system.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_employee</span></code>:
+This routine is used to remove an employee.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Employee ID</p></li>
+<li><p>Date (<em>i.e.,</em> the last day of work, assumed to be in the past or today)</p></li>
+</ul>
+<p>Note that all past records should be kept intact while all future records should be removed in accordance with the specification.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="core">
+<h3>Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h3>
+<p>These functionalities are related to the core functionality of the system.</p>
+<ol>
+<li><p><code class="docutils literal notranslate"><span class="pre">search_room</span></code>:
+This routine is used to search for available rooms.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Capacity</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>End hour</p></li>
+</ul>
+<p>The routine returns a table containing all meeting rooms that are available from the start hour (<em>inclusive</em>) to the end hour (<em>exclusive</em>).
+In other words, [start hour, end hour).
+Note that the number of hours may be greater than 1 hour and it must be available.</p>
+<p>The table returned should minimally include the following columns:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Department ID</p></li>
+<li><p>Capacity</p></li>
+</ul>
+<p>The table should be sorted in ascending order of capacity (<em>i.e.,</em> we do not want people to hog larger rooms first).</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">book_room</span></code>:
+This routine is used to book a given room.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>End hour</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The employee ID is the ID of the employee that is booking the room.
+If the booking is allowed (<em>see the conditions necessary for this in Application</em>), the routine will process the booking for people to join and for approval.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">unbook_room</span></code>:
+This routine is used to remove booking of a given room.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>End hour</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The employee ID is the ID of the employee that is asking to remove the booking.
+If this is not the employee doing the booking, the employee is not allowed to remove booking (<em>the no sabotage rule</em>).
+If the booking is already approved, also remove the approval.
+If there are already employees joining the meeting, also remove them from the respective tables.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">join_meeting</span></code>:
+This routine is used to join a booked meeting room.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>End hour</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The employee ID is the ID of the employee that is joining the booked meeting room.
+If the employee is allowed to join (<em>see the conditions necessary for this in Application</em>), the routine will process the join.
+Since an approved meeting cannot have a change in participants, the employee is not allowed to join an approved meeting.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">leave_meeting</span></code>:
+This routine is used to leave a booked meeting room.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>End hour</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The employee ID is the ID of the employee that is asking to leave the meeting.
+If this employee is not the meeting in the first place, then do nothing.
+Otherwise, process the leave.
+Since an approved meeting cannot have a change in participants, the employee is not allowed to leave an approved meeting.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">approve_meeting</span></code>:
+This routine is used to approve a booking.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>End hour</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The employee ID is the ID of the manager that is approving the booking.
+If the approval is allowed (<em>see the conditions necessary for this in Application</em>), the routine will process the approval.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="health">
+<h3>Health<a class="headerlink" href="#health" title="Permalink to this headline">¶</a></h3>
+<p>These functionalities are related to the health related aspect of the system.</p>
+<ol>
+<li><p><code class="docutils literal notranslate"><span class="pre">declare_health</span></code>:
+This routine is used for daily declaration of temperature.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Employee ID</p></li>
+<li><p>Date</p></li>
+<li><p>Temperature</p></li>
+</ul>
+<p>There is no need to do contact tracing from this routine.
+But to be clear, the contact tracing can be done by attaching a trigger on insertion to the table related to this.
+Then the next routine can be used to process the contact tracing immediately.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">contact_tracing</span></code>:
+This routine is used for contact tracing.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Employee ID</p></li>
+</ul>
+<p>First, if the employee is not having a fever, then do nothing.
+Otherwise, perform contact tracing accordingly (<em>see the necessary steps for this in Application</em>).
+The routine returns a table containing all employee ID that are in <strong>close contact</strong> with the given employee ID.</p>
+<p>The table returned should minimally include the following columns:</p>
+<ul class="simple">
+<li><p>Employee ID</p></li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="admin">
+<h3>Admin<a class="headerlink" href="#admin" title="Permalink to this headline">¶</a></h3>
+<p>These functionalities are related to the admnistrative aspect of the system.</p>
+<ol>
+<li><p><code class="docutils literal notranslate"><span class="pre">non_compliance</span></code>:
+This routine is used to find all employees that do not comply with the daily health declaration (<em>i.e.,</em> to snitch).
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Start date</p></li>
+<li><p>End date</p></li>
+</ul>
+<p>The routine returns a table containing all employee ID that do not declare their temperature at least once from the start date (<em>inclusive</em>) to the end date (<em>inclusive</em>).
+In other words, [start date, end date].</p>
+<p>The table returned should minimally include the following columns:</p>
+<ul class="simple">
+<li><p>Employee ID</p></li>
+<li><p>Number of days</p></li>
+</ul>
+<p>Number of days is the number of days the employee did not declare their temperature within the given period.
+The table should be sorted in descending order of number of days.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">view_booking_report</span></code>:
+This routine is to be used by employee to find all meeting rooms that are booked by the employee.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Start date</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The routine returns a table containing all meeting rooms that are booked by the given employee as well as its approval status from the given start date onwards.</p>
+<p>The table returned should minimally include the following columns:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>Is approved</p></li>
+</ul>
+<p>The table should be sorted in ascending order of date and start hour.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">view_future_meeting</span></code>:
+This routine is to be used by employee to find all future meetings this employee is going to have that are already approved.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Start date</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The routine returns a table containing all meetings that are already approved for which this employee is joining from the given start date onwards.
+Note that the employee need not be the one booking this meeting room.</p>
+<p>The table returned should minimally include the following columns:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+</ul>
+<p>The table should be sorted in ascending order of date and start hour.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">view_manager_report</span></code>:
+This routine is to be used by manager to find all meeting rooms that require approval.
+The inputs to the routine should minimally include:</p>
+<ul class="simple">
+<li><p>Start date</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>If the employee ID does not belong to a manager, the routine returns an empty table.
+Otherwise, the routine returns a table containing all meeting that are booked but not yet approved from the given start date onwards.
+Note that the routine should only return all meeting in the room with the same department as the manager.</p>
+<p>The table returned should minimally include the following columns:</p>
+<ul class="simple">
+<li><p>Floor number</p></li>
+<li><p>Room number</p></li>
+<li><p>Date</p></li>
+<li><p>Start hour</p></li>
+<li><p>Employee ID</p></li>
+</ul>
+<p>The table should be sorted in ascending order of date and start hour.</p>
+</li>
+</ol>
+</div>
+</div>
+<span id="document-deadlines"></span><div class="section" id="project-deadlines-deliverables">
+<h2>Project Deadlines &amp; Deliverables<a class="headerlink" href="#project-deadlines-deliverables" title="Permalink to this headline">¶</a></h2>
+<p>There are two deadlines for this project:</p>
+<ol class="simple">
+<li><p><strong>Week 6</strong>: Saturday, 18 September 2021 (<em>23:59</em>)</p></li>
+<li><p><strong>Week 12</strong>: Saturday, 6 November 2021 (<em>23:59</em>)</p></li>
+</ol>
+<p>The project evaluation will be conducted during week 13 (Monday, 8 November 2021 to Friday, 12 November 2021 but possibly may go into Saturday, 12 November 2021).
+Each team will be allocated 15-20 minutes to demo the project and to answer questions from a project evaluator.
+The registration for the project evaluation slots will be announced later.</p>
+<div class="toctree-wrapper compound">
+<span id="document-data"></span><div class="section" id="er-data-model-submissions-5-marks">
+<h3>ER Data Model Submissions (5 marks)<a class="headerlink" href="#er-data-model-submissions-5-marks" title="Permalink to this headline">¶</a></h3>
+<p>The deliverable is due on <strong>Week 6</strong> Saturday, Saturday, 18 September 2021 (<em>23:59</em>).
+Note that the time is 23:59 and it is 23:59:00 since that’s the latest time we can put into LumiNUS.</p>
+<p>Each team is to upload a pdf file named <code class="docutils literal notranslate"><span class="pre">teamNN.pdf</span></code>, where <code class="docutils literal notranslate"><span class="pre">NN</span></code> is the team number to the LumiNUS file folder belonging to their team.</p>
+<p>The submitted PDF file must be at most 4 pages and consists of the following contents:</p>
+<ol class="simple">
+<li><p>Project team number &amp; names of team members (<em>on the first page</em>)</p></li>
+<li><p>ER data model for the application.
+If your ER model is too large (<em>i.e.,</em> spanning more than one page), you may want to include a single-page simplified ER model (<em>with non-key attributes omitted</em>) before presenting the detailed ER model.</p></li>
+<li><p>Justification for any non-trivial design decisions made.</p></li>
+<li><p>List down 5 of the application’s constraints that are not captured by the proposed ER data model.</p>
+<ul class="simple">
+<li><p>If there aren’t any, we will assume that all constraints are captured.</p></li>
+<li><p>The grading will then be based on this assumption.</p></li>
+</ul>
+</li>
+</ol>
+<p>For late submissions, one mark will be deducted for each late day up to two late days.
+Submissions after the second late day will receive zero marks and will not be graded.</p>
+<p>We will publish a suggested ER data model on LumiNUS.
+Your team may consider using the published ER data model or a modified variant of it for your project.</p>
+</div>
+<span id="document-report"></span><div class="section" id="project-report">
+<h3>Project Report<a class="headerlink" href="#project-report" title="Permalink to this headline">¶</a></h3>
+<p>Each team is required to submit a project report as part of the project deliverables (due on <strong>Week 12</strong> Saturday, 6 November 2021 (<em>23:59</em>)).</p>
+<p>The project report (<em>up to a maximum of 20 pages <strong>including appendix</strong> in pdf format with at least 10-point font size</em>) should include the following contents:</p>
+<ol class="simple">
+<li><p>Names and student numbers of all team members and project team number (<em>on the first page</em>).</p></li>
+<li><p>A listing of the project responsibilities of each team member.</p>
+<ul class="simple">
+<li><p>Team members who did not contribute a fair share of the project work will not receive the same marks awarded to the team.</p></li>
+</ul>
+</li>
+<li><p>The ER data model for your application.</p>
+<ul class="simple">
+<li><p>If your ER model is too large (<em>i.e.,</em> spanning more than one page), you may want to include a single-page simplified ER model (<em>with non-key attributes omitted</em>) before presenting the detailed ER model.</p></li>
+<li><p>Provide justification for any non-trivial design decisions made in your ER model.</p></li>
+<li><p>List down 5 of the application’s constraints that are not captured by the proposed ER date model.</p></li>
+</ul>
+</li>
+<li><p>Relational database schema.</p>
+<ul class="simple">
+<li><p>Provide justification for any non-trivial design decisions made in your relational database schema.</p></li>
+<li><p>List down 5 of the application’s constraints that are not captured by the proposed relational schema.</p>
+<ul>
+<li><p><em>i.e.,</em> the constraints that are to be enforced using triggers.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>A description of the three most interesting triggers implemented for the application.</p>
+<ul class="simple">
+<li><p>Provide the name of the trigger.</p></li>
+<li><p>Explain the usage of the trigger.</p></li>
+<li><p>Justify the design of the trigger implementation.</p></li>
+</ul>
+</li>
+<li><p>An analysis of normal forms of your relational database schema (<em>not your ER data model</em>).</p>
+<ul class="simple">
+<li><p>For each table R in your database that is not in 3NF:</p>
+<ul>
+<li><p>Find a dependency-preserving BCNF decomposition of R if it exists.</p></li>
+<li><p>Otherwise, find a 3NF decomposition of R.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>A reflection.</p>
+<ul class="simple">
+<li><p>Summary of any difficulties encountered and lessons learned from the project.</p></li>
+</ul>
+</li>
+</ol>
+</div>
+<span id="document-submission"></span><div class="section" id="project-submission-23-marks">
+<h3>Project Submission (23 marks)<a class="headerlink" href="#project-submission-23-marks" title="Permalink to this headline">¶</a></h3>
+<p>This deliverable is due on <strong>Week 12</strong> Saturday, 6 November 2021 (<em>23:59</em>).</p>
+<ul class="simple">
+<li><p>Submit your project deliverables by creating a <strong>local</strong> directory (<em>i.e.,</em> in your computer) named <code class="docutils literal notranslate"><span class="pre">teamNN</span></code> (<em>where <code class="docutils literal notranslate"><span class="pre">NN</span></code> is your team number</em>) with the following four files:</p>
+<ol class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">report.pdf</span></code>: Project report in PDF format.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">schema.sql</span></code>: SQL commands to create your application’s database schema.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">data.sql</span></code>: SQL commands to load data into your application’s database.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">proc.sql</span></code>: SQL or PL/pgSQL routines of your implementation.</p></li>
+</ol>
+</li>
+<li><p>It is important that your submission files are named as indicated above and that you have tested your code using <code class="docutils literal notranslate"><span class="pre">psql</span></code>.</p>
+<ul>
+<li><p>Marks will be deducted if any of your file cannot be run on <code class="docutils literal notranslate"><span class="pre">psql</span></code> in the correct order (<em>i.e.,</em> <code class="docutils literal notranslate"><span class="pre">schema.sql</span></code> followed by <code class="docutils literal notranslate"><span class="pre">data.sql</span></code> followed by <code class="docutils literal notranslate"><span class="pre">proc.sql</span></code>).</p></li>
+</ul>
+</li>
+<li><p>Compress the directory into a zip file named <code class="docutils literal notranslate"><span class="pre">teamNN.zip</span></code>.</p></li>
+<li><p>Upload the zip file into LumiNUS file folder for your team.</p></li>
+</ul>
+<p>For late submissions, 5 marks will be deducted for each late day up to two late days.
+Project submitted after the second late day will receive zero marks and will not be graded.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By CS2102 Teaching Team<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

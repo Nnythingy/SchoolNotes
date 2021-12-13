@@ -1,0 +1,69 @@
+
+
+CREATE TABLE countries (
+ iso2 CHAR(2) PRIMARY KEY,
+ name VARCHAR(255) UNIQUE,
+ population INTEGER CHECK (population >= 0),
+ gdp BIGINT CHECK (gdp >= 0),
+ continent VARCHAR(255) NOT NULL
+);
+
+
+
+CREATE TABLE cities (
+ name VARCHAR(255),
+ country_iso2 CHAR(2),
+ capital VARCHAR(255),
+ PRIMARY KEY (name, country_iso2),
+ population INTEGER CHECK (population >= 0),
+ FOREIGN KEY (country_iso2) REFERENCES countries (iso2)
+);
+
+
+CREATE TABLE borders (
+ country1_iso2 CHAR(2),
+ country2_iso2 CHAR(2),
+ PRIMARY KEY (country1_iso2, country2_iso2),
+ FOREIGN KEY (country1_iso2) REFERENCES countries (iso2),
+ FOREIGN KEY (country2_iso2) REFERENCES countries (iso2)
+);
+
+
+
+CREATE TABLE airports (
+ code CHAR(3) PRIMARY KEY,
+ name VARCHAR(255) NOT NULL,
+ city VARCHAR(255) NOT NULL,
+ country_iso2 CHAR(2),
+ FOREIGN KEY (city, country_iso2) REFERENCES cities (name, country_iso2)
+);
+
+
+CREATE TABLE routes (
+ from_code CHAR(3),
+ to_code CHAR(3),
+ airline_code CHAR(3),
+ PRIMARY KEY (from_code, to_code, airline_code),
+ FOREIGN KEY (from_code) REFERENCES airports (code),
+ FOREIGN KEY (to_code) REFERENCES airports (code)
+);
+
+
+
+CREATE TABLE users (
+ user_id INTEGER PRIMARY KEY,
+ name VARCHAR(255) NOT NULL,
+ age INTEGER
+);
+
+
+CREATE TABLE visited (
+ user_id INTEGER,
+ iso2 CHAR(2),
+ PRIMARY KEY (user_id, iso2)
+);
+
+
+CREATE TABLE connections AS
+SELECT DISTINCT from_code, to_code
+FROM routes;
