@@ -79,3 +79,10 @@ Some uses can be to guess inputs to purposes make the code fail.
 Your mother dabao lunch home. You know she dabao from the nearby hawker center.
 Although it is not time to eat yet, you want to know what she dabao so you keep asking her:
 "What you dabao? Is it from _______ stall?" replacing the blank with all the stalls in the hawker center one by one
+
+## RAM vs Hard Disk(External Storage)
+RAM is similar to short term memory, we use it to remember what our friends want when we help them order their drink.
+Just like short term memory, it can be quickly "remembered" and as quickly and easily "forgotten", making it volatile
+
+Hard Disk on the other hand is like our Long Term Memory, which we use to remember instances of significance to us
+Not every event is remembered as our long term memory, but when they are added, it will be retained in our memory longer
