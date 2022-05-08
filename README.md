@@ -21,9 +21,9 @@ Hi! These are the study materials I have used when taking these mods.
 ## AY21/22 ##
  Sem 1 | Sem 2
  ------ | ------
- [CS2102](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2102) | CS2101
- [CS2105](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2105) | CS2113T
- [CS2106](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2106) | CS3223
- [IS4231](https://github.com/Nnythingy/SchoolNotes/tree/main/is4231) | CS3235
- GEQ1000 | IFS4101
+ [CS2102](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2102) | [CS2101](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2101)
+ [CS2105](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2105) | [CS2113T](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2113t)
+ [CS2106](https://github.com/Nnythingy/SchoolNotes/tree/main/cs2106) | [CS3223](https://github.com/Nnythingy/SchoolNotes/tree/main/cs3223)
+ [IS4231](https://github.com/Nnythingy/SchoolNotes/tree/main/is4231) | [CS3235](https://github.com/Nnythingy/SchoolNotes/tree/main/cs3235)
+ GEQ1000 | [IFS4101](https://github.com/Nnythingy/SchoolNotes/tree/main/ifs4101)
  
