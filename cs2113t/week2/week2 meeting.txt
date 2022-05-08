@@ -1,0 +1,744 @@
+16:00:46 Hello everyone. Can you all hear me.
+16:00:52 Okay. Good to know.
+16:02:02 All right, like testing again
+16:02:08 seems to be working, I suppose, because at least I can see the icon wiggling around.
+16:02:20 Okay, great. Oh, yes, the recording will be shared with you later on in our yr luminous. Okay. For today's lecture and in fact for all the lectures we will be using Poll Everywhere.
+16:02:33 The class response system. And if it makes sense to you, you can actually download and install the Poll Everywhere app on your phone, which is basically this one, right.
+16:02:48 If it doesn't make sense to you to install the app it's still fine because you can go on to your browser, and use this link, polivy.com, slash, in Irvine.
+16:03:04 I'll put it up in the chat for you to use. You can actually use that one.
+16:03:09 When there is a whole running which is basically this question in the context of today's lecture, what are the things around you that are impacted by software.
+16:03:20 So when you open this link, it will ask you to join you, please provide your in US net email account back so that is something something email account, or your friendly email whichever works, I'm not too sure which one works perfectly.
+16:03:34 So you provide the email account and you should be able to join. I haven't added any of you by default into the, into the classroom, so to say, right.
+16:03:45 So, you should be able to join by yourself.
+16:03:52 Alright so let's get started with the lecture before that I want to check if you have received the invitation to join archipelago sessions.
+16:04:07 You should, please check your spam email. If you haven't received yet.
+16:04:10 If not for a moment, I can actually flash the QR code for you to join the session.
+16:04:19 Right, okay. The link is also posted on the chat if you want to.
+16:04:24 So this is the QR code you will use this is another back channel for me to gather questions from you if you are shy to unmute and ask in the plus.
+16:04:36 Right, so I use these two tools very extensively in addition to all the things that I do for beating, from your perspective, I think having access to these two are useful in the lectures in the semester.
+16:04:50 In this module, date.
+16:04:53 So, with all the basic logistics setup, let's get started.
+16:05:00 Welcome to CS 2113 phase 113 DR This is your first lecture in this module which is software engineering and object oriented programming. So, since this is still the first half of January I guess I can still go on to wish you all a very happy new year.
+16:05:18 In fact, I believe, all through January, you can you can reach everyone happy new year and get away with it, nobody will raise eyebrows it's designed right.
+16:05:28 So, I wish you all an amazing year, a very successful year ahead with a lot of fun, sufficient rest and very less anxiety. Okay, so let's move on. By the way of introduction.
+16:05:42 My name is actually, I am the coordinator for this module, and I'm a lecturer in SOC I completed my PhD in SOC as well. A couple of years ago and I've been teaching software engineering and artificial intelligence ever since I joined the school.
+16:06:00 In fact, as a piece of trivia.
+16:06:03 I've been teaching two on one three since its inception, so I've been the only lecture I was been teaching. No, I shouldn't claim that because there was one semester where I'm other doctors this module.
+16:06:14 But otherwise, mostly throughout all the offerings I've been the one who has been teaching this module on top of software engineering, I also teach a planning and decision making, which is the Cs 4246.
+16:06:29 These are my research interests I'm primarily an AI research guy so I have my, my thesis was on reinforcement learning and stop so currently I'm working on multi agent systems is a new form interest you can say, particularly how we can use multi agent
+16:06:46 multiple agents to make some interesting decisions and make interesting applications, how do they collaborate on these kind of things.
+16:06:55 Okay, um, in terms of teaching experience, like I said, I've been teaching software engineering.
+16:07:06 For all the duration that I've been in. Soc.
+16:07:07 So, if, if you count the times before becoming a lecturer when I was a TA I think all in all I thought this model, or a system model which is CS 2103 for about 14 times right so it's is quite a bit, and and before doing my PhD and before during my master's
+16:07:25 I was working in the industry for for three years as a software test engineer, right. So, so if I, if I show a specific preference to testing topics in this module, you will know why because of the middle of the background and my experience as a software
+16:07:43 testing engineer, I think I have a slightly soft corner for testing. Okay. And then, when I'm not pitch.
+16:07:55 When I'm not doing anything related to the school I actually enjoy photography and I don't miss any opportunity to shoot as much as possible. But then school and you guys keep me quite busy, so mostly it is reserved for holidays and, and sometimes in
+16:08:09 the weekend and stuff.
+16:08:10 Okay, so that's about me. Another important person in this module that you need to know is, Stephanie, who is our head teacher. She is a graduate tutor in the school.
+16:08:22 And the reason why you need to know. Two of us is basically one me Of course you need to know I'm the one who's going to be messing around with your head for the next semester or the semester.
+16:08:32 And Stephanie is the one who's probably going to be teasing you for a few things. Right.
+16:08:38 If there are any communications will lead to deadlines for things that you haven't done that you're supposed to do.
+16:08:44 Those are the emails that you will receive from Stephanie so please do. Don't ignore any communication from Stephanie, and most of the module related logistics related communications was actually taken care of by me I don't encourage you to do is to get
+16:09:05 in module logistics and material management, mostly I'll be doing it. But I'll take Stephanie's help to choose you guys if you are.
+16:09:09 If you have, if you have something to do, and you haven't done that, you will probably receive emails from either of us right so it's good to know. The two of us.
+16:09:20 In fact, because of how the dynamics of this module have been this semester, which is very strange because until today I have students who are registering for this module.
+16:09:31 This time, I really haven't finalized my teaching team, I'm still trying to recruit new tutors and and stuff like that so once that information is all available once I've recruited all the tutors, there will be a page on the module website, which will
+16:09:46 list all the tutors with their photos and you will be able to identify and recognize them.
+16:09:51 Of course you will also be interacting with them quite frequently throughout the semester in all your tutorials. Right. As a matter of practice, and as a matter of principle I can say, I will visit, most of your tutorials, as much as possible so to the
+16:10:07 extent that in the previous semesters, I, I always made it a point to attend at least every alternate weeks in the last semester I attended a few sessions almost every week.
+16:10:18 Just to see that you're on the right track. I will not get involved in the teaching directly because your tutors are going to do that. And also just to keep a check on the tutors to see that they are doing their job in a reasonable way, right.
+16:10:31 So, they're still the owners of the, of the tutorials I'll be a mute spectator unless something gets messed up right so if, if something gets messed up.
+16:10:40 Don't worry, I will not allow you to stray away, or I will not allow you to get messed up, I'll, I'll intervene on time.
+16:10:48 To me, one of the things that I've developed over a period of time teaching in this in the school is, basically, I, I value, a lot of things related to student times different emotions and and all those things right so basically I have a lot of focus
+16:11:17 on you guys, and I want to ensure that along with the learning your, your welfare is also somewhat maintain. I mean, okay welfare in Singapore has a different meaning right so when I whenever I've been told about welfare it's a goodie bag it's not back.
+16:11:25 Essentially, I want you all to be relaxed, not worried too much, and I will try to ensure that these things are taken care off throughout the semester.
+16:11:37 Now, of course, if you have any concerns about things that are happening in the module you can you can contact me. And we will try and resolve all these things, right, so this is not so brief introduction about myself and and Stephanie and what we do
+16:11:52 in this module.
+16:11:56 Unfortunately, we are still continuing talking on zoom. So, I, which means I, I might hardly get a chance to look at all of you. Apart from the exam. Right, so for the past three semesters of four semesters I've been doing this.
+16:12:11 I'm seeing my students, most of them for the first time in the example.
+16:12:15 So hopefully we get a chance to see each other before that. Let's see how it goes.
+16:12:21 Okay, so if you if you joined the lecture a little late. There is a poll that is running on poll everywhere.com, the link to the pole is are linked to the session is there on the chat and we'll post it again.
+16:12:36 So
+16:12:43 please answer the question, which we will look at in just a moment.
+16:12:48 Right.
+16:12:49 So, this is essentially the pole in the context of today's lecture, what are the things around you that are impacted by software.
+16:12:58 So you have a nice word cloud, but unfortunately we only have about 15 responses where I have 80 students in the class. So let me give you like half a minute.
+16:13:10 All of you go ahead and respond to this poll, and we will see our What do you think about software and the impact of software.
+16:13:37 something which is strange, but nice to know this time is.
+16:13:45 I see food and health care to be to be words, which is excellent.
+16:13:53 Like,
+16:13:56 so let's move on I let me just let's take a snapshot of what it is so you say games computer healthcare, education, zoom, entertainment, communication, everything, of course everything.
+16:14:11 So hold on to this thought right so hold on to this thought, we will revisit this question in in just a bit in the lecture.
+16:14:18 Okay so very quickly a couple of zoom things I guess you guys are all, mostly acquainted with these things are there are mechanisms for you to give me feedback in the lecture.
+16:14:30 So when I asked you can you all, raise hands on zoom.
+16:14:37 I know no not on the video on on zoom.
+16:14:42 Okay, Great. So, now you can lower your hands.
+16:14:47 If you think I'm going too slow or going too fast.
+16:14:51 There are buttons to say on zoom go fast and go slow but unfortunately when I'm in the presenter mode.
+16:14:58 It doesn't show up. Okay, so you will have to unmute and tell me what it is. Okay, then there are reactions which is yes no one comes up, which I explicitly asked you.
+16:15:08 Say for instance, if you are understanding what I'm saying, please click on Yes.
+16:15:16 Okay, great. So, if you don't want to slip off please click on No.
+16:15:25 Okay, great. Awesome.
+16:15:27 So, these are the zoom things I'm not going to talk about this, again, a couple of other logistical matters if you can call that are in the lectures, it's not mandatory to have your video on.
+16:15:39 Because when I'm presenting I can hardly see anyone, right. So,
+16:15:45 I can hardly see anyone so if you have your video on, if you don't have your video on, it's okay. It doesn't matter too much. However, in the tutorials I would want you to have the video on which is sort of mandatory.
+16:15:59 The reason is, since we are not meeting physically or face to face in this module. This is the only way, at least officially with respect to this module that you can actually see your team and your tutors and interact with some people.
+16:16:13 So for that reason, Please have your cameras on. Okay.
+16:16:16 The, the microphones are muted by default in the lecture or not in the tutorials.
+16:16:22 Feel free to unmute and ask questions. Okay.
+16:16:26 So that's one part of zoom things. The second part is something which may be relevant. Again this semester, because we are doing it on zoom right in, in the lectures we will do quite a bit of hands on activities.
+16:16:38 You will also be listening to me and watching the slides on zoom.
+16:16:42 Some of you may have a habit of taking notes, and stuff like that. So, you have only one, most of you have only one laptop one monitor, whatever. Okay, um, fortunately because school provided me with a, with an additional monitor I have a dual screen
+16:16:59 setup, but most of you may not have this.
+16:17:02 So it means you will have to rush aeration your your your real estate that's available on your screen so you can actually arrange the windows in this way so that you still have an experience of what is happening in the in the meeting in the zoom session,
+16:17:19 you can still make your own notes if you want to. And you can continue to do the things that we that I asked you to do in the lectures. Right, so this is the only time I'm going to talk about some things, and no more.
+16:17:32 Okay, So, in before the lecture started and just a while ago we asked you what are the things that are impacted by software.
+16:17:42 Right. And you said, quite a few things so which are, which is very nice healthcare, education, food.
+16:17:51 zoom lectures, so on and so forth. Right.
+16:17:56 This is in the larger context so you will look at it in the larger context all the answers that you gave are true in some sense, we'll see how are you localize the context to within the university.
+16:18:09 Right.
+16:18:10 This is one of the software that we will use in the module which is called teammates we will use this for peer evaluation I'm pretty sure some of you at least what I've heard about how good or how nasty This one is in through your friends and your seniors,
+16:18:25 and so on. So this is one software which we will use. And I want to draw your attention to this number here, you see the number of feedbacks that have been submitted on teammates it has got everything to do with peer evaluations are not only just in an
+16:18:40 academic setting, even some industries also use it. Okay. You see, the number of feedback entry submitted so far, which is as finished has today is about 27 million plus feedbacks why number one.
+16:18:54 The second software that we are going to use our or rather, I'm going to use is something called as PowerPoint labs, in fact the slide deck that you're looking at now is created using PowerPoint labs, and you see the number of users who have been benefited
+16:19:07 by collectively, if you look at these two software that are about a million plus users who have used it in some way or the other.
+16:19:18 Right. But what is more interesting is that these software, have been built by students like you. Those who completed software engineering.
+16:19:29 You guys can embark on these projects later on and our all our previous students who completed software engineering modules actually started working on these as a part of their project internships fy PS and so on and so forth.
+16:19:41 And about 500, students have contributed code to these two.
+16:19:45 Right, so and collectively they have more than 200,000 lines of code.
+16:19:51 So, basically, what I'm saying is that software is extremely powerful.
+16:19:57 If we bring the question back from earlier, you see that there are various things which are impacted by software. Food is a very good example.
+16:20:10 Without grab food and without food panda I think a lot of us would not be able to survive in this pandemic right so we order food we assume that or we take it for granted that okay you tap something on your phone and then you'll get your food delivered
+16:20:37 you. So food is a very important thing, healthcare definitely is, how do you maintain all the health records. All of that request software to be running behind the scenes, think about other things which you normally might not even associate with software,
+16:20:32 think about the chair you're sitting on on the table that you have your laptop on.
+16:20:35 Right. All of these things some way or the other, are impacted by software, how maybe why our design process, maybe how they manage the inventory maybe how they run the machines to manufacture these things.
+16:20:49 All of these somewhere in the, in the lifecycle of these objects that you look around yourself. There is software anymore.
+16:20:57 Right, software is extremely powerful.
+16:21:00 But since I'm saying all these nice things about software, you may might have anticipated that there's going to be a button at the end of the sentence right.
+16:21:09 But the thing is, software is extremely fragile.
+16:21:12 So, this is a very very dated news now right back in 2014, there was a massive outage of Google for for like almost a day or so right.
+16:21:22 And the problem here was a small part of the court, which was buggy was like, just one line of code which was buggy and that created a massive outage of Gmail.
+16:21:33 The second example we have is much more recent which was in July 21 if you can see the date.
+16:21:40 There was an outage of Amazon across the globe.
+16:21:43 Now, why does this matter so much.
+16:21:46 It matters so much because the AWS or the web services that Amazon provides is used by millions of users, and hundreds of thousands of companies. So when Amazon outage happened a lot of these people went on the last many websites could not be used many
+16:22:02 services could not run.
+16:22:04 Right. And if you go back and read this article, it says that Amazon tried to push a new configuration to its servers to it sort of a farm there. The intention was to improve the capacity of the servers, but because of some issue in the configuration.
+16:22:21 It saw turned out that the the soul was instead of having more capacity, they, they just don't they just shut out every service.
+16:22:29 Right. And you see a small change like this is going to create a lot of trouble for software.
+16:22:36 When you think about it in an equal and field let's say for example in civil engineering right, you have a wall and then you just remove a small break from the wall.
+16:22:46 That doesn't mean the wall will fall. Like, it will not drop down like that. Of course it can get weaken and stuff like that but the overall structure is still there.
+16:22:55 If you do the same thing some.
+16:22:57 What is a brick in the software. Right What is a brick in in the software parlance, your syntax you have poor. If you remove something out of the code.
+16:23:07 There is a huge chance that a whole part of the software doesn't work, or maybe the entire software doesn't work, right so software is for the day.
+16:23:16 There are many other pros and cons of software and software engineering. Um, this is a very classical book, so to say it's, it's a collection of essays by this person called Frederick Brooks, Frederick Brooks was in IBM, he was a project manager and the
+16:23:33 lead of this project called a system to 60.
+16:23:40 So it's a mainframe computer, and an operating system for the mainframe computer, and he was leading the project. There are a lot of issues but eventually the project did go through.
+16:23:53 And what happened is after this project, Fred Brooks sort of said, Okay, I'm done with software engineering let me, let me retire from active software development and let me go back to academics.
+16:24:04 Right. And he wrote all his experiences in building the system 360 software in the form of a book which is the mythical man month. Right, so if you ever have time, and if you are interested in understanding some of the goodness of software engineering.
+16:24:19 I would strongly suggest you to go read this. In fact, a small extract of the book is presented in the module website for you to read and enjoy. What are the pros and cons of software engineering.
+16:24:31 Right. So by doing all of this we have been talking about software software software. So we need to understand what is software engineering.
+16:24:40 Right. So, let's spend a couple of minutes to understand what software engineering is
+16:25:06 very very simple terms, we can say that software engineering is applying engineering principles to software development.
+16:25:03 But if you look at IEEE which is the organization that oversees a lot of engineering things I wouldn't say overseas it's a it's an association for engineers and engineering stuff.
+16:25:07 They have an official definition of software engineering, which is this multiple application of systematic discipline quantifiable approach to the development operation and maintenance of software.
+16:25:18 Right, essentially all of these things are borrowed from various engineering disciplines. So I think we're safe to say that software engineering is basically applying engineering principles into software development.
+16:25:43 Okay, so that's one part of what is software engineering.
+16:25:37 Now, let's see why do we need software engineering in the first place.
+16:25:41 So what do you see on the screen are basically two sets of software so to say right on the left you have a Hello World program, which is just printing hello world, and, and done nothing else.
+16:25:52 But on the right side you have a browser and a couple of operating systems by our definition of what software is both of these things are actually software.
+16:26:03 Anything that has caught and get some machine to do something for you. I think that you can define it as a software in a very layman's term right.
+16:26:11 So both of these are software one is printing a welcome message, the other one is doing a lot of things the others, basically.
+16:26:18 So when you think about software engineering, it may not be really important or necessary to build very simple software like this. Hello World program.
+16:26:27 On the other hand, if you are building a large complex system like an OS, an operating system, or a browser, or any other thing like people management software you're learning management system, anything that is large and complex, you definitely benefit
+16:26:41 from using software engineering principles into the development of software.
+16:26:47 Now, why is software engineering relevant to you guys.
+16:26:52 Right. This is important. The rest of it is like trivia and definitions and stuff. I think you need to pay attention to this part, and you need to take away what is the relevance of software engineering to you guys.
+16:27:06 First thing is the software engineering, because we saw that software impacts a lot of things in the world.
+16:27:13 I think it definitely helps to know what software engineering how the software is built, because once you finish your studies you go on to the workforce, that there is some bit of software that's going to impact your workplace.
+16:27:28 Your, your day to day activities, right. So, how does these things build, or you could also be involved in developing software. So, one of the important things is that you have an idea of what software engineering is so that you don't end up blinking,
+16:27:43 when you're in the workforce. Right.
+16:27:49 A more shorter term goals so to say or a shorter term impact is that software engineering or this module 2113 is the first and probably the only module that you will read before going on your internship journeys, right, and yours requires you to do a
+16:28:02 lot of internship.
+16:28:03 As a part of your graduation requirements. So, this is probably the first first module and probably for some of you this the only model that you take before you go on, on your internship journeys, like this, non dual is where you learn a lot of small
+16:28:19 things that are important in software development things like how do you manage worsens of different code bases that you're working on, or different artifacts, how do you write clean code, how do you write better quality code.
+16:28:32 What are reasonable ways to try as a bug, what are reasonable ways to develop what are some principles that you can use to develop good software and all these things are covered in this module so in that sense I think this module is super relevant to
+16:28:46 you. So, if you are here, not by choice but by force because it's a it's a mandatory module it's a core module. I do think that you have a lot to take away from this module.
+16:28:58 So, all it requires is a little bit of investment a little bit of commitment from you guys. Right. So, by the way of topics when, when we look at what we have for this particular week I completed what is software engineering.
+16:29:10 Okay.
+16:29:12 Continuing on the discussion of relevance of software engineering to you guys. Let's look at why you need to learn software engineering.
+16:29:19 Right, in the long term.
+16:29:22 You are all going to be domain experts, so I understand that this classes mainly from CG Computer Engineering.
+16:29:31 Then you have info security guys. Right, so the large portion of the class at least 50% of the classes from these two backgrounds and then of course this time I have a very interesting engineering guy, interesting mix I have, I have some of you who are
+16:29:47 from law, some of you who are from design and engineering. Some of you from phases, or stages or whatever it's called now.
+16:29:58 right, and in the past I've had students from nursing sciences basic sciences and so on and so forth. So, essentially, all of you guys are not, by definition, or by your learning part.
+16:30:11 You're not software engineers right so you're not core computing folks you guys are domain experts in various fields maybe Information Security maybe on IoT devices related to hardware.
+16:30:23 You could end up being lawyers, you are involved in building, and engineering, architecture and so on and so forth. Right. So you're all domain experts at the end of your four year journey of your undergrad studies.
+16:30:49 I, when you are domain experts you are working in fields which are requests of 30 are working with some people who are doing software engineering.
+16:30:48 I think in the long term.
+16:30:49 And having a know how of what software engineering is and what you can achieve what you can do what you cannot do, what are some of the principles, I think will give you a niche advantage that you know your domain, plus you also know what people who are
+16:31:04 working with the software that you're working with are talking are doing. Right, so you can be a better contributor to the project you can have a better understanding of what's happening and and so on and so forth.
+16:31:15 So this is like the long term benefit of learning software engineering.
+16:31:20 In the shorter term or in in the near term. You basically reading this module makes you qualified for software engineering internships, your transcript says okay you finished software engineering, two and three, so you have the necessary knowledge for
+16:31:42 doing some software jobs. So yes, you are qualified to become a software engineering intern right so that's the New Year tomorrow around almost immediate term reason why you should learn software engineering.
+16:31:50 That is a small thing that you need to understand.
+16:31:54 This module is basically not meant as to be as rigorous as what it is for the CSP program. So, one of the important things that you need to understand which also was a complaint.
+16:32:07 A couple of years ago but so far in the recent times it's not so bad, is that we are trying to shout to modules that your CS peers will read down your throat, which is 2030 which talks about op, and two or three which talks about software engineering.
+16:32:23 Okay. This module is not that.
+16:32:27 Okay, so one of the key things that you need to understand is that 2113 is not an equivalent of two modules. 113 is still a four MC module which means we do some things to help you manage all the things we give you sufficient information to understand
+16:32:44 design, in terms of op. So, there is a subset of topics from 2030 that you will read. Okay, very small subset of topics, and a majority of all the topics, and I wouldn't say a majority of the topics on two or three we will cover in this module, right.
+16:33:02 I wouldn't say all majority of the topics from two or three we will cover in this module, right. So, we covered this to the extent that you understand what we are talking about in terms of softer principles and software practices and design and so on
+16:33:10 and so forth. So you will get a flavor of do, but you're not actually doing two models at once, right. So, the reason why I have to talk about this a little bit, is because of the responses on the primordial survey.
+16:33:22 One of the common worry that you guys have, which are expressed in the primordial survey is that you're all new to Java. We understand that, right. So, one of them know most amazing things is this, so most of you have an idea of what c++.
+16:33:37 java is much easier than c++. You don't have to deal with monsters like pointers in Java. Right, that's one part. The second part is the module website has a chapter, which talks about how you can navigate your way from knowing c++ to knowing, Java, Right.
+16:33:55 So, when you start there you have all the basic information or basic content necessary for you to understand and get your way through to through this module, so it has sufficient information that of course you want to do some funky things you want to
+16:34:09 do some nice things. Are you allowed to spend a little more effort, but for all the basic things that we expect you to do most of the information is available in the, in the module website so you don't have to worry too much about this will also give
+16:34:22 you some exercises for you to work on very very simple ones to get a hang of what Java is so you are sort of, there is a there is a learning curve but it's a very smooth.
+16:34:32 I would say it's a very smooth learning curve.
+16:34:39 So you don't really have to worry about the fact that you are new to Java. So that's the first one. And the reason I was harping about 113 not being great 30 plus two or three is because of the second concern, equal number of you basically say you are
+16:34:51 worried about the workload and this module, we have this model was a pretty heavy model and I started teaching, like four years ago. Right, but over a period of time, have refined it to quite a bit, and he still an ongoing process but what we have done
+16:35:08 so far is that we have reduced the breadth of topics some of the things which are not absolutely necessary for you to become a software engineer.
+16:35:17 These are all sort of nice to have topics, for example activity diagrams, as long as you know how to represent the interaction between different components.
+16:35:26 You're okay so you don't really need activity diagrams themselves to represent this information so you can you can make do with, you know, using sequence diagrams and and the stuff like that, to basically express your ideas.
+16:35:41 So, which means this is sort of an optional topic for you and we have removed those things. Some of the topics I've reduced the depth, so that as long as you know what it is and you can navigate your way through, I think you're good to go.
+16:35:53 And one of the examples of that topic is architecture, as long as you know, this is how your layout in your application your software that you're developing the code base.
+16:36:03 I think that's good enough, you don't really need to know what exactly is a Python filter, you don't need to know exactly what is an event driven system.
+16:36:10 Right, so of course if you want such things you already have a basic understanding of what architecture means you can go ahead pick it up on your own in your workplace or in future modules that you may take and so on and so forth.
+16:36:22 But at least, to help you with the workload, I have reduced the topics The, the coverage of topics and the depth of topics.
+16:36:31 To the extent that you are benefited, but you're not disadvantaged. So when I say reduce the topics doesn't mean that you know I leave out a lot of important things so that you are still clueless when you step out of this module, that's not going to happen
+16:36:45 you're going to get all the things that are necessary to be a good software engineering intern in the middle concerned that's what is important right so of course you can learn a lot of new things before you start your journey into the, into the workforce.
+16:37:00 But before the water is necessary, you will have a coverage of all the things that I think over a period of time from interaction with the industry experts from older students and so on and so forth whatever is necessary, we're going to cover in this
+16:37:13 module.
+16:37:14 Okay, that's one part. The second part is lowered expectations on project I'll talk about this in in just a bit right so just keep this thought in your, in your mind.
+16:37:23 And the third thing. This time, I noticed in the primordial survey is concern or how beings are going to be fun in this, right, this is particularly, I suppose this is particularly from the CSM 113 cohort, because the, the T guys, you already have your
+16:37:43 team's form from 101 right so we will continue to use the same teams in two on one three.
+16:37:48 For those of you who are here on exchange or we're here from different faculties I do don't know if you can make friends we are friends you are allowed to form teams subject to certain conditions, one of the most important is that you should be in the
+16:38:01 same tutorial. Right. And you cannot form teams across the two things so forming teams across is not alone.
+16:38:12 Because from the school's perspective, these two are two different models from teaching perspective it's a model for me but from schools but perspective, they're two different models so I have to treat you guys as two different set of students.
+16:38:18 Then Then I went to report it to the school, but otherwise everything else is the same.
+16:38:22 Okay, so if you can't find friends or if you don't have friends or taking this module, you can always make new friends. This is a good opportunity to interact with people and get to know people and we will help you from teams and so on and so forth.
+16:38:37 So don't worry about all of these things so these are some of the things that should be least of your concern.
+16:38:44 Which which is your first journey towards you know reducing the stress in this module. Okay, so that's one one aspect. Now let's talk a little bit more on on the lowered expectations up front right.
+16:38:54 So if you look at the grid breakdown in this module so you, you get five marks for doing some of the administrative things. Why do you, why do I need to assign five max because I know from my experience in in us that unless there is some more allotted
+16:39:13 two tasks you students, I wouldn't say you but students in general, tend to ignore it. Right. I mean, he's okay fine he's not very important, but when I say okay you do this, otherwise you don't get your marks of course definitely you, you do those things.
+16:39:26 And from the perspective of running this module. These admin tasks are very important for me, for instance, there is a primordial server that's running on gloominess now which which ends tonight.
+16:39:37 Right, I, I need observatory need information about your GitHub username. So there are about, 14 of you who haven't still completed the survey, please go ahead and complete the survey, it's absolutely necessary if you don't then you can you can forget
+16:39:54 some of the math and the participation, right. This is the only reason why I assign max to these kind of admin tasks so most of the things that are things like submitting peer feedback, giving information, then completing some some of the small tasks
+16:40:22 and stuff. All of this count towards participation, of course, participating in the lectures and tutorials also upon for these things. But mostly, many things are covered by the admin tasks we asked you to do. The second important component is your individual
+16:40:25 project.
+16:40:26 Okay, we just 20 Max, so you have three parts. One is implementation your documentation and project management, we will talk about all of these things in in detail later, but this is the highlight right, or you.
+16:40:37 Then comes the team project which is 45, the major chunk of marks in this module is a team project. And of course there is an exam which is basically a combination of some insecurities and an essay, which is 30 bucks right so, but if you look at the great
+16:40:50 So, but if you look at the great breakdown. This one is a major chunk of this.
+16:40:54 And one of the most important things about the project is implementation or tracking code into the application that you're developing.
+16:41:02 But if you look at this, the implementation of your individual project. And in the team project, they have the same retention, which is 10 Max, which means to say, you don't really necessarily have to do extremely huge amount of work for the project.
+16:41:20 Because if you have this notion that okay if I, if I crank 4000 lines of code, then I get full marks. Forget about it. That's not how it's going to work.
+16:41:29 Right, so basically if you look at the implementation, and this is exactly the question that I'm going to be asking, towards the end of the module. When we are evaluating the projects, you see the options you have significantly less slightly less, and
+16:41:41 at least as much by design, there is no option which is greater than IP.
+16:41:48 Okay and IP is what this is a place where we expect you to learn things and do things so we don't expect you to write like extreme amounts of code in the individual projects that are tasks, each week you write code for those tasks.
+16:42:01 There are tasks, each week you write code for those tasks. Each week, incrementally in small amount. And then there you go, right, so this is basically what I'm talking about when I say lowered expectations for your team project, even though a majority
+16:42:13 of the marks is assigned to a team project, in terms of the coding work that you need to do, which is generally what stresses out students a lot. You don't really have to do a lot, as long as you can do as much work you did for it, IP which means roughly,
+16:42:26 you continue the same kind of effort stream throughout the semester, then you're good to go. Right. But then, the thing is this, you just because I said okay you can, you don't have to do too much coding work in the in the team project does not mean you're
+16:42:46 not just writing some small amount of God in anyhow will get you all the marks for the project. Right, so you need to do things right which means you need to look at all other aspects which is the coming up with the design the documentation testing and
+16:42:59 project management. Okay, I'm not related to project management right so this essentially sees how, how much your plan how do you execute your plan and so on.
+16:43:08 So if you think, like, Okay, the first four or five weeks I don't have too many things to to do in the in the in the semester. Let me cut up all the things that I think I should do for the team project now and then be happy in the later part of the semester.
+16:43:24 Be assured that your project management Max is going to suffer. Break, so I'll talk about why this can happen in in in in another slide later on, but essentially you need to keep up with the tasks you need to keep up with the pace you need to plan and
+16:43:40 deliver accordingly.
+16:43:42 So, that is the part where you have to do it right, when I say do it right, those are the things you need to come up with a proper documentation, you need to do some reasonable amount of testing you need to do good project management and so on.
+16:43:54 So combined all of these things will give you a good max but just cranking code because you think okay fine right like 10s of thousands of lines of code.
+16:44:02 Then I'm going to get good marks in this module. That's not the way it works. That only adds to your stress and I don't want that to happen. Okay, so that's the reason why I said, you don't have to do more, but you're to do it in the right way.
+16:44:15 Okay, somebody raised their hand on zoom, so my know, what's your question, please unmute and ask
+16:44:24 sorry I said he is my head.
+16:44:26 No questions. Okay. Oh, no worries. So yeah, this is about how you can, how you can take this module, in terms of workload and stuff.
+16:44:46 like a couple of weeks. Once you get the hang of it I think you are good to go. So roughly any other forums you model in us, how much of a work you need to do. As long as you put in that much amount of work.
+16:44:54 It's good. Another important thing right for you guys, I'm teaching like three models this time but you guys are reading exactly twice the amount of modules.
+16:45:02 So, which means it doesn't make any sense to spend like half your week or like five days in the week on this module, you need to spend as much amount of time you budget that okay I'm gonna look like 10 hours or maybe followers if you think you need more
+16:45:14 more time to pick up on some of the things that you don't know.
+16:45:18 And just stick to it. Don't you know, just because this one has a core project, it has a coding component.
+16:45:27 I don't think it's fair for any other module and fair on yourself as well to allocate a lot more time on this module than than any other forums he module that you are going to read.
+16:45:38 Okay, So that's something that you need to keep in mind.
+16:45:41 Okay.
+16:45:42 Um, the second part of information, or a question that I want to say is eaten Mr. There are some changes that are happening in the, in the way I deliver the modules, sometimes even in the topic coverage, and so on and so forth.
+16:45:56 Right. So, whatever your tutor say or your senior say may not be hundred percent true to this version of the module, right. So, if there is some doubt is better you clarify it with me rather than clarifying with clarifying it from your tutors because
+16:46:15 they might tell it based on their experience of what was two on one three when they did, but it could no longer hold true right so in that reason in that light so you, it's better to clarify things from get clarification from my end rather than family
+16:46:29 from your seniors.
+16:46:31 Okay. Another common worry is that this module has a lot of work. It has a team project, which is a big chunk of score and I might not get a good grade.
+16:46:42 Right. The good news is that regularly.
+16:46:46 40% and slightly over 40% of the class will end up in a bracket which is a minus number, which means it's not very hard to get good marks in this module.
+16:46:55 On the other hand, you need to be a little careful right.
+16:46:58 If you are not doing things in the right way which I mentioned earlier, even though you might have done a lot of work for this module, you can get unexpectedly Lomax, so be careful.
+16:47:08 Right.
+16:47:09 The usual trick of the trade which is like okay exam is one week away I'm going to sit cram everything and then I'm going to put everything on the paper and be done, does not work.
+16:47:28 I'm optimizing your time to say okay I'm going to do all things now so that I'm free later on, does not work. Right, so you in some way i can i can admit that the activities are organized in such a way they already are roughly equally loaded each week
+16:47:39 so you cannot do much more things around you cannot say okay I'm going to do now and do don't do later I don't do now I do later, it's going to hurt you in terms of the max, in terms of the learning, you can still probably do it but in terms of the max
+16:47:53 it's one of her to at least a little bit if you are non optimal and following the should do.
+16:47:58 Okay, so that's, that's another concern and and the resolution that that I want to highlight to you. I, you don't have to really worry about getting good marks you do get good marks in this module, except that when you try to do some things very smartly
+16:48:14 like, you know, smarty pants marks, you might end up with low grades. Okay, so just be aware of this.
+16:48:23 Okay, so how do you go about the learning process in this model, I mean I think some of the things I told you might have scared you nothing to be worried about.
+16:48:33 So typically what do you have you have weekly topics to read and you have weekly tasks to do right so these are basically the topics that you're going to read in week two, and these are the tasks that you do correspondent the topics that are that okay
+16:48:45 admin admin tasks are some something differently. If there is something to be done in the admin side you have to do it I mean there's no no discount, I would say, right.
+16:48:55 So, in terms of the technical content that you learn.
+16:48:58 These are the topics that you're going to do and these are the tasks that you're going to do. So how do you go about doing the task. The approach would be this you need to learn the topic that is covered in the week.
+16:49:09 If you do that, you should be able to do the tasks that are allocated for the week. Right. Um, it's better to follow this route where you learn the topic and do the task rather than the other way around.
+16:49:22 I mean you pick up the tasks then you learn whatever is relevant right.
+16:49:26 That's not the most optimal. Because one of the things is this doing something, does not mean you learned all the topics that that are associated or all achieve all the learning outcomes that are associated with that particular task.
+16:49:40 Right, so they, they might not cover all the topics that's one thing right so there are you if you see they're like 10 things in the topics List for week two, and they're only four things in the in the project that you're going to do.
+16:49:52 I told they don't cover all the topics, always. That's one reason you might miss out on certain topics if you just focus on the task to achieve.
+16:49:59 The second one which is a more sort of important one is this, there are different ways in which you can do certain things, say for example in the IP you're going to do a task manager sort of an application.
+16:50:11 And I'll ask you to do three different kinds of tasks right so I wanted to do and even a deadline and, and, and whatever a normal to do item. Right.
+16:50:22 So one way to do that is basically create three different classes and implement it such that you have one class per event one class per deadline one class for to do.
+16:50:31 And your application works you you achieve the task of creating three different types of tasks in the task manager publication.
+16:50:40 But the whole point of doing that exercise in the right way was actually, to learn and apply inheritance in op, right. If you didn't do that if you just created three tasks, your program works.
+16:50:54 Your, your objective of grading three tasks work, but the learning outcome that is associated with that particular activity is lost.
+16:51:03 And that's the reason why my suggestion, very strong suggestion is not to pick up the task and work your way backwards. Don't don't start from a task and then don't go this direction of topics.
+16:51:17 Right. Don't don't do this.
+16:51:19 This is not optimal for learning.
+16:51:22 Right. This is optimal probably, if you slacked off, you didn't do anything and you are around the deadline, you want to just finish that thing, because you want a tick mark and you want to account for that particular week, only for that reason, this
+16:51:35 is optimal which is anyhow not optimal learning right so so don't don't follow this approach, the ideal route would be to learn what is necessary, you do, do the tasks corresponding and then you will have a whole some experience of learning software engineering
+16:51:51 in this Monday.
+16:51:53 Okay, I see a question on the chat I'll answer that a little later. Okay.
+16:52:00 So, the advice given to you based on my experience or so many semesters is this don't don't jump ahead. If you think you have enough time and you want to do things so that your future weeks are going to be free.
+16:52:20 My suggestion is you use that time, take sufficient rest, get some good sleep, pursue a hobby or whatever. Okay, or if you think okay I don't want to do this I'll feel guilty let me put an effort into modules are tied to hone your current knowledge and
+16:52:30 and make it perfect. Rather than trying to do things in the future. Okay. Of course to do this. You shouldn't fall behind this is a given. I don't have to talk about this.
+16:52:39 You can only jump ahead if you have completed all the things that we are supposed to do now, right. So, which means don't fall behind both of them are not optimal right falling behind is not optimal going ahead and doing future tasks is not optimal as
+16:52:51 well.
+16:52:52 Okay, so that's another piece of advice.
+16:52:56 So in the module itself we are going to do two projects. In fact, if you're wondering why am I talking about all these things, I think this is absolutely important to give you a context of how to go about this module, technical things are there on the
+16:53:08 website.
+16:53:10 If you don't want to listen to me about the technical aspects you can just go and read the website and so on. But these are some of the things which I've gathered over these many iterations of the module so I think knowing these things are very important
+16:53:23 in having a nice easy and an enjoyable learning experience. Yeah, right.
+16:53:30 If you're here by force, then at least, knowing all these things, I mean it's like you know annoying the monster is going to make the pain less and kind of a thing right so you know what exactly is there, then you can basically work your way around.
+16:53:42 That's basically the idea.
+16:53:43 Right, okay. In the model itself. I'm going to be doing, or other you are going to be doing two projects one is the individual project. And the other one is the team project.
+16:53:53 make sure your individual project starts now. Until Week Six, seven, sometimes eight for the final evaluations and stuff. And then your team project will start like a week later or a little more than a week later and then you continue to do these things
+16:54:07 in the individual project you're mainly focusing on learning Java learning op how to use object orientation how to design your code so that it's Oh, how to use the IDP.
+16:54:23 How do you do version control using Git and GitHub. How do you write good quality code, these are all the things that you will learn while doing individual project and, and each of you will do this, I mean that's the reason why it's called individual
+16:54:30 right. Each of you should do all of these things. On the other hand in the team project you're going to learn about things which are in the broader sense of software engineering important things like, how do you work as a team properly.
+16:54:43 What are the means of communications you have what are your workflows, how do you how do you manage writing the test how do you manage working on all the requirements that the project has all the software has, how do you document your experience how do
+16:54:57 you document the technical aspects of the project on all of those things. So, essentially, if you look at it, both the project sort of have slightly different focus of course in the project you do all of these things you write code you do you use Java
+16:55:12 Java you use op and stuff, but to prepare you for the team project you have done all these things in the IP so basically you're, if you look at the activities, the core part of the team project only starts somewhere here week seven.
+16:55:27 Until then, all the things are basically trying to get ready for doing the doing the team project. Right, so, so use the timeline. As such, this one, there is no court.
+16:55:43 And this is all the implementation.
+16:55:40 So, when you're doing these two projects which are two different focuses that the smart thing to do would be actually focus on what exactly you're required to do that.
+16:55:51 And that will sort of allow you to manage your time and effort and so on and so forth.
+16:55:58 Okay, so, since we are covering all of these things are actually in fact if you look at this all these bullet points are the things that we cover in this module.
+16:56:05 How do you cover the topic.
+16:56:08 What order should you go or what what other what order Should I go to teach you the topics. I told this is one question that we need to answer before we answer that let's look at some different ways to do software engineering.
+16:56:23 Right. So, typically a software development process will involve certain activities, finding out what the software should do is requirement analysis, right, then you design what the product should do, then you could it up you implement it, you tested,
+16:56:40 then you deploy from from this product from this modules perspective, your deployment is basically your final submission. Right. So this is one way of doing software development, which is a linear, you, you take one activity you completed to take another
+16:56:54 activity completed to take another activity, so on and so forth, until the end where the product is available product is ready.
+16:57:02 Right. So, these different ways of doing software engineering is basically called a software development lifecycle software development lifecycle, as DNC ways are different ways of doing development of software is software development lifecycle, what
+16:57:17 I just told you here in this particular diagram is what is known as sequential development, you pick up one task you finish that you set you pick up the second one you finish that you, you go on in a sequence you go with the flow.
+16:57:29 So this is a sequential approach. What are the advantages of sequential approach for software development, they are very clear, you know what exactly you need to do in each phase or in each task or each activity as whichever you call it, they all the
+16:57:42 same.
+16:57:43 So it's very clean you're exactly what you want to do, you just do it, and then you're done. It's very systematic as well so first you have to gather all the requirements what the software should do everything is in place, then, to do all these things
+16:57:54 is a proper design. This is how I will organize the code. This is how the interactions happen. I'm going to do the design. Perfect. Then you take that design you implement your idea Java code for that perfect right so it's very systematic.
+16:58:09 I, because it is so systematic you would also need that these tasks are fixed beforehand, right. So, once you know what you're supposed to do, which means you develop the idea of what you want to do, and all your producers do it like to eat very clean
+16:58:25 and systematic and all the things should be fixed.
+16:58:31 Unfortunately, doing so is not very easy.
+16:58:35 The simple reason is you don't know everything before hand and you can't estimate there for you let's assume that you thought okay, today's two or three days to implement this particular feature in the project, you realize that you can do all the things
+16:58:47 yourself and you want to incorporate a library you want to use some external tools or libraries to do that. You didn't account for that time, you only thought okay, I want to I want three days to implement and that was your plan.
+16:58:59 But you didn't know that there's a monster behind which is the library that you want to use you want to learn how to use the library, what are the interfaces it's providing you.
+16:59:06 What are the functionalities you can extract out of that library. How do you make your software work with this library in the first place. All of these things, you can distribute those things right so you don't know, and you can't plan for it before I
+16:59:18 go, whoops, there's a typo.
+16:59:21 What if, let's say after doing certain things you realize oh, maybe we should include this maybe we should not include these things, which means your requirement changed.
+16:59:31 You can't account for all of these things. Right, so sequencer development on paper is a very very nice way of doing software engineering, but in practice, it is successful you, you are not going to get too far if you're doing a sequential development.
+16:59:46 Right. Typically, in most modern software. Of course there are software which benefit a lot by sequential development we will talk about that later in the model as well.
+16:59:55 But in general for the kind of regular software that we see are we encountered in our day to day life sequential is probably not the best thing to do.
+17:00:11 So what is a better way to do better way to do is basically iterative development. Right. Which means you develop product in cycles.
+17:00:16 You start with something you implement that you have the first version of the project.
+17:00:27 Okay, maybe this is like a bare bone walking skeleton version of this project, you you want to let's say you want to read something of the file and then you want to print it that's all it is doing but yes, it is doing that job.
+17:00:32 Then you give it to the consumer. Let's see how he uses or he or she uses it. You get some feedback, and you build on top of it okay you said okay I want to read it from the command line and printed now I want to read from a file.
+17:00:45 Okay, that is your version two, you are building on top of the functionality that you already have redone print, but you're reading it I was a command line reading from a fight.
+17:00:54 Now you want to read from a database Okay, good, you have any other feature and so on and so forth to implement all of that. Finally, you have the final product here.
+17:01:02 Right, so this is what is called as it development.
+17:01:06 What is the most important feature of this it to development is it accounts for the feedback from what you've already released, you did something, you get a feedback from the stakeholders, whoever is involved in maybe the development usage of the software
+17:01:20 designing everything. You get feedback you incorporate that feedback, and you have all you add more functionality is to this particular version that you already have and you develop a new version.
+17:01:30 If you look at this iterated development right, it, it again looks nice, in theory that you're building small portions of the software into, and making it bigger and bigger.
+17:01:40 In each iteration, except the fact that it's harder, because you have to do the same thing over and over again, every time.
+17:01:48 It's repetitive, all the processes that you follow in doing one iteration you follow the same processes in doing the second iteration as well, right so it's repetitive, but by doing this what you achieve is that you'll get a better software.
+17:02:02 You get a better quality software, and it's closer to the requirement that those the customer wanted and the chances of succeeding is much higher than what would have been the case if you develop the software using a sequential approach, right, because
+17:02:18 of these reasons, we want to follow this iterative approach in in developing your project so both IP and TP we sort of following it to approach, like.
+17:02:30 So, this is a different way or these are different ways of doing sequentially, you either do each of the step one after the other, or your do all the steps in bits and pieces and you iterate through many times and do a one, right, So what we said is this
+17:02:44 is a better approach, and we take a cue from this from the ways of doing software engineering and sort of, I also use the same approach to teach software engineer.
+17:02:55 What we do is essentially iterated topical rich. Okay, we, you have certain tasks to do each week that you saw that you saw the screenshot in the of the website you have asked to do what I will do is cover topics so that you can achieve each of these
+17:03:09 tasks sufficiently well enough, right. So, I will teach in the lecture or the organization of the topics and the lecture is so that these topic is to help you achieve the tasks that you're supposed to do.
+17:03:30 Right, which means we are not going to do requirements first design first implementation testing documentation and so on.
+17:03:30 Right, what we do is we call it bits and pieces of each, and your learning journey would probably look something like this very haphazard going here and there, jumping all around the place may not make sense to you initially is fine.
+17:03:40 Just keep in mind that this is done such that, you can do the project, you can effectively learn whatever you're trying to do and do the project to the task.
+17:03:50 Right. And maybe after week six seven or even week eight sometimes you just take a step back and see what all you have learned all of these things start falling into a place right so you can think about this as like a jigsaw puzzle, where you have various
+17:04:03 pieces you start putting pieces somewhere together, you start seeing it from small pieces us taxing entities that maybe there's a ball, there's a cloud there's, there is a road, whatever you are studying putting putting all the things together and towards
+17:04:21 the end you see that you have one cohesive nice picture of of maybe a kid playing in the, in the park or playing by the road, or whatever, right. So, your learning journey in this model is somewhat going to be like that.
+17:04:33 It might look very vague, it might look very haphazard, but Fret not fear not. This is done by design.
+17:04:40 Towards the end of the modules.
+17:04:42 In fact, you're going to go all the way today towards like middle of the module start realizing that oh these are the things that we did this is how it evolved.
+17:04:51 So now I know all these things are in the process. I've also developed certain things which are useful.
+17:04:56 Right. So that's how we will do the topic coverage. Okay, so basically the same principle of doing software engineering or developing software I used to teach software engineering as well.
+17:05:06 Okay, that's how this module is going to be taught in the semester. In fact, it's been the case for like a while now but that's exactly how it's going to be also.
+17:05:15 So, by the way of topics we just covered even software development model is DLC process models.
+17:05:21 Right. So, this is a good time for a break, it's about one or two minutes since I started.
+17:05:28 We will take a five minute break and then we'll come back. In the meantime, I'll just see if there are any questions on archipelago, or on the check, and I will answer those questions, feel free to unmute and ask if you have more questions.
+17:05:41 So there is a question on the chat, which I said, I will answer later, the website says there is no bell curve for the project.
+17:05:49 Does it mean, there is no bell curve for the whole module or the bell curve is separate.
+17:05:54 Okay, this is one of the questions that don't like to normally answer, but because you know, I mean, the first question that needs to do to last because this
+17:06:04 is there a bulk of how will I get affected, what is the way my way to optimize if you if you try to optimize your, your learning, so that you can you can, as the bulk of them probably are learning is going to take a hit.
+17:06:18 Right. So, one of the important things is this, like I mentioned in the website the project definitely doesn't have a bell curve.
+17:06:30 You will get what all you have done so there is no curving involved in that. But overall, if you look at the module I really don't have to worry too much about fitting the curve.
+17:06:37 But overall, if you look at the module I really don't have to worry too much about fitting the curve. Because of the law of large numbers. We normally end up with the bell curve anyway. Right, I don't, especially go ahead and go push poll, we can do all those
+17:06:49 things to to enforce.
+17:06:51 But, naturally, there is a naturally there are great cut off so you will get differentiated grades, right, so that's how it is possible to fail. Um, well, Honestly speaking, it's very hard to fill this module, you'll need to put extreme amount of effort
+17:07:08 of not doing anything to fill the module.
+17:07:11 As long as you do some things.
+17:07:15 Every week as long as you exhibit progress. I think it's very hard to fail the module, you can get low marks but failing is actually quite hard, like, okay, will the slides be released to us afterwards yes the slides will be released.
+17:07:34 Afterwards, like I mentioned in the announcement.
+17:07:36 Okay.
+17:07:38 So there's someone who's raising your hand. can you go ahead.
+17:07:42 Okay. Yes, I want to ask you, Chris not team project at all what kind of project Do you expect from us like we have to connect and databases are like no no databases, so So this module is all about software engineering and Co Op.
+17:08:01 So all the things that I want to to develop will actually only follow object oriented programming.
+17:08:07 In fact, this information is there on the website and I will talk about it in a future week when I'm talking about the team project, more in detail. Right.
+17:08:15 One important thing is this no databases, loud. Why, because you can achieve all the things that we asked you to do using a database very easily, but the whole point of learning hope is lost.
+17:08:27 So, even though you can do efficiently certain things we force you to do it in the old way object oriented way, so you can get frustrated, but it's good frustration, you will end up learning will be better.
+17:08:38 Like, that's how it is
+17:08:41 Okay, thank you. Okay, no problem. So is there anything on archipelago, no questions. Okay, so feel free to ask questions on archipelago, particularly if I have walked past the topic that you're interested in and you still have a question, you.
+17:09:01 I don't assume chat so much sometimes because it has failed for me a couple of times, not much but a couple of times but it still leaves a bad taste so important questions any if any, please Oscar on archipelago.
+17:09:13 Okay.
+17:09:28 Can we choose our grouping.
+17:09:31 Um, it depends into on on you already have a grouping, I don't know how you did the grouping we live it to the two on one lectures to 113, roughly, okay.
+17:09:42 You can choose the grouping roughly, subject to certain constraints. Right, the basic and most important constraint is that you're all in the same tutorial group.
+17:09:55 So talking about the tutorial group for the two and three guys I sent an announcement early in the early last week that we're going to close one tutorial session.
+17:10:05 It turns out that in the last couple of days I have way too many enrollments for that announcement is your. Thank you for your participation in the survey, but I'm not going to use it anyway.
+17:10:14 All tutorials are there, so is unfortunate that I had to ask you and then it doesn't make any sense now.
+17:10:21 But we have sufficient number of people to Mont all the tutorials know.
+17:10:27 So exchange student not sure how you should join a team.
+17:10:31 We will talk about it in the tutorials in victory. That's when the first tutorial happens. The first thing we will do in victory is basically information.
+17:10:49 So if you don't know anyone it's as good as forming random team right so you just assume that it's going to be
+17:10:49 okay. Five minutes up, let's resume the lecture.
+17:10:54 So what I just spoke about here is that this is how we are going to cover the topic right jumping around all over the place and so on. So, which means, if you're if you're reading it, or reading between the lines you are sort of true.
+17:11:12 You are going to be going around in circles. Right. So how do you manage this how do you manage all these jumping around topics and how do you keep an idea of keep track of what's happening.
+17:11:23 So for that you have the module website. Right. Usually, I go to a demo of the module website but generally the participation, or the attention span is very low.
+17:11:35 so this is just a screenshot this time. So what happens is, each week, you have a summary of all the things that you want to do. Right. So these are the topics, you're going to learn in week two, and these are the tasks in the project and admin things.
+17:11:50 This is a summary, in overview, right, then you have different tabs admin topics project and Korea, right. So, each of them give you sufficient amount of information in fact it's very detailed, I wouldn't call it sufficient it's actually detailed information
+17:12:04 on all the things that you want to do.
+17:12:06 Okay, so this is like your one stop shop for doing all the things in the module.
+17:12:14 Please follow the model website very closely. Okay, another sort of caution is this certain things might be volatile so whatever is the week published so right now week two is published right is is accurate.
+17:12:29 Anything in the future might change Okay, it might change a little bit.
+17:12:34 They're not be any drastic changes but it might change a little bit. So, the future weeks use it in your question. So,
+17:12:49 okay, a question about future weeks. Whatever is published is already fixed whatever is not published could change a little bit okay that's that's the thing.
+17:13:01 What are the stars behind the topic so that's a good question. So essentially your star rating system allows you to look at what you should focus on anything that is one and two stars are absolutely necessary if you if you skip the one star topics you
+17:13:16 might fail the module. That's how you create it. Right.
+17:13:19 One star is absolutely basic absolutely necessary to start build something on top of one star topics, fairly important three stars are nice to have you, you cover three stars topics, you can potentially get an A, a bracket.
+17:13:35 If you do all, all the topics one two and three, and do the project in the reasonably correct way you can end up being in this one.
+17:13:42 If you do just one or two roughly you can assume that you get a be ish, kind of a score.
+17:13:48 If you don't do all the ones as well. Well, there is a possibility, like I said you have to put extreme effort to fail so this extreme effort is you know looking at the one star and and saying, No, I don't want to put, that's the moment where to go.
+17:14:02 So that's what the one star two star three star topics are there are topics which are four stars as well, but those are not examiner.
+17:14:14 And you can see that in the textbook that those are four stars in terms of project and again also we follow the same star rating. One star topics you need to do you need to follow, two star is good if you can do all those things, it is still sort of necessary.
+17:14:29 Three is being diligent for is like very extremely interested quite into. So that's how you pick the stars.
+17:14:36 Okay, So to avoid going in circles follow the website.
+17:14:40 If you think the website is not giving you all the information you want in one one coherent view.
+17:14:47 Then you go to the textbook tab on the remedy website. This has a list of all the topics. Okay, if you click on this, you'll get one huge video file, which you give me time until week three right so i will finalize everything and I will release a PDF
+17:15:03 luminous You don't even have to do this. That is all the things that you're going to learn this module, this textbook, the PDF version, what you have is all the things that is good that you will be learning, plus that you will be examined on.
+17:15:15 So what is the difference between the two. If you click on these topics each of them expand if you click you have all the four star topics as well. Right, but the PDF version will have only one, two and three stars, which means all the exam number ones.
+17:15:28 It does not have information on the foresight only the topics are listed it's not know details will be available.
+17:15:34 Okay. So, similarly for the admin info you have all the admin info in one place. But if you go on to read, you know, you start at the top and then you go all the way and read everything, you will be worried for short, either in the textbook or in Darwin
+17:15:49 info. So the easiest way is to basically follow this one. You see the tabs here, the admin topics project and tutorial, all of these are basically extract from the admin invoice extract from here.
+17:16:02 Topics is extract from the textbook so it's actually the same information presented in different way.
+17:16:07 Okay, so that's how you should make use of your textbook.
+17:16:12 OK, so the textbook has, or rather the model website has a detailed instruction and detailed information, please follow them it's very, very important.
+17:16:22 Okay. And if you have any doubt, please ask him the forum, why in the forum.
+17:16:26 Because my response could be beneficial for a whole lot of you not just you.
+17:16:30 So, refrain from sending one on one, emails or one on one chat messages on ms teams to ask, Is this okay, how much is this what is these.
+17:16:43 Should I do this should I not do this, those kind of questions.
+17:16:45 It's likely that many of you would have the same kind of questions. So, any answer that I give will benefit everyone, so please use the forums. And by the way, this is not luminous forums.
+17:16:58 Okay. Please take note, we have our forums on GitHub, which is like an issue tracker.
+17:17:04 Please ask on that issue tracker, I have not been able to forums on luminous in one of the past iterations I had a student who complained to me towards the end of the module that I didn't even know I mean I wanted to ask so many questions but the forums
+17:17:17 was not even active on luminous. I make this disclaimer every week, every every semester in the first lecture that I don't have a luminous from our forums is on GitHub.
+17:17:27 It's an issue tracker that we use as forums please use that one. Okay.
+17:17:31 So just to recollect all the things to help you manage this module, these are the five things that I covered the key to things as this. Don't jump ahead, or not worth it, and follow the instructions.
+17:17:43 Okay.
+17:17:44 How does your week look like in this module.
+17:17:48 So, your week starts today so week to start today week one is already done okay your week two starts today after this lecture, these lectures from next week on words are going to be highlights only kind of a lecture, I'll tell you why.
+17:18:00 Okay. Then we will do some hands on activities and stuff like that, after the lecture you read and learn the topics you do the exercises or quizzes as the case may be.
+17:18:10 Okay, like like there are some weeks where you have both coding exercises and quizzes, for this week. There are no quizzes it's it's coding exercise, then do your project, and whatever is required in terms of admin tasks, attend the tutorial.
+17:18:25 And then comes on next week's lecture and then so on and so forth. So that's how your week cycle is there.
+17:18:30 So, in fact if everything is there on the model website. It's a very valid question to ask, why should I come to this lecture, feel free. I mean, the lectures attendance is not backed by anything, but there's a caveat, right, there's a catch.
+17:18:46 We do certain things in the lecture like lecture quizzes demos and hands on activities and stuff, which indirectly will affect your participation. Why indirectly.
+17:18:57 Let's say, for some reason, you didn't get five on five for participation. But you you attended the lecture you attended the quiz questions you did the hands on activities and we have a record of all these things.
+17:19:07 So I will boost your marks in the participation like this and many students have benefited from doing this, right. So, in your interest. I also when when you're doing hands on activities I talk a lot you would have noticed by now right I talk a lot I
+17:19:20 give you a lot of information.
+17:19:22 Sometimes they are beyond the textbook sometimes that good practices, you will you will gain some kind of nuggets of, I don't I wouldn't call it nuggets of knowledge but nuggets of my experience as as a software engineer and talking to people in the industry
+17:19:38 whatever I've learned.
+17:19:39 These are not there in the textbook we're not really a part of the learning outcome but eventually these are all sort of hopefully going to help you become better software engineers better in the internship better in your workplace.
+17:19:51 So you do gain something out of coming to the lectures. But if you don't want to feel free the lectures are recorded.
+17:19:58 You can go watch the webcast later if you think I'm too slow, you can watch it at to expand and do whatever you want right so even though it might seem efficient.
+17:20:08 I would encourage you to attend the lecture for one.
+17:20:11 I really love to have an audience when I'm talking, right. So, I would really like it if we're all sitting in our lecture theatre I can see you and then I talked to you back my only see your name, some of them and then I see the camera and the screen,
+17:20:23 but at least I know that you're that because I can see your names I know that you're all there. And I would love it for you you do take away something useful from the lecture so please attend, or rather I would say you're encouraged to attend.
+17:20:35 Then, Well the choices. Yes.
+17:20:37 Okay, I'm definitely like I mentioned earlier, don't start from the tutorial or the tasks that you want to do and start to look at the topics.
+17:20:49 It's not beneficial it's not going to benefit you for the reasons I mentioned earlier. Okay. Another common thing that can happen in this module is this your IP, which was the initial initial project which covers these kind of things may not be off much
+17:20:58 value to you why because you did 2030 or if for instance when you would have done probably a software engineering class earlier, you would have covered certain topics, it probably is not useful for you.
+17:21:13 Okay.
+17:21:11 Treat it as a necessary evil, do whatever is necessary as a refresher.
+17:21:16 Do the minimal work that is required for completion and be done with it. Right.
+17:21:21 Don't look at it in a condescending way because it's there to help a vast majority of you, not the few who know all the things, but you are here to see what is this guy is going to teach me, Dan, I know.
+17:21:35 If you're here with that intention, I'm sorry I might disappoint you. This module is not catered to what some of us in the faculty classify as elite, I mean you either you know things by doing you know things by our experience or you have learned all
+17:21:49 the things ahead of time. And you are here.
+17:21:53 You might be disappointed by this model, I'm already going to say this. Right.
+17:21:57 But now that you are here anyway, try to take as much as possible away from you and enjoy the module as much as you can. Okay.
+17:22:07 Any questions so far.
+17:22:10 No, I didn't cover about office hours. Yeah. Okay, so let's talk about it in the in later in the in the lecture.
+17:22:18 Okay, the programming language that we use in this module is basically Java, why it's one of the most effective object oriented languages, it's a well established and mature language, which is fake.
+17:22:31 So, you will learn a lot about how to write good code by simply putting in Java in the first place. Okay. Second thing is Java is used in big enterprise systems, which could be, you know, another disclaimer is, if you hear people who have done their internships
+17:22:50 in recent times after doing this module, you could get a feedback saying this module sucks it doesn't teach you anything required for the internship because it doesn't cover JavaScript or TypeScript or whatever whatnot.
+17:23:03 Well, it's not catered for that. Right. So, we are trying to learn how to write good software, the knowledge that you gain here in terms of how to write good software are applicable everywhere except that you don't see tangible things right away when
+17:23:17 you go to an internship, possibly, why because the current landscape of job opportunities and internships in Singapore, especially is mostly solving various problems using web applications in some way or the other, either a mobile application or web application.
+17:23:32 Unfortunately we don't do both in this model.
+17:23:55 We still focus on methods and principles and practices for developing large software in large companies, so if you go to IBM for your internship, you probably would feel this model is more relevant than if you go to shopping for intention.
+17:23:52 Right, so that keep it in mind.
+17:23:56 Even though you might get feedback saying this party will not really useful from a workforce, possibly to in the in the in the near end, but then we have had numerous students or have taken our software engineering modules, come back after like four or
+17:24:11 five years in the industry and tell us, oh my god whatever we learned here is so amazing.
+17:24:15 I don't really need to prepare anything I'm, I feel that I'm already ready for all the things that is thrown at me in my office in my workplace. Right, so it's going to be useful.
+17:24:27 You might not see the benefits immediately, but this knowledge is going to help you in the long run in New York's of things in in Korea. Okay, So that's the thing.
+17:24:37 So to give you an idea of what a quiz would look like an intellectual quiz. So I have this question on Poll Everywhere. Please open your Poll Everywhere now.
+17:24:49 It's time question you have one minutes.
+17:24:49 It's a simple administrative poll, it says to check if you install Java, 11, and you tested that it works. So to test it works. You don't have to code.
+17:24:58 As long as you wrote Java minus version and then it shows Java 11 then you're good. That's what is testing in this perspective.
+17:25:04 Right.
+17:25:06 So if you have done this much then you click Yes, I mean both of them installed artistic. If not, click on not yet I will do soon.
+17:25:25 If not, click on not yet I will do soon.
+17:25:43 Yes, if you saw open JDK version 11 point 0.113. That's the question yes you can click yes here.
+17:25:53 Oh, time's up anyway.
+17:25:55 So let's see. How's the response
+17:26:01 speech.
+17:26:02 Okay, 70% of you say you're done, which very nice for the rest of you please do so soon. Right.
+17:26:14 Now, let's see what exactly happens in the, in the module from next week on words right.
+17:26:19 So this is a topic that we are going to learn now how Java works, that's basically the topic. What I want you to do is go to luminous. Okay, let me let me open luminous for that luminous luminous.
+17:26:37 Our beloved luminous on.
+17:26:43 Okay.
+17:26:45 So, in luminous on the left side, if you go to multimedia, you will have a channel called video snippets.
+17:26:52 Right. So, you go to Video snippets each week as organized as a folder based on the feedback I received last time.
+17:26:58 So you will see a week to folder. You see this tiny thing called week to click on that, you will see a bunch of videos, what I want you to do is, basically, watch these two videos which has Java 0102.
+17:27:15 Okay, it's about five minutes I'll give you exactly five minutes from now watch those videos, and you click yes on zoom once you're done watching, I'll zip up until the next five minutes and I let you watch it.
+17:27:29 Okay. Please go ahead.
+17:32:02 So how's it going, it's close to five minutes.
+17:32:46 All right, let's resume the lecture, I suppose. One of the things I discovered last time when I did this exercise is that zoom will automatically eliminate the reaction after a while.
+17:33:00 So, even though it was 26 I assume for a period of time at least about half of you are more than half of you have completed watching the lectures, watching the videos.
+17:33:10 Okay.
+17:33:13 So, moving ahead.
+17:33:29 This is sort of what will happen in the next week onwards, we will talk about it in just a bit. By the way of topics we actually covered on the introduction to Java in among these videos. Okay, based on your watching these videos, please answer this question
+17:33:33 on Poll Everywhere now.
+17:34:24 Professor.
+17:34:26 I cannot just join the call right now because it says this polar account has not been registered.
+17:34:38 How did you use your email to login.
+17:34:41 Yeah yeah I use my, it should I can.
+17:34:46 I couldn't answer the first question.
+17:34:49 Okay. It could be some session issue, just refreshing the page would help, but unfortunately right now. The poll is complete, so I don't think you can do anything about it now, just refresh the page, and then in the next question you should be able to
+17:35:06 login, you should be able to join.
+17:35:10 Okay, let's see, what do you think.
+17:35:17 Okay, so this was sort of. Quick question if you can call it the reason is, if you noticed in the videos Java is both combined, you write source code in the, in the text form which is the compiler, which is true, which should be combined.
+17:35:31 And then the JVM picks up the compiler plus files, and we interpret on the machine. So it needs, but it's actually both a compiled as well as an interpreted language.
+17:35:40 Okay, so that was about what Java is another more admin detail that I need to talk about as a mode of delivery right so basically the lectures and tutorials are fully online and will be conducted on zoom we will give you the links to your tutorial zoom
+17:35:58 session soon. once I've finalize the teaching team and stuff like that.
+17:36:03 We will create the zoom links for you. And of course the lecture link already have you already here. Right, but the exam is going to be a second some of you in the primordial survey mentioned that you may not be available during the exam time for whatever
+17:36:17 reason, I suppose your reason may not hold. Because unless you are impacted by covert that you are not allowed to return to Singapore. I don't think the school will make any exemptions for people who are not here for the exam.
+17:36:35 So if you have any plans, please defer it be here for the exam. Finish your exam and then go back, wherever you want to go your hometown or holiday or your internship or whatever.
+17:36:47 Right, So please take note of this detail, your exam is going to be face to face it in, it will be on campus, probably in one of them multipurpose halls.
+17:36:58 I don't know where exactly but the venue, but it's going to be a sitting exam, right.
+17:37:02 So please take note.
+17:37:04 So what will happen from next week on words, is this, I will release these kind of videos by Wednesday.
+17:37:10 You watch the snippets and you come to the lecture, either you watch them or you look at the topics beforehand and you come to the lecture before that.
+17:37:18 If you have questions you can ask on archipelago as soon as you enter the session, I will clarify your questions and doubts in the lecture, what will happen in the lecture itself is going to be short on content, which, but unfortunately for you shot on
+17:37:32 on content does not mean a short lecture right, we will do a lot of hands on activities and if you have any questions we can have some consultation sessions in the lecture directly.
+17:37:41 Okay. If you really need group consultations for project matters I would really prefer you talk to me as a group, rather than as individuals. Okay, or if you need some very specific individual consultations do drop me an email.
+17:37:55 If I set up consultation time slots, it has not worked well in the past because of our timetable issues and clashes. So I usually am available on ms teams you can drop me a message if you need some quick help I will help you there on teams.
+17:38:12 If you've spoken to some of your friends from the past semester.
+17:38:16 You would know that I am available.
+17:38:21 Pretty much 20 hours a day, I think so. I've had consultations late night do I wouldn't prefer having that, but if students needed I've had consultations you want to call in the matric to help out students.
+17:38:35 So, on teams you can drop me a message, as long as I'm able to see and do something I'll reply to immediately. If I don't reply to that means I'm either busy teaching or I'm in some meeting and stuff like that.
+17:38:45 Okay.
+17:38:46 Please give me some time in such scenarios.
+17:38:49 Don't think that I'm ignoring you. I definitely don't ignore student questions. Okay.
+17:38:55 And if you've sent me an email for whatever reason I didn't respond to you even after one full day as an, give a good 24 hour gap right.
+17:39:03 It's okay to send a reminder email, I'll let you know what's happening. Okay.
+17:39:08 Usually I would say either I give the answer and say, I'm doing this I need this much time I let you know, that's the minimum I do if I don't do either of them.
+17:39:16 Wait for 24 hours and then drop me a reminder, I'll definitely respond to you. Okay, so I'm very approachable. Don't fear, talking to me or asking questions, don't go back with questions in your main, that's the main thing.
+17:39:31 Right, ask your questions, get all the dots clarified. Be happy.
+17:39:37 Learn as much as you as you can as much as you want from this module.
+17:39:43 Just don't think that this module is heavy these guys, straight or whatever I might appear stick sometimes really not really very very pro student.
+17:39:53 Okay, so you can count on help from my end your tutors are also going to be somewhat similar because I expect them to be similar.
+17:40:02 Because there's individual individuality and variances.
+17:40:05 But generally the tutors are also going to be very helpful.
+17:40:08 However, if you come to me saying, oh, how do I put this, or how do I debug this right away without making any effort. I will send you back.
+17:40:17 I'll, I'll want you to try out things before you ask any of us in the teaching team, what exactly is happening.
+17:40:23 So first thing by our search for answers on the net.
+17:40:26 If there are some unique problems you will learn a lot of things by doing that. That's the only reason. Okay. And then, next question. Next step is to ask on the forums if you have technical doubts, even if it means like okay I'm not able to find the
+17:40:40 location I'm not able to compile this my ID is not recognizing all of these should go into the forum.
+17:40:46 If you come to me with a question directly like that I'll send you back I'll ask you to post it on the forum anyway.
+17:40:52 And anyone who knows an answer, please feel free to answer the questions on the forums, it's not a venue where you ask a question and only I or someone on the teaching team answers.
+17:41:02 Your answers on the forum or also equally valuable as the questions that you asked.
+17:41:07 Right.
+17:41:08 Or the other way around, whichever way you think right your questions are equally valuable as the answers you give your answers are extremely valuable.
+17:41:19 So, please participate actively in the forum, and only if all of these things fail you have a very unique problem that can be solved, or a felony issue, which you can discuss on the forums, only then please drop me an email.
+17:41:29 Okay.
+17:41:30 The reason why I'm saying this is because if you drop me an email, I'm pretty sure I'll give you some answer. Okay. But.
+17:41:39 That's like asking me asking a source and you will be assessing beyond that there's nothing really happening.
+17:41:45 So, by taking a slightly longer route a harder route of fine trying to find things trying to do yourself then asking people. I'm pretty sure whatever you learn in the process you're going to retain it much more than asking me and getting an answer.
+17:42:00 Right. So that's the reason why I wanted to follow this route tie yourself first.
+17:42:05 If you, if you don't find the answer. Don't feel bad. It's okay. Ask on the forums. If you still don't feel, don't get the answer, ping me on the forums.
+17:42:15 I will answer.
+17:42:26 For sure, even if I don't know immediately I'll figure out an answer is the forum anonymous, to an extent because it uses your GitHub username. Right, as, as much as I know we won't publish the GitHub username anywhere, at least the mapping, I will have
+17:42:47 it, but rest of them in lot. But your GitHub username is visible on the forums
+17:42:47 are no need, you can ask the forums without being invited. The question is do we need to be invited to the report only you can ask questions, it's a public repo so you can you can post issues on the issue tracker.
+17:42:51 Okay, so the next. Our task is basically related to revision control software. It's one hour 40 minutes into the lecture I would like to end soon, which means I will ask you to do it on your own time.
+17:43:06 Okay, so this one basically talks about what revision control is. It's a mechanism where you can retain multiple versions of the, of the artifact that you are developing.
+17:43:18 Right.
+17:43:20 And we will use good for revision control I will do a short demo, immediately.
+17:43:25 But, if I look at the forum, sorry if I look at the primordial survey, a vast majority of you say you know what it is you're been using it for a while.
+17:43:32 Okay, only about 20% or less, say that you don't know, get. So, based on your understanding of what gets his answer this question right answer this question on Poll Everywhere.
+17:43:48 There are two people, Jane and john. And the question is, can Jane, sorry can john Bush, go to James repository on GitHub anymore for that matter.
+17:44:22 Okay, there is a question on the chat, the due date for week to IP is weekly lecture right as a principal, the due date is the date before the midnight before your tutorial.
+17:44:35 So your week to task should be completed before week three tutorial, right before the midnight of your tutor and so if you are on Thursday then Wednesday midnight is when you want to finish it.
+17:44:52 If you are on Friday, you need to finish on Thursday midnight. I know there'll be a lot of questions for this, but that's how it is by design. Okay. The reason is, some of your tutorial activities are based on you're attempting the tasks.
+17:44:57 So we wanted to finish it before your tutorial.
+17:45:00 Okay, the poll. Time is up. So, let's see.
+17:45:08 So 44 a few say maybe maybe it's actually the correct answer it depends on whether john has some form of access to James remote repository, it could be being a collaborator or could be having right right access directly.
+17:45:21 Only then he can push to James remote repository. Otherwise he cannot.
+17:45:28 For the same reason if you tried to push things into the IP if you didn't, for, and then clone and then do things and you try to push directly to our semesters report on IP you will not be able to do that because you don't have the permission to push
+17:45:41 it that.
+17:45:42 Okay, keep this in mind.
+17:45:43 So let's do a quick demo of these things in version control or revision control.
+17:45:49 How do you create a repository which is using it.
+17:45:52 How do you track a file using ad or state.
+17:45:56 What does it mean to commit. And what does it mean to ignore. I'll do a quick demo of this, so for now you just have to pay attention, you, you don't have to do anything because you don't have the files ready yet.
+17:46:07 But this is what it is right.
+17:46:10 So, I have a folder called RCS demo, and I have to face, so let me open it in Notepad.
+17:46:35 Okay, so this is one file.
+17:46:38 And this is another fight so these are the two files. So these are called superheroes right so i have for superheroes and some task that is assigned to each of the superhero.
+17:46:49 Okay, hopefully you're able to see the text.
+17:46:52 Can you click yes if you can see.
+17:46:56 Okay, great.
+17:46:57 So on the right side I have the software called a source tree, which is what we sort of recommend to use, because it's friendly intuitive and visual to do good stuff right so it's called so sweet.
+17:47:17 I'm using sorcery. Now the task for us. If you look at this is basically to do these things in it had committed ignore. So let's do this first, are you, we have this folder, which is basically the folder containing the two files, there is nothing else
+17:47:28 in this folder, I want to back this folder, and I want to do version control or revision control on this particular folder. Right. So what I want to do is this.
+17:47:39 I will go to source tree, I will create a repository here.
+17:47:43 Right. So right now there is nothing else apart from these files so I'll go create on socially solidly open magnifier.
+17:47:55 Please don't like.
+17:47:59 Okay, okay, the magnifier is here.
+17:48:01 Okay, so this is so scary. I'm going to click on this Create button, the glass made for the path that the folder is I copy pasted the path from there.
+17:48:11 And I want to create a good repository because story also allows you to create and manage another version control system called as Mercurial, but we are interested in getting, right.
+17:48:23 So, I will go on to create.
+17:48:27 What happens is basically it says the folder already exists, we want to wish to continue and create the repository. That's exactly what we want the folder has the data that we want to, we want version control or revision control and track the changes
+17:48:41 so we want to create a repository in this folder so I'll go say yes.
+17:48:46 Okay, so now what happened after I did that is here. You see I create the story, app, created a folder called not good.
+17:48:59 Okay, so the source free app, created a folder called dot gate which basically contains all the information about the revision.
+17:49:07 All the meta data as it's called, write some data about the data. This is the data that you have the super heroes file and the assignments by.
+17:49:15 And this is the meta data that contains about this repository, all the things that are there. So this is how you create a repository, using get, I use those three you can do it in the command line.
+17:49:28 I will leave it to you to figure out, because the information is there on the website for now I just use the UI to show you.
+17:49:34 Okay. Now if you look at this particular thing in source tree you have file status, which is talking, showing you the files which are these two superheroes and assignments.
+17:49:45 Okay, then there is something called as a history. If I click on history now, you see that there's nothing here uncommitted changes but nothing else, right.
+17:49:53 So, that is what is there in the history.
+17:49:57 And what we want to do next is, basically, we want to go and track these fights, let's go on track the file will say, I want to worsen control this particular file.
+17:50:09 Okay, which file. I want to version control superheroes. txt file, which contains information about the superheroes that are there in my system.
+17:50:18 Okay, so what I will do is I'll go click on this plus, or I can right click and say, add.
+17:50:37 So when I say add what will happen is this, you do notice that the file got moved from stage to stage is exactly the same content, it has the same of people which is Batman Superman Iron Man.
+17:50:43 Okay, so it got moved to something called a stage at this situation what you're saying is, I'm interested in tracking changes to this particular file.
+17:50:54 Please help me track it.
+17:50:56 Okay, that's why it's called staging so now you're doing good that you're interested in doing this task. And you have mark that file particular, you want to track as stage, so it is innocent in a place called staging area, which means you're telling these
+17:51:11 are the changes I want to track. Please help me. That's what you're telling get the next task you want to do is basically come in. So when you put it in the staging area.
+17:51:20 All it does is basically still there in the staging area it's not packing the changes yet. So what do you want to do is you want to commit. So to commit.
+17:51:30 You need something called as a commit message. So let's add a meaningful message I'll say add
+17:51:49 super heroes fight. Okay, or roster.
+17:51:46 x superheroes toaster, and then I go, I click on this button called coming.
+17:51:52 Okay, so when you come in, what really is happening is you're storing information of this particular file into the version history of good okay the information gets stored in the history so now if you look at the history.
+17:52:09 You will see that there is one Connect.
+17:52:14 And that commit has a message that you just gave at superheroes roster.
+17:52:19 Right.
+17:52:20 And you saw something called master is created, we will talk about branches in the future lecture, but by default whenever you start recording the history of a repository.
+17:52:31 You will get a master branch called master right so that is what this branch is about.
+17:52:36 Okay, now we did this. Now let's say I want to add another super superhero who was in college, as possible.
+17:52:46 Right.
+17:52:47 So when I do this let's go back to the file status here so that you can observe the change right. So I created this thing called a post man, or the new entity called post man, and I'm going to save the file.
+17:53:00 What happens in get is that, basically, you can get stored, or it will get notified in the States, area so if you click on this particular thing. You can see what got changed the green highlight is what got changed because you added a new line at the
+17:53:20 end of this particular human line, then you added postman, and you are replacing a plain human line with a line. Plus new line, plus new line character that's right it's a change.
+17:53:31 Right, so this is basically what is getting changed. You can now again i, this particular thing. It goes into the staging area, and you go ahead and commit the same way as earlier so I'll say add postman.
+17:53:46 Okay, nothing is.
+17:53:48 So we finished three tasks in it, stage and commit stage and add both are the same.
+17:53:53 Now, if you look at the other file which is the assignment. Each day I want these people to do something. I want information about this in my record, but I don't want to track the changes, for this particular assignment fight for whatever reason.
+17:54:08 So what I want to do is something callers ignore. So I want to ignore this particular file altogether in the, in the repository. So what I can do is, basically, right click on this file and say, ignore.
+17:54:25 So when I select ignore it asks what I should do. Ignore the exact file name. Ignore all files with a text extension ignore the folder, ignore some custom items.
+17:54:34 Okay, I want to ignore only this particular fine so I let the default be there, and I say okay.
+17:54:40 So when I click on ignore. You'll notice what happened. The file is gone, it's no longer there in the unstitched area, but the files still remains in the repository.
+17:54:50 Sorry in the folder.
+17:54:51 I need to zoom out, and the file is still there. You see, superhero assignment file is still here, but it is no longer visible in the repository.
+17:55:04 Instead, something called us get ignored but created.
+17:55:07 So what is good ignore contain this dot get ignored is the file, which contains information of all the things that you are ignoring you are telling the good thing to not track this fight.
+17:55:19 They're telling the version control system. I don't want to track this file, you ignore the sticks, that's what you're saying. So as long as the file is listed and get ignored it will not be version control will not be tracked.
+17:55:33 Right, to ensure that this information is available to everyone, let's say in a situation where you are doing collaborative development, you don't want anyone to track the superhero assignments, you can commit this file itself, And you pass on that information
+17:55:45 to whoever wants to use it.
+17:55:48 Right, so I'll say, add get ignore file to ignore the assignments.
+17:55:58 Okay, and then I'll save this file.
+17:56:01 You can also click on the plus. OK, so I'll save this file and I'll commit like what I did earlier.
+17:56:07 OK, so now if you look at the history, you're actually growing the history, so to say.
+17:56:11 Right.
+17:56:13 You see that there was a first commit, which was adding the superheroes, what was there in the committee shown here. You added a new entry into the file, and then you added the getting notified.
+17:56:25 So this is basically what the initial steps in Region control are, you're in it, you're creating a repository. You are tracking files, you're ignoring files you're committing changes, that's that's essentially what all was in control systems do in some
+17:56:41 way or the other, like so. There are a few things to notice if you if you observe I said, add something. Add superheroes, add postman.
+17:56:51 Add get ignore right I did not say things like, I they're hiding, or or whatever, right. So, basically, that's because it's a convention.
+17:57:01 You need to use the imperative move in the subject line. So whatever we type now is called the subject line, and it should be in an imperative mode which as I was saying, Get you do this right, even though you're doing all the work that telling good do
+17:57:13 this, so it should be that that's a convention, you need to follow it, right. So, if your TP or the team project basically says, How do I fix it. Okay.
+17:57:27 So if you're a team project has committed which are not following this convention, or you will lose some x. Okay, so be careful about that. So these are all parts of writing are good ways of writing software.
+17:57:37 Where do you find information about this, it's basically in the model website. There is standards and conventions and the link is given here.
+17:57:45 Okay, So, this is where you'll find information. And just because you are here, attending the lecture, I want to take away something. So some tips. First thing is this this is a good thing right.
+17:57:57 If you, if you notice here, it complains that there is no line at the end of the file.
+17:58:07 A Sonic.
+17:58:07 If you, if you look at this particular thing. It says no new line at the end of five. This traces back to the days of a typewriter when you always required to end the file with a new line right so they have somehow captured that legacy thing.
+17:58:20 So always have a blank line at the end of the file, otherwise get will start complaining. There is nothing major damaging that's happening but it will just keep on going you.
+17:58:28 That's one second one is a purely GitHub thing, right. So whatever you type in the commit message is basically the subject. Anything beyond 50 characters goes off into something called us message body, I'll show that in the next lecture sometime.
+17:58:41 Right. So, really limit your subject line to 50 characters give us succinct information on what exactly you're doing, you can give the details later on, but the subject line should be very succinct.
+17:58:54 Right. So, this one is about the standards and conventions, I will talk. One last thing about standards again, these are the activities that you have to do for your project district, you need to set it up on your system, or instructions are there under
+17:59:08 the project tab in the module website, please follow it and do it.
+17:59:12 And then we will talk about one last thing which is good coding standards. Right. So when we talk about coding standards essentially what we're saying is, how you should write code.
+17:59:24 And what are the things that you need to standardize things like how you name, what capitalization, you should use How do you specify the comments. What is the indentation that you need to put, where should you put the brackets, what is the spacing require
+17:59:37 all of these things should be standardized, and why you need to do that, basically, is to ensure that all the code written in a team, or in an organization, looks like it is written by one person.
+17:59:50 That's the reason why you need to standardize the code, and you just need to have followed you are given a coding standard, and you need to follow it, you basically are not allowed to ask questions about these things.
+18:00:01 Right, so the key things are highlighted here.
+18:00:04 Reason is this any code written in the code base should look like a single person, I bet. Okay, no matter how many people worked on it.
+18:00:12 arguments are pointless and definitely it's not your personal preference. So, with respect to coding standards, the, The key thing is just following.
+18:00:22 Where can you find the coding standards that we follow in this module, it's here under the other links, your Java coding standards, click on this, you also get the information about get conventions in the same drop down menu.
+18:00:33 These are standards, these are conventions, you need to follow them.
+18:00:37 Okay, and we will look for these things when you are grading. So that's one or one other reason why you need to sort of follow Why are we reading these things to enforce that you learn how to follow the standards, you know, you will learn how to follow
+18:01:07 style you follow the conventions. So again the same principle applies, unless I I assign next to it you don't do it so I assigned Max, in an attempt to make you learn these things force these things so that when you go out of this module, you're a much
+18:01:04 better programmer, and you know how to do the things the right way.
+18:01:08 Okay, so that's about it.
+18:01:11 Okay, there's one small thing that I skipped which is the key exercises. Then we'll talk about it in one minute and then I'll let you go.
+18:01:29 When you're reading the topics in the module website right so basically you will look at these things called us kicks.
+18:01:29 You look at these things called a ski exercises.
+18:01:32 Right. So, these are basically small coding exercises that you have, you're supposed to complete. And the details are given here, you should do that on cosmology.
+18:01:43 So, if you are already registered on cosmology, you should see this module which is CS 113 TAY 2122 sent to john 22 is you should see this under your module list.
+18:01:54 Otherwise, please check your junk email as well. You should have an invite.
+18:01:58 There is something called us coding exercises, and each week you have coding exercises you will start something, and then you will end it some particular time.
+18:02:07 There is a bonus cut off which means beyond this date if you do, you will not get the full Mark assigned to this fake business for participation practice, you can complete this until the end of the semester.
+18:02:20 But if you don't do it within this timeline which is one week roughly.
+18:02:34 You won't get participation points for that particular week. So this is one minor admin detail and I wanted to highlight, because it's sort of easy to miss. If you don't pay attention when you're reading.
+18:02:38 And that's all for today's lecture. Thank you for your time and patience, I know there are a couple of questions, I'll answer them. If you don't have any questions feel free to leave.
+18:02:47 Okay, see you all next week. Bye bye.
+18:02:50 So someone raised their hand earlier. Can you ask a question now.
+18:03:00 Okay, there's a question here. Like, I raised my hands. Yes, very important. I just want to like agenda that I mean it's up, I so good comment messages.
+18:03:15 Start with small capital letter.
+18:03:17 It's a capital letter that the convention that we suggest is use capital letters.
+18:03:23 Oh, it should be capital right the first. Yes. Okay.
+18:03:26 Okay. Don't other Christians what what should we like. If we go ahead, it's like, or in some assignments are the basic assignments.
+18:03:38 Key assignments you said is, if there will be no problem because sometimes they're, like, it's true, can be really hard to do the tasks, every game, every week.
+18:03:52 For example, if we do the retreat tasks today is the problem.
+18:03:57 Ah, so like I said the schedule, sort of matters. So, you, you need to follow the schedule, which is the reason why I suggested you follow the attend the lecture first, then do the task and and so on and so forth, why you should do every week is because
+18:04:14 we don't want you to bunch up things and and suffer later so the idea is you suffer a little bit everybody was suffering in bulk and then also if you're sticking to a particular schedule, then you will learn.
+18:04:30 Hopefully you learn how to stick to a timeline how to deliver on time and so on and so for all those reasons, I mean these are not really directly technical content but these are some of the things that we want you to learn along the way.
+18:04:43 That's why we want to stick to the schedule.
+18:04:46 Okay. Yeah. So there are a couple of questions here in the chat.
+18:04:54 I think I answered the due date for IP tasks which before your tutorial.
+18:04:59 Can I use em one cheap mac book for this module.
+18:05:04 I don't see a reason why you can't unless there is some specific issue that you have already observed because I'm not a Mac guy, I have no clue about what Mac is all about.
+18:05:16 Honestly, so I suppose it's okay because people have been using Mac for this model for a very long time and I suppose my M one was already available last semester, should be fine.
+18:05:26 I don't think you should have any troubles.
+18:05:29 Is it possible to upload the less slides before the lecture, easier to annotate notes are not.
+18:05:36 The reason is, I keep doing a lot of mess, until almost last minute.
+18:05:52 Plus, our slides. If you look at it, it has a lot of green background images and animation and stuff it's not really optimized for note taking or not recording, you are better off to write your own notes separately.

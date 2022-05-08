@@ -1,0 +1,3 @@
+127.0.0.1 www.wsb.com
+127.0.0.1 www.badsite.com
+

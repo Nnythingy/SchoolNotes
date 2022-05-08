@@ -1,0 +1,14 @@
+SECLAB_IMAGE=corank/cs3235-seclab:assignment
+
+portable_readlink() {
+    DIR="${1%/*}"
+    (cd "$DIR" && echo "$(pwd -P)")
+}
+
+
+portable_readlink_in() {
+    DIR="${1%}"
+    (cd "$DIR" && echo "$(pwd -P)")
+}
+
+

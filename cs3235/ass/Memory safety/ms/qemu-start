@@ -1,0 +1,32 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+docker run -it --rm \
+    --name=seclab-qemu \
+    -d \
+    -v "$(pwd)":/shared \
+    $QEMU_IMAGE_NAME \
+    qemu-system-x86_64 \
+    -incoming "exec: gzip -c -d /qemu/snapshot.gz" \
+    -snapshot \
+    -m 256 \
+    -boot d \
+    -display none \
+    -device e1000,netdev=net0 \
+    -netdev user,id=net0,hostfwd=tcp::5555-:22 \
+    -virtfs local,path=/shared,mount_tag=host0,security_model=passthrough,id=host0 \
+    /qemu/linux-amd64.qcow2 > /dev/null
+
+echo "Waiting for the system to start..."
+
+while true; do
+    if qemu_exec "~/mount-assignment" > /dev/null 2>&1; then
+        break;
+    fi
+    sleep 1
+done
+
+echo "Done"
+
+

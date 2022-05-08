@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+docker container stop seclab-qemu > /dev/null 2>&1
+
+

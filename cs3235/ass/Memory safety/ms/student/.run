@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /assignment/$1 && env -i PWD=/assignment/$1 /assignment/$1/$1 "$(cat /assignment/$1/args)" < /assignment/$1/input
+

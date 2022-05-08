@@ -1,0 +1,24 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+if [ -z "$1" ]; then
+    echo "Please provide the path to the repo folder!"
+    exit 1
+fi
+
+REPO="$1"
+
+
+mkdir -p "$REPO"/{a,b,c,d,e}
+
+CURDIR="$(portable_readlink "$0")"
+
+cp "$CURDIR"/student/.studentid "$REPO"
+cp "$CURDIR"/student/a/exploit{1,2} "$REPO"/a
+cp "$CURDIR"/student/b/input "$REPO"/b
+cp "$CURDIR"/student/c/{exploit,input} "$REPO"/c
+cp "$CURDIR"/student/d/input "$REPO"/d
+cp "$CURDIR"/student/e/args "$REPO"/e
+
+

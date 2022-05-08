@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+f="$(portable_readlink "$0")"
+docker run -it --rm --volume="$f"/student/www:/var/www/wsb:ro --volume="$f"/student/bad:/var/www/bad:ro \
+    --volume=/tmp/.X11-unix:/tmp/.X11-unix:ro \
+    --add-host=www.badsite.com:127.0.0.1 \
+    --add-host=www.wsb.com:127.0.0.1 \
+    --volume=$HOME/.Xauthority:/root/.Xauthority:ro \
+    --volume="$f":/assignment:rw \
+    --env=DISPLAY=$DISPLAY --env=XAUTHORITY=/root/.Xauthority \
+    --hostname=127.0.0.1 \
+    -p 80:80/tcp \
+    -u student \
+    -a stdin -a stdout -w /assignment corank/cs3235-seclab:assignment /bin/bash \
+    -c 'sudo mysqld_safe > /dev/null 2>&1 & echo "Starting the server..." && sleep 2 && make -C /assignment/student gen_db > /dev/null && ((sudo apachectl start > /dev/null 2>&1 && chromium --disable-gpu --no-sandbox http://www.wsb.com/ > /dev/null 2>&1) & read -p "Press any key to shutdown")'
+

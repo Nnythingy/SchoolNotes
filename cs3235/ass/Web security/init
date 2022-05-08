@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+f="$(portable_readlink "$0")"
+docker run -it --rm \
+    --volume="$f":/assignment:rw \
+    -u student \
+    -a stdin -a stdout -w /assignment corank/cs3235-seclab:assignment /bin/bash \
+    -c 'make -C /assignment/student'
+

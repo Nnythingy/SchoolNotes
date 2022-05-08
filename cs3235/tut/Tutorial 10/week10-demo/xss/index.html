@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+    <head><title>This is not a malicious website!</title></head>
+    <body>
+        <ul>
+            <li><a href="http://demo.org/login.php">Login first</a></li>
+            <li><a href="http://demo.org/form-reflect.php?greeter=<script>alert('Big prize!');</script>">Win a big prize (reflected XSS)</a>
+                    (<a href="http://demo.org/form-reflect.php?greeter=Hello">Normal</a>)</li>
+            <li><a href="http://demo.org/post.php">Post something first</a>, then <a href="http://demo.org/form-stored.php">win a big prize (stored XSS)</a></li>
+            <li><a href="http://demo.org/form-dom.php?greeter=<script>alert('Big prize!');</script>">Win a big prize (DOM-based XSS)</a>
+                    (<a href="http://demo.org/form-dom.php?greeter=Hello">Normal</a>)</li>
+        </ul>
+    </body>
+</html>

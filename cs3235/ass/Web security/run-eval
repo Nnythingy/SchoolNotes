@@ -1,0 +1,20 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+if [ -z "$1" ]; then
+    echo "Please specify the folder to evaluate!"
+    exit 1
+fi
+
+f="$(portable_readlink "$0")"
+h="$(portable_readlink_in "$1")"
+docker run -it --rm --volume="$f":/assignment:rw \
+    --volume="$h":/test:rw \
+    -e JUDGE_EVAL_SCRIPTS_DIR=/assignment \
+    --network=none \
+    --hostname=127.0.0.1 \
+    -u student \
+    -a stdin -a stdout -w /assignment corank/cs3235-seclab:assignment /bin/bash \
+    -c 'eval/eval.sh /test'
+

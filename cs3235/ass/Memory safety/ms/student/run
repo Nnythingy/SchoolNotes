@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/.include
+source "$(dirname "$0")"/../scripts/include.sh
+
+if [ -z "$1" ]; then
+    echo "Please specify the case to run (a thru e)"
+    exit 1
+fi
+
+qemu_exec /assignment/.run $1

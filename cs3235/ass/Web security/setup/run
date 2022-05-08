@@ -1,0 +1,15 @@
+#!/bin/bash
+
+f="$(dirname "$(readlink -f "$0")")"
+docker run -it --rm --volume="$f"/student/www:/var/www/wsb:ro --volume="$f"/student/bad:/var/www/bad:ro \
+    --add-host=www.badsite.com:127.0.0.1 \
+    --add-host=www.wsb.com:127.0.0.1 \
+    --volume=$HOME/.Xauthority:/root/.Xauthority:ro \
+    --volume="$f":/assignment:rw \
+    --network=host \
+    --env=DISPLAY=$DISPLAY --env=XAUTHORITY=/root/.Xauthority \
+    --hostname=127.0.0.1 \
+    -u student \
+    -a stdin -a stdout -w /assignment corank/cs3235-seclab:assignment /bin/bash \
+    -c 'sudo mysqld_safe > /dev/null 2>&1 & sleep 2 && make -C /assignment/student && ((sudo apachectl start > /dev/null 2>&1 && chromium --disable-gpu --no-sandbox http://www.wsb.com/) & read -p "Press any key to shutdown")'
+

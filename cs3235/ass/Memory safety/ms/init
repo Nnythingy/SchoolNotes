@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/scripts/include.sh
+
+qemu_exec 'JUDGE_EVAL_SCRIPTS_DIR=/assignment_full/ /assignment_full/student/.gen.sh /assignment_full/answers'
+
+

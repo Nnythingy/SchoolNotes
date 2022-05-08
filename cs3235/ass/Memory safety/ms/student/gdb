@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source "$(dirname "$0")"/.include
+source "$(dirname "$0")"/../scripts/include.sh
+
+if [ -z "$1" ]; then
+    echo "Please specify the case to run (a thru e)"
+    exit 1
+fi
+
+CASE="$1"
+FOLDER="$1"
+
+qemu_exec cd /assignment/$FOLDER "&&" env -i gdb -ex '\"source /assignment/.gdb\"' $CASE

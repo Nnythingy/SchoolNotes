@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Web Security Tutorial</title>
+	</head>
+	<body>
+		<form action="http://demo.org/form-safe.php" method="POST">
+			<input type="hidden" value="mallory" name="recipient">
+			<input type="hidden" value="10000" name="amount">
+			<input type="submit" value="Win big prizes!">
+		</form>
+	</body>
+</html>
