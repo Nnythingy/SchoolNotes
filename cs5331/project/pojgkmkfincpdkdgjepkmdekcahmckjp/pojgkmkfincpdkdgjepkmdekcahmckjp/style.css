@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.selection-container {
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 2147483646;
+    border: gray 1px dotted;
+    box-shadow: 0 0 0 50000px rgba(0, 0, 0, 0.2);
+}
+
+.selection-container::before {
+    content: '';
+    display: block;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    margin-left: -10px;
+    margin-top: -10px;
+    cursor: crosshair;
+}
+
+.monitor-top,
+.monitor-mid {
+    cursor: crosshair;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 2147483646;
+}
+
+.monitor-top {
+    /* background: #292929a8; */
+    cursor: crosshair;
+    border-right: dashed 1px rgb(22, 21, 21);
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.monitor-mid {
+    cursor: crosshair;
+    border-bottom: dashed 1px rgb(22, 21, 21);
+    top: 0;
+    width: 100%;
+}
+
+.monitor-last {
+    cursor: crosshair;
+    z-index: 2147483645;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mystyle::-webkit-scrollbar {
+    display: none;
+}

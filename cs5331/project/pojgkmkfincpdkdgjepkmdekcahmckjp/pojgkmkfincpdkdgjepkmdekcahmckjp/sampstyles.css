@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background:black;
+}
+
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.header-left h1{
+    color: white;
+}
+
+.header-left p{
+    color: white;
+    font-size: 30px;
+}
+
+.header-center{
+    display: none;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+}
+
+.header-center-undoredo{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 25px;
+}
+.header-center-others{
+    /* background: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.header-center-undoredo img{
+    padding: 0 10px;
+    height: 25px;
+}
+
+.header-center-undoredo img:hover{
+    cursor: pointer;
+}
+
+.header-center-others img{
+    margin: 0 10px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.header-center-others img:hover{
+    box-shadow: 0 0 10px 0 white;
+}
+
+.header-center-zoom{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.header-center-zoom button{
+    padding: 0 10px;
+    height: 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-center-zoom p{
+    padding: 5px 10px 0px 10px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    /* box-shadow: 0 0 10px grey; */
+}
+
+
+.header-right img{
+    cursor: pointer;
+}
+
+#editButton{
+    
+}
+
+.download-button{
+    margin-left: 9px
+}
+
+#Betalabel{
+    color: white;
+    background: black;
+    font-size: 16px;
+    /* margin: 10px; */
+    border-color: white;
+    /* padding-top: 15px; */
+    /* outline: 5px solid green; */
+    padding: 5px;
+    border-color: white;
+    margin-right: 10px;
+}
+
+#submitButton{
+    height: 40px;
+    margin-right: 9px;
+    width: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-left{
+    display: none;
+    width: 13%;
+    height: 90vh;
+    background: lightgray;
+}
+
+.container-left-container{
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container-left-tools,
+.container-left-text,
+.container-left-shapes,
+.container-left-emojis{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+.container-left-tools:hover,
+.container-left-text:hover,
+.container-left-shapes:hover,
+.container-left-emojis:hover{
+    box-shadow: 0 0 6px 0 grey;
+}
+
+
+
+.container-center{
+    border-bottom: solid 1px lightgray;
+    overflow: auto;
+    box-shadow: 0 0 50px 0 grey;
+    margin: 10px;
+}
+
+.container-right{
+    display: none;
+    box-shadow: 0 0 3px 0 grey;
+    /* background: lightgray; */
+    width: 13%;
+}
+
+.properties-container{
+    height: 42vh;
+    border-bottom: solid 2px #d2d2d2;
+}
+
+.layers-container{
+    height: 42vh;
+    padding: 10px;
+}
+
+.layers-container h2{
+    /* box-shadow: 0 0 10px 0 grey; */
+    text-align: center;
+    /* height: 25px; */
+}
+
+.properties-container h2{
+    /* box-shadow: 0 0 10px 0 grey; */
+    text-align: center;
+    /* height: 25px; */
+}
+
+
+.properties{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.properties-item{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layers{
+    padding: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layers-item{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+  .accordion {
+    max-width: 100%;
+  }
+  .accordion .accordion-item .accordion-title {
+    /* padding: 1rem;
+    font-size: 1.5rem; */
+    /* background-color: #add8e6;
+    color: white; */
+    transition: 1s;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    position: relative;
+  }
+  .accordion .accordion-item .accordion-title:hover {
+    /* background-color: #5fb3ce; */
+  }
+  .accordion .accordion-item .accordion-title:after {
+    font-family: "dripicons-v2";
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.5s ease-in;
+  }
+  .accordion .accordion-item .accordion-content {
+    position: relative;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    overflow-y: hidden;
+    transition: all 0.5s ease-in;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  .accordion .accordion-item .accordion-content p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 300;
+    margin: 0;
+    padding: 1rem;
+  }
+  .accordion .accordion-item.active .accordion-title {
+    /* background-color: #5fb3ce; */
+  }
+  .accordion .accordion-item.active .accordion-title:after {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in;
+  }
+  .accordion .accordion-item.active .accordion-content {
+    max-height: 200px;
+    border-right: 2px solid lightgray;
+    /* border-bottom: 2px solid #5fb3ce;
+    border-left: 2px solid #5fb3ce; */
+    opacity: 1;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+
+.accordion .accordion-item.active .accordion-content img,
+.accordion .accordion-item .accordion-content img{
+    padding: 5px;
+}
+
+#downloadEditedImage,#downloadEditedpdf,#copyEditedImage{
+    display: none;
+}
+
+.canvas-container{
+    width: 90%;
+    
+}
+
+.imagebutton{
+    background: black;
+    color: #E2B070;
+    padding: 1em;
+}
+
+#suggestion_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#suggestionInput{
+    width: -webkit-fill-available;
+}
+.check{
+    padding: 10px;
+    background: black;
+    color: #E2B070;
+}

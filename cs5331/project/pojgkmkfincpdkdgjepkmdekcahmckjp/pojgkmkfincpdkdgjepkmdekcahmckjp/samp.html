@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshoting</title>
+</head>
+<link rel="stylesheet" href="sampstyles.css">
+<script src="fgEmojiPicker.js"></script>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="../logo.png">
+        </div>
+        <div class="header-center">
+            <div class="header-center-undoredo">
+                <img src="./SVG/undo.svg" id="undo">
+                <img src="./SVG/circle-of-two-clockwise-arrows-rotation.svg" id="reset">
+                <img src="./SVG/undo-1.svg" id="redo">
+            </div>
+            <div class="header-center-zoom" style="margin-left: 10px;">
+                <button class="zoomout">-</button>
+                <p>Zoom</p>
+                <button class="zoomin">+</button>
+            </div>
+            <div class="header-center-others">
+                <img src="./SVG/Group 39.svg" style="display:none">
+                <img src="./SVG/Group 40.svg" style="display:none">
+                <img src="./SVG/Group 41.svg" style="display:none">
+                <img src="./SVG/Group 42.svg" style="display:none">
+                <img src="./SVG/Group 43.svg" id="rotateRight" style="display:none">
+                <img src="./SVG/Group 44.svg" id="filpFlop">
+                <img src="./SVG/Group 78.svg" id="freedraw">
+                <img src="./SVG/Group 79.svg" style="
+                border-radius: 5px;" class="delete-button">
+            </div>
+        </div>
+        <div class="header-right">
+            <!-- <button id="Betalabel">Beta</button> -->
+            <img id="editButton" src="./SVG/Group 89.svg">
+            <img id="copyEditedImage" class="download-button" src="./SVG/Group 97.svg">
+            <img id="downloadEditedImage" class="download-button" src="./SVG/Group 76.svg">
+            <img id="downloadEditedpdf" class="download-button" src="./SVG/Group 36.svg">
+            <img id="downloadButtonImg" class="download-button" src="./SVG/Group 76.svg">
+            <img id="downloadButtonPdf" class="download-button" src="./SVG/Group 36.svg">
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-left">
+            <div class="container-left-container">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            <div class="container-left-text">
+                                <img src="./SVG/Group 47.svg">
+                                <h3>
+                                    &nbsp TEXT &nbsp
+                                </h3>
+                                <img src="./SVG/Polygon 30.svg" class="accordion-img">
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="textdiv" style="display: flex;">
+                                <textarea style="text-align: center;" placeholder="Write Something?" rows="7" tabindex="10"
+                                    id="addtext" name="suggestion_text" class="input-text" style="width: 60%;" required></textarea>
+                                <!-- <input name="searchTxt" type="textArea" maxlength="512" style="width: 60%;"
+                                    class="input-text" /> -->
+                                <button class="add-text">Add Text</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            <div class="container-left-shapes">
+                                <img src="./SVG/Group 48.svg">
+                                <h3>
+                                    SHAPES
+                                </h3>
+                                <img src="./SVG/Polygon 30.svg" class="accordion-img">
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <img src="./SVG/Group 51.svg" id="rectangleAdd">
+                            <img src="./SVG/Group 52.svg" id="circleAdd">
+                            <img src="./SVG/Group 54.svg" id="diamondAdd">
+                            <img src="./SVG/Group 69.svg" id="triangleAdd">
+                            <img src="./SVG/Group 72.svg" id="arrowAdd">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            <div class="container-left-shapes">
+                                <img src="./SVG/Group 77.svg">
+                                <h3>
+                                    &nbsp CROP &nbsp
+                                </h3>
+                                <img src="./SVG/Polygon 30.svg" class="accordion-img">
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <img src="./SVG/Group 84.svg" id="rectangleCrop">
+                            <img src="./SVG/Group 85.svg" id="circleCrop">
+                            <img src="./SVG/Group 87.svg" id="diamondCrop">
+                            <img src="./SVG/Group 86.svg" id="triangleCrop">
+                        </div>
+                    </div>
+                    <div class="accordion-item emojis" id="emoji">
+                        <div class="accordion-title">
+                            <div class="container-left-emojis">
+                                <img src="./SVG/Group 49.svg">
+                                <h3>
+                                    EMOJIS
+                                </h3>
+                                <img src="./SVG/Polygon 30.svg" class="accordion-img">
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            <div class="container-left-shapes">
+                                <img src="./SVG/Group 95.svg">
+                                <h3>
+                                    IMAGE
+                                </h3>
+                                <img src="./SVG/Polygon 30.svg" class="accordion-img">
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <input type="file" id="file" class="imagebutton" accept="image/*"/>
+                        </div>
+                    </div>
+                    <div class="accordion-item ">
+                        <div class="accordion-title">
+                            <div class="container-left-shapes">
+                                <img src="./SVG/Group 47.svg">
+                                <h3>
+                                     URL & Time
+                                </h3>
+                                <img src="./SVG/Polygon 30.svg" class="accordion-img">
+                            </div>
+                        </div>
+                        <div class="accordion-content check">
+                            <input type="checkbox" id="urlTime" name="urlTime" value="yes">
+                            <label for="urlTime"> Add Url & Time</label><br>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container-center" style="display: flex;justify-content: center;flex-direction: column;">
+            <img style="box-shadow: 0px 0px 3px grey;" id="target1" src="1488.gif" height="auto">
+            <canvas id="canvas" style="display: none;" style="box-shadow: 0px 0px 3px grey;width: 100%;"></canvas>
+        </div>
+        <div class="container-right">
+            <div class="properties-container">
+                <h2>
+                    PROPERTIES
+                </h2>
+                <div class="properties">
+                    <div class="properties-item">
+                        <span>Fill Colour:</span> <input type="color" id="favcolor" name="favcolor" value="#000000">
+                    </div>
+                    <div class="properties-item">
+                        <span>Outline Colour:</span><input type="color" id="outlinecolor" name="outlinecolor"
+                            value="#000000">
+                    </div>
+                    <div class="properties-item">
+                        <span>Opacity :</span><input type="range" min="1" max="100" value="100" class="slider" style="width:50px"
+                            id="opacity">
+                    </div>
+                </div>
+            </div>
+            <div class="layers-container">
+                <p class="message" style="display: none;"></p>
+                <h2>Suggestions for new Features?</h2>
+
+                <textarea style="text-align: center;" placeholder="Suggestion" rows="7" tabindex="10"
+                    id="suggestionInput" name="suggestion_text"  required></textarea>
+
+                <br />
+                <div style="display: flex; justify-content: center;width: 100%;margin-top: 10px;">
+                    <button name="submit" id="submitButton">Submit</button>
+                </div>
+
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="../libs/fabric.min.js"></script>
+    <script src="../libs/fabricHistory.js"></script>
+    <script src="../libs/sweatAlert.js"></script>
+    <script src="../background/jspdf.min.js"></script>
+    <script src="../background/tempscreenshot.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "__MSG_appTitle__",
+  "version": "2.0.3",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "permissions": [
+    "tabs",
+    "storage",
+    "downloads",
+    "<all_urls>"
+  ],
+  "optional_permissions": [
+    "notifications"
+  ],
+  "icons": {
+    "16": "ICON 64.png",
+    "48": "ICON 64.png",
+    "128": "ICON 128.png"
+  },
+  "browser_action": {
+    "default_icon": "ICON 128.png",
+    "default_title": "Take a screen shot",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-1kri9uKG6Gd9VbixGzyFE/kaQIHihYFdxFKKhgz3b80'; object-src 'self'",
+  "background": {
+    "scripts": [
+      "libs/fabric.min.js",
+      "libs/fabricHistory.js",
+      "libs/jspdf.min.js",
+      "background/tempscreenshot.js",
+      "background/innerScreenshot.js",
+      "background/background.js"
+    ]
+  },
+  "commands": {
+    "fullPage": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Take fullpage screenshot"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "libs/jquery.min.js",
+        "contentScript/innerScreenshotContent.js",
+        "contentScript/screenshot.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "public/*"
+  ]
+}
