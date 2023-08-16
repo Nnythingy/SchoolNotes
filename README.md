@@ -30,9 +30,9 @@ Hi! These are the study materials I have used when taking these mods.
 ## AY22/23 ##
  Sem 1 | Sem 2
  ------ | ------
- [CS4236 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs4236) | [CS5321](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5321)
- [IS3103 B](https://github.com/Nnythingy/SchoolNotes/tree/main/is3103) | [CS5331](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5331)
- [SC2217 B](https://github.com/Nnythingy/SchoolNotes/tree/main/sc2217) | [IFS4101](https://github.com/Nnythingy/SchoolNotes/tree/main/ifs4102)
- [ST2334 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/st2334) | [SC1101E](https://github.com/Nnythingy/SchoolNotes/tree/main/sc1101e)
+ [CS4236 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs4236) | [CS5321 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5321)
+ [IS3103 B](https://github.com/Nnythingy/SchoolNotes/tree/main/is3103) | [CS5331 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5331)
+ [SC2217 B](https://github.com/Nnythingy/SchoolNotes/tree/main/sc2217) | [IFS4101 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/ifs4102)
+ [ST2334 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/st2334) | [SC1101E B+](https://github.com/Nnythingy/SchoolNotes/tree/main/sc1101e)
  | | [SC4880D audit](https://github.com/Nnythingy/SchoolNotes/tree/main/sc4880d)
 
