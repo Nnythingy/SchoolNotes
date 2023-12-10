@@ -1,0 +1,11 @@
+total 0
+dr-x------ 2 root root  0 Oct 25 00:28 .
+dr-xr-xr-x 9 root root  0 Oct 25 00:25 ..
+lr-x------ 1 root root 64 Oct 25 00:28 0 -> /dev/null
+l-wx------ 1 root root 64 Oct 25 00:28 1 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:28 2 -> socket:[26215]
+lrwx------ 1 root root 64 Oct 25 00:28 3 -> /dev/vboxuser
+lrwx------ 1 root root 64 Oct 25 00:28 4 -> /run/VBoxDRMClient
+lrwx------ 1 root root 64 Oct 25 00:28 5 -> /dev/dri/renderD128
+lrwx------ 1 root root 64 Oct 25 00:28 6 -> socket:[25395]
+lrwx------ 1 root root 64 Oct 25 00:28 7 -> socket:[26220]

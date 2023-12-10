@@ -1,0 +1,8 @@
+break main; run
+print &a
+print &f
+watch c
+disassemble g
+break g; continue; backtrace
+x/gx $rsp
+info proc

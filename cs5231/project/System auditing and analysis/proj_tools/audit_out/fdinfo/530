@@ -1,0 +1,19 @@
+total 0
+dr-x------ 2 systemd-timesync systemd-timesync  0 Oct 16 23:13 .
+dr-xr-xr-x 9 systemd-timesync systemd-timesync  0 Oct 16 23:13 ..
+lr-x------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 0 -> /dev/null
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 1 -> socket:[21160]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 10 -> socket:[21240]
+lr-x------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 11 -> anon_inode:inotify
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 12 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 13 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 14 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 15 -> socket:[22097]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 2 -> socket:[21160]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 3 -> socket:[21234]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 4 -> anon_inode:[eventpoll]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 5 -> anon_inode:[signalfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 6 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 7 -> socket:[21237]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 8 -> socket:[21238]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Oct 16 23:13 9 -> socket:[21239]

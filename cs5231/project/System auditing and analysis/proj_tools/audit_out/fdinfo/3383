@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 root root  0 Oct 19 16:19 .
+dr-xr-xr-x 9 root root  0 Oct 19 16:19 ..
+lrwx------ 1 root root 64 Oct 19 16:19 0 -> /dev/pts/2
+lrwx------ 1 root root 64 Oct 19 16:19 1 -> /dev/pts/2
+lrwx------ 1 root root 64 Oct 19 16:19 2 -> /dev/pts/2
+lr-x------ 1 root root 64 Oct 19 16:19 255 -> /home/student/proj_tools/audit-ctl.sh

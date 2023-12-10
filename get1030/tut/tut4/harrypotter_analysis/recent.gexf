@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-10-17">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="David Yates" label="David Yates" />
+      <node id="Michael Goldenberg" label="Michael Goldenberg" />
+      <node id="David Heyman" label="David Heyman" />
+      <node id="David Barron" label="David Barron" />
+      <node id="Steve Kloves" label="Steve Kloves" />
+      <node id="J. K. Rowling" label="J. K. Rowling" />
+    </nodes>
+    <edges>
+      <edge source="David Yates" target="Michael Goldenberg" id="0" weight="1" />
+      <edge source="David Yates" target="David Heyman" id="1" weight="4" />
+      <edge source="David Yates" target="David Barron" id="2" weight="4" />
+      <edge source="David Yates" target="Steve Kloves" id="3" weight="3" />
+      <edge source="David Yates" target="J. K. Rowling" id="4" weight="3" />
+      <edge source="Michael Goldenberg" target="David Heyman" id="5" weight="1" />
+      <edge source="Michael Goldenberg" target="David Barron" id="6" weight="1" />
+      <edge source="David Heyman" target="David Barron" id="7" weight="4" />
+      <edge source="David Heyman" target="Steve Kloves" id="8" weight="3" />
+      <edge source="David Heyman" target="J. K. Rowling" id="9" weight="3" />
+      <edge source="David Barron" target="Steve Kloves" id="10" weight="3" />
+      <edge source="David Barron" target="J. K. Rowling" id="11" weight="3" />
+      <edge source="Steve Kloves" target="J. K. Rowling" id="12" weight="3" />
+    </edges>
+  </graph>
+</gexf>

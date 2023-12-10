@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 root    root     0 Oct 19 16:19 .
+dr-xr-xr-x 9 student student  0 Oct 19 16:19 ..
+lr-x------ 1 root    root    64 Oct 19 16:19 0 -> /dev/null
+l-wx------ 1 root    root    64 Oct 19 16:19 1 -> pipe:[74745]
+lr-x------ 1 root    root    64 Oct 19 16:19 2 -> /dev/null
+lrwx------ 1 root    root    64 Oct 19 16:19 3 -> socket:[74768]

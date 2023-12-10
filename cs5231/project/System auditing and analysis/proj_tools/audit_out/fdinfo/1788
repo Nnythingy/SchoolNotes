@@ -1,0 +1,17 @@
+total 0
+dr-x------ 2 student student  0 Oct 16 23:13 .
+dr-xr-xr-x 9 student student  0 Oct 16 23:13 ..
+lr-x------ 1 student student 64 Oct 16 23:13 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:13 1 -> socket:[33350]
+lrwx------ 1 student student 64 Oct 16 23:13 10 -> socket:[71352]
+lrwx------ 1 student student 64 Oct 16 23:14 12 -> socket:[38337]
+lrwx------ 1 student student 64 Oct 19 16:06 13 -> socket:[72880]
+lrwx------ 1 student student 64 Oct 19 16:19 15 -> socket:[73094]
+lrwx------ 1 student student 64 Oct 16 23:13 2 -> socket:[33350]
+lrwx------ 1 student student 64 Oct 16 23:13 3 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 5 -> socket:[36504]
+lrwx------ 1 student student 64 Oct 16 23:13 6 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 16 23:13 7 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 16 23:13 8 -> /proc/1788/mountinfo
+lrwx------ 1 student student 64 Oct 16 23:13 9 -> socket:[56230]

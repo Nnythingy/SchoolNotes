@@ -1,0 +1,11 @@
+total 0
+dr-x------ 2 student student  0 Oct 16 23:14 .
+dr-xr-xr-x 9 student student  0 Oct 16 23:13 ..
+lrwx------ 1 student student 64 Oct 16 23:14 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:14 1 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:14 2 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:14 3 -> /dev/vboxuser
+lrwx------ 1 student student 64 Oct 16 23:14 4 -> /home/student/.vboxclient-vmsvga-session-tty2-control.pid
+lrwx------ 1 student student 64 Oct 16 23:14 5 -> /home/student/.vboxclient-vmsvga-session-tty2-service.pid
+lrwx------ 1 student student 64 Oct 16 23:14 6 -> socket:[34975]
+lrwx------ 1 student student 64 Oct 16 23:14 7 -> socket:[34984]

@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 kernoops adm  0 Oct 25 00:28 .
+dr-xr-xr-x 9 kernoops adm  0 Oct 25 00:25 ..
+lrwx------ 1 kernoops adm 64 Oct 25 00:28 0 -> /dev/null
+lrwx------ 1 kernoops adm 64 Oct 25 00:28 1 -> /dev/null
+lrwx------ 1 kernoops adm 64 Oct 25 00:28 2 -> /dev/null
+lrwx------ 1 kernoops adm 64 Oct 25 00:28 3 -> anon_inode:[eventfd]
+lrwx------ 1 kernoops adm 64 Oct 25 00:28 4 -> socket:[27262]

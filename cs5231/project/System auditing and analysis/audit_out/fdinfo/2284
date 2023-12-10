@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 student student  0 Oct 25 00:28 .
+dr-xr-xr-x 9 student student  0 Oct 25 00:28 ..
+lrwx------ 1 student student 64 Oct 25 00:28 0 -> /dev/pts/1
+lrwx------ 1 student student 64 Oct 25 00:28 1 -> /dev/pts/1
+lrwx------ 1 student student 64 Oct 25 00:28 2 -> /dev/pts/1
+lrwx------ 1 student student 64 Oct 25 00:28 255 -> /dev/pts/1

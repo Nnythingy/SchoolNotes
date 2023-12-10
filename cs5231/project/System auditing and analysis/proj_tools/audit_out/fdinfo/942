@@ -1,0 +1,23 @@
+total 0
+dr-x------ 2 root root  0 Oct 16 23:13 .
+dr-xr-xr-x 9 root root  0 Oct 16 23:13 ..
+lr-x------ 1 root root 64 Oct 16 23:13 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 16 23:13 1 -> socket:[27078]
+lrwx------ 1 root root 64 Oct 16 23:13 10 -> socket:[64436]
+lrwx------ 1 root root 64 Oct 16 23:13 11 -> socket:[64437]
+lrwx------ 1 root root 64 Oct 16 23:13 13 -> socket:[31295]
+lrwx------ 1 root root 64 Oct 16 23:13 14 -> socket:[32200]
+lrwx------ 1 root root 64 Oct 16 23:13 15 -> socket:[33561]
+lrwx------ 1 root root 64 Oct 16 23:13 16 -> socket:[33562]
+lrwx------ 1 root root 64 Oct 16 23:13 19 -> socket:[69078]
+lrwx------ 1 root root 64 Oct 16 23:13 2 -> socket:[27078]
+lrwx------ 1 root root 64 Oct 16 23:13 20 -> socket:[69276]
+lrwx------ 1 root root 64 Oct 16 23:13 21 -> socket:[69621]
+lrwx------ 1 root root 64 Oct 16 23:13 22 -> socket:[70031]
+lrwx------ 1 root root 64 Oct 16 23:13 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 16 23:13 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 16 23:13 5 -> socket:[27101]
+lrwx------ 1 root root 64 Oct 16 23:13 6 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Oct 16 23:13 7 -> /sys/devices/virtual/tty/tty0/active
+lrwx------ 1 root root 64 Oct 16 23:13 8 -> socket:[27251]
+lrwx------ 1 root root 64 Oct 16 23:13 9 -> socket:[27252]

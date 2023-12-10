@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 student student  0 Oct 16 23:14 .
+dr-xr-xr-x 9 student student  0 Oct 16 23:14 ..
+lrwx------ 1 student student 64 Oct 16 23:14 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:14 1 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:14 2 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:14 3 -> /dev/vboxuser
+lrwx------ 1 student student 64 Oct 16 23:14 4 -> /home/student/.vboxclient-seamless-tty2-control.pid

@@ -1,0 +1,23 @@
+total 0
+dr-x------ 2 student student  0 Oct 25 00:28 .
+dr-xr-xr-x 9 student student  0 Oct 25 00:27 ..
+lrwx------ 1 student student 64 Oct 25 00:28 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 25 00:28 1 -> socket:[38614]
+lrwx------ 1 student student 64 Oct 25 00:28 10 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 25 00:28 11 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:28 12 -> /home/student/.local/share/gvfs-metadata/home (deleted)
+lr-x------ 1 student student 64 Oct 25 00:28 13 -> /home/student/.local/share/gvfs-metadata/home-69b65a1c.log (deleted)
+lr-x------ 1 student student 64 Oct 25 00:28 14 -> pipe:[40700]
+l-wx------ 1 student student 64 Oct 25 00:28 15 -> pipe:[40700]
+lrwx------ 1 student student 64 Oct 25 00:28 16 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 17 -> socket:[40702]
+lrwx------ 1 student student 64 Oct 25 00:28 18 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 19 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 25 00:28 2 -> socket:[38615]
+lrwx------ 1 student student 64 Oct 25 00:28 3 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 5 -> socket:[42134]
+lrwx------ 1 student student 64 Oct 25 00:28 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 7 -> socket:[38618]
+lrwx------ 1 student student 64 Oct 25 00:28 8 -> socket:[42138]
+lrwx------ 1 student student 64 Oct 25 00:28 9 -> anon_inode:[eventfd]

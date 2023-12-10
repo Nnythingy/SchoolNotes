@@ -1,0 +1,30 @@
+total 0
+dr-x------ 2 student student  0 Oct 19 16:19 .
+dr-xr-xr-x 9 student student  0 Oct 19 16:08 ..
+lr-x------ 1 student student 64 Oct 19 16:19 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 19 16:19 1 -> socket:[71384]
+lrwx------ 1 student student 64 Oct 19 16:19 10 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 19 16:19 11 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 19 16:19 12 -> socket:[71408]
+lrwx------ 1 student student 64 Oct 19 16:19 13 -> socket:[71447]
+lrwx------ 1 student student 64 Oct 19 16:19 14 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 19 16:19 15 -> pipe:[72045]
+l-wx------ 1 student student 64 Oct 19 16:19 16 -> pipe:[72045]
+lrwx------ 1 student student 64 Oct 19 16:19 17 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 18 -> socket:[72046]
+lr-x------ 1 student student 64 Oct 19 16:19 19 -> /home/student/.local/share/gvfs-metadata/root (deleted)
+lrwx------ 1 student student 64 Oct 19 16:19 2 -> socket:[71384]
+lrwx------ 1 student student 64 Oct 19 16:19 20 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 21 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 19 16:19 3 -> socket:[71394]
+lr-x------ 1 student student 64 Oct 19 16:19 31 -> /home/student/.local/share/gvfs-metadata/home (deleted)
+lr-x------ 1 student student 64 Oct 19 16:19 32 -> /home/student/.local/share/gvfs-metadata/home-87da02b5.log (deleted)
+lr-x------ 1 student student 64 Oct 19 16:19 34 -> /home/student/.local/share/gvfs-metadata/trash:
+lr-x------ 1 student student 64 Oct 19 16:19 35 -> /home/student/.local/share/gvfs-metadata/trash:-f36b6bba.log
+lr-x------ 1 student student 64 Oct 19 16:19 38 -> /home/student/.local/share/gvfs-metadata/root-f565d9ae.log (deleted)
+lrwx------ 1 student student 64 Oct 19 16:19 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 5 -> socket:[71399]
+lrwx------ 1 student student 64 Oct 19 16:19 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 7 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 8 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 9 -> socket:[71401]

@@ -1,0 +1,10 @@
+total 0
+dr-x------ 2 student student  0 Oct 19 16:19 .
+dr-xr-xr-x 9 student student  0 Oct 19 16:19 ..
+lrwx------ 1 student student 64 Oct 19 16:19 0 -> /dev/pts/0
+l-wx------ 1 student student 64 Oct 19 16:19 1 -> /dev/null
+lrwx------ 1 student student 64 Oct 19 16:19 2 -> /dev/pts/0
+lrwx------ 1 student student 64 Oct 19 16:19 3 -> socket:[74721]
+lrwx------ 1 student student 64 Oct 19 16:19 4 -> /dev/pts/0
+lrwx------ 1 student student 64 Oct 19 16:19 5 -> /dev/pts/0
+lrwx------ 1 student student 64 Oct 19 16:19 6 -> /dev/pts/0

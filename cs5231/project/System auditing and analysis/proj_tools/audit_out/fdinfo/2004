@@ -1,0 +1,22 @@
+total 0
+dr-x------ 2 student student  0 Oct 16 23:13 .
+dr-xr-xr-x 9 student student  0 Oct 16 23:13 ..
+lr-x------ 1 student student 64 Oct 16 23:13 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:13 1 -> socket:[38849]
+lrwx------ 1 student student 64 Oct 16 23:13 10 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 16 23:13 11 -> pipe:[38867]
+l-wx------ 1 student student 64 Oct 16 23:13 12 -> pipe:[38867]
+lrwx------ 1 student student 64 Oct 16 23:13 13 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 14 -> socket:[38869]
+lrwx------ 1 student student 64 Oct 16 23:13 15 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 16 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 16 23:13 17 -> /dev/ptmx
+lrwx------ 1 student student 64 Oct 16 23:13 18 -> /dev/ptmx
+lrwx------ 1 student student 64 Oct 16 23:13 2 -> socket:[38849]
+lrwx------ 1 student student 64 Oct 16 23:13 3 -> socket:[38852]
+lrwx------ 1 student student 64 Oct 16 23:13 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 5 -> socket:[38857]
+lrwx------ 1 student student 64 Oct 16 23:13 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 7 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 8 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 9 -> socket:[38859]

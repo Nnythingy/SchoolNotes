@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 student student  0 Oct 25 00:27 .
+dr-xr-xr-x 9 student student  0 Oct 25 00:27 ..
+lr-x------ 1 student student 64 Oct 25 00:27 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 25 00:27 1 -> socket:[41702]
+lr-x------ 1 student student 64 Oct 25 00:27 10 -> /home/student/.local/share/gvfs-metadata/root
+lrwx------ 1 student student 64 Oct 25 00:27 11 -> /home/student/.local/share/gvfs-metadata/root-97042de6.log
+lrwx------ 1 student student 64 Oct 25 00:27 2 -> socket:[41702]
+lrwx------ 1 student student 64 Oct 25 00:27 3 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:27 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:27 5 -> socket:[41703]
+lrwx------ 1 student student 64 Oct 25 00:27 6 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 25 00:27 7 -> /home/student/.local/share/gvfs-metadata/home
+lrwx------ 1 student student 64 Oct 25 00:27 8 -> /home/student/.local/share/gvfs-metadata/home-ae17a77f.log
+lrwx------ 1 student student 64 Oct 25 00:27 9 -> socket:[42339]

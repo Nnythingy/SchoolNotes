@@ -1,0 +1,445 @@
+{
+    "processes": {
+        "6192": {
+            "name": "run-attack.sh",
+            "executable_path": "/usr/bin/bash",
+            "pid": 6192,
+            "user": "student",
+            "files": {
+                "/home/student/proj_tools": 2,
+                "/home": 1,
+                "/home/student": 2,
+                "/home/student/.terminfo": 1,
+                "/home/student/Downloads/": 1
+            }
+        },
+        "6193": {
+            "name": "sudo",
+            "executable_path": "/usr/bin/sudo",
+            "pid": 6193,
+            "user": "student",
+            "files": {
+                "/home/attacker/local/nginx/sbin/nginx": 1,
+                "/home/student/.sudo_as_admin_successful": 1
+            }
+        },
+        "6194": {
+            "name": "nginx",
+            "executable_path": "/home/attacker/local/nginx/sbin/nginx",
+            "pid": 6194,
+            "user": "root",
+            "files": {
+                "/home/attacker/local/nginx/sbin/nginx": 1,
+                "/home/attacker/local/nginx/logs/error.log": 2,
+                "/home/attacker/local/nginx/conf/nginx.conf": 1,
+                "/home/attacker/local/nginx/conf/mime.types": 1,
+                "/home/attacker/local/nginx/": 5,
+                "/home/attacker/local/nginx/client_body_temp": 1,
+                "/home/attacker/local/nginx/proxy_temp": 1,
+                "/home/attacker/local/nginx/fastcgi_temp": 1,
+                "/home/attacker/local/nginx/uwsgi_temp": 1,
+                "/home/attacker/local/nginx/scgi_temp": 1,
+                "/home/attacker/local/nginx/logs/access.log": 1
+            }
+        },
+        "6195": {
+            "name": "nginx",
+            "executable_path": "/home/attacker/local/nginx/sbin/nginx",
+            "pid": 6195,
+            "user": "root",
+            "files": {
+                "/home/attacker/local/nginx/logs/nginx.pid": 1
+            }
+        },
+        "6198": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6198,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program1": 1
+            }
+        },
+        "6197": {
+            "name": "nginx",
+            "executable_path": "/home/attacker/local/nginx/sbin/nginx",
+            "pid": 6197,
+            "user": "nobody",
+            "files": {
+                "/home/attacker/sources/programs/program1": 1,
+                "/home/attacker/sources/programs/program2": 1,
+                "/home/attacker/sources/programs/program3": 1,
+                "/home/attacker/sources/programs/program4": 1,
+                "/home/attacker/sources/programs/program5": 1,
+                "/home/attacker/sources/programs/program6": 1,
+                "/home/attacker/sources/programs/program7": 1,
+                "/home/attacker/sources/programs/program8": 1,
+                "/home/attacker/sources/programs/program9": 1,
+                "/home/attacker/sources/programs/program10": 1,
+                "/home/attacker/sources/programs/program11": 1
+            }
+        },
+        "6201": {
+            "name": "tracker-store",
+            "executable_path": "/usr/libexec/tracker-store",
+            "pid": 6201,
+            "user": "student",
+            "files": {
+                "/home/student/.config/dconf/user": 1,
+                "/home/student/.cache/tracker": 20
+            }
+        },
+        "6211": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6211,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program2": 1
+            }
+        },
+        "1403": {
+            "name": "gmain",
+            "executable_path": "/usr/libexec/tracker-miner-fs",
+            "pid": 1403,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program2": 10,
+                "/home/student/.cache/tracker/last-crawl.txt": 40,
+                "/home/student/Downloads/program3": 10,
+                "/home/student/Downloads/program4": 10,
+                "/home/student/Downloads/program5": 10,
+                "/home/student/Downloads/program6": 10,
+                "/home/student/.local/share/mime//mime.cache": 2,
+                "/home/student/.local/share/mime//globs": 2,
+                "/home/student/.local/share/mime//magic": 2,
+                "/home/student/Downloads/program7": 10,
+                "/home/student/Downloads/.hidden": 1,
+                "/home/student/Downloads/program8": 10,
+                "/home/student/Downloads/program9": 10,
+                "/home/student/Downloads/program10": 10,
+                "/home/student/Downloads/program11": 10
+            }
+        },
+        "6215": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6215,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program2": 2
+            }
+        },
+        "6218": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6218,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program3": 1
+            }
+        },
+        "6222": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6222,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program3": 2
+            }
+        },
+        "6225": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6225,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program4": 1
+            }
+        },
+        "6229": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6229,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program4": 2
+            }
+        },
+        "6232": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6232,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program5": 1
+            }
+        },
+        "6236": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6236,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program5": 2
+            }
+        },
+        "6239": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6239,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program6": 1
+            }
+        },
+        "6243": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6243,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program6": 2
+            }
+        },
+        "6246": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6246,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program7": 1
+            }
+        },
+        "6250": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6250,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program7": 2
+            }
+        },
+        "6253": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6253,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program8": 1
+            }
+        },
+        "6257": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6257,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program8": 2
+            }
+        },
+        "6260": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6260,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program9": 1
+            }
+        },
+        "6264": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6264,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program9": 2
+            }
+        },
+        "6267": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6267,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program10": 1
+            }
+        },
+        "6271": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6271,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program10": 2
+            }
+        },
+        "6274": {
+            "name": "curl",
+            "executable_path": "/usr/bin/curl",
+            "pid": 6274,
+            "user": "student",
+            "files": {
+                "/home/student/.curlrc": 1,
+                "/home/student/Downloads/program11": 1
+            }
+        },
+        "6278": {
+            "name": "chmod",
+            "executable_path": "/usr/bin/chmod",
+            "pid": 6278,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program11": 2
+            }
+        },
+        "6282": {
+            "name": "sudo",
+            "executable_path": "/usr/bin/sudo",
+            "pid": 6282,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program1": 1,
+                "/home/student/.sudo_as_admin_successful": 1
+            }
+        },
+        "6283": {
+            "name": "program1",
+            "executable_path": "/home/student/Downloads/program1",
+            "pid": 6283,
+            "user": "root",
+            "files": {
+                "/home/student/Downloads/program1": 1
+            }
+        },
+        "6288": {
+            "name": "sudo",
+            "executable_path": "/usr/bin/sudo",
+            "pid": 6288,
+            "user": "student",
+            "files": {
+                "/home/student/.sudo_as_admin_successful": 1
+            }
+        },
+        "6289": {
+            "name": "program4",
+            "executable_path": "/home/student/Downloads/program4",
+            "pid": 6289,
+            "user": "root",
+            "files": {
+                "/home/student/Downloads/program4": 1
+            }
+        },
+        "6298": {
+            "name": "sudo",
+            "executable_path": "/usr/bin/sudo",
+            "pid": 6298,
+            "user": "student",
+            "files": {
+                "/home/student/Downloads/program9": 1,
+                "/home/student/.sudo_as_admin_successful": 1
+            }
+        },
+        "6299": {
+            "name": "program9",
+            "executable_path": "/home/student/Downloads/program9",
+            "pid": 6299,
+            "user": "root",
+            "files": {
+                "/home/student/Downloads/program9": 1
+            }
+        },
+        "6303": {
+            "name": "program11",
+            "executable_path": "/home/student/Downloads/program11",
+            "pid": 6303,
+            "user": "root",
+            "files": {
+                "/home/student/Downloads/program11": 1,
+                "/home/student/secret/secret.txt": 1,
+                "/home/attacker/output.txt": 1
+            }
+        },
+        "6310": {
+            "name": "sudo",
+            "executable_path": "/usr/bin/sudo",
+            "pid": 6310,
+            "user": "student",
+            "files": {
+                "/home/student/.sudo_as_admin_successful": 1
+            }
+        },
+        "6313": {
+            "name": "readlink",
+            "executable_path": "/usr/bin/readlink",
+            "pid": 6313,
+            "user": "root",
+            "files": {
+                "/home/student/proj_tools/audit-ctl.sh": 1
+            }
+        }
+    },
+    "files": {
+        "/home/student/proj_tools": 2,
+        "/home": 1,
+        "/home/student": 2,
+        "/home/attacker/local/nginx/sbin/nginx": 2,
+        "/home/student/.sudo_as_admin_successful": 5,
+        "/home/attacker/local/nginx/logs/error.log": 2,
+        "/home/attacker/local/nginx/conf/nginx.conf": 1,
+        "/home/attacker/local/nginx/conf/mime.types": 1,
+        "/home/attacker/local/nginx/": 5,
+        "/home/attacker/local/nginx/client_body_temp": 1,
+        "/home/attacker/local/nginx/proxy_temp": 1,
+        "/home/attacker/local/nginx/fastcgi_temp": 1,
+        "/home/attacker/local/nginx/uwsgi_temp": 1,
+        "/home/attacker/local/nginx/scgi_temp": 1,
+        "/home/attacker/local/nginx/logs/access.log": 1,
+        "/home/student/.terminfo": 1,
+        "/home/attacker/local/nginx/logs/nginx.pid": 1,
+        "/home/student/.curlrc": 11,
+        "/home/attacker/sources/programs/program1": 1,
+        "/home/student/Downloads/program1": 3,
+        "/home/student/.config/dconf/user": 1,
+        "/home/attacker/sources/programs/program2": 1,
+        "/home/student/Downloads/program2": 13,
+        "/home/student/.cache/tracker": 20,
+        "/home/student/.cache/tracker/last-crawl.txt": 40,
+        "/home/attacker/sources/programs/program3": 1,
+        "/home/student/Downloads/program3": 13,
+        "/home/attacker/sources/programs/program4": 1,
+        "/home/student/Downloads/program4": 14,
+        "/home/attacker/sources/programs/program5": 1,
+        "/home/student/Downloads/program5": 13,
+        "/home/attacker/sources/programs/program6": 1,
+        "/home/student/Downloads/program6": 13,
+        "/home/student/.local/share/mime//mime.cache": 2,
+        "/home/student/.local/share/mime//globs": 2,
+        "/home/student/.local/share/mime//magic": 2,
+        "/home/attacker/sources/programs/program7": 1,
+        "/home/student/Downloads/program7": 13,
+        "/home/student/Downloads/.hidden": 1,
+        "/home/attacker/sources/programs/program8": 1,
+        "/home/student/Downloads/program8": 13,
+        "/home/attacker/sources/programs/program9": 1,
+        "/home/student/Downloads/program9": 15,
+        "/home/attacker/sources/programs/program10": 1,
+        "/home/student/Downloads/program10": 13,
+        "/home/attacker/sources/programs/program11": 1,
+        "/home/student/Downloads/program11": 14,
+        "/home/student/secret/secret.txt": 1,
+        "/home/attacker/output.txt": 1,
+        "/home/student/Downloads/": 1,
+        "/home/student/proj_tools/audit-ctl.sh": 1
+    }
+}

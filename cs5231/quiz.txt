@@ -1,0 +1,15 @@
+1: 
+
+One of the most important concepts in system security is the layered system design and its corresponding privilege levels. Generally speaking, a problem at one level can only be solved at the level below. In the area of rootkit defense, give one example scenario to illustrate the above claim. 
+
+In the situation of a user mode rootkit, binary replacement could have happened where a modified exe has replaced the original exe. This means that in a normal use case, the user will run that modified exe without knowing that it has become a malicious exe. Because this root kit is aimed at the user space, a kernel level defense can help to detect this rootkit. A rootkit defense similar to Microsoft Ghostbuster can help to detect this persistent binary replacement by comparing the hash of this malicious exe against the expected binary hash. This checking at a kernel level can happen transparently without the rootkit from knowing.
+
+2:Audit logs are one type of observability solutions (Observability (Wikipedia) Links to an external site.). It is mainly based on system calls and related events. What are the limitation of audit logs in attack analysis and detection (what cannot be seen through audit logs)? Suggestion one way to improve system observability beyond audit logs.
+
+A limitation of audit logs is that it would not be able to immediately expose the attack lifecycle. This is especially true if the attacker encrypts their traffic or malware. Hence one way to improve system observability is to also use behavioural analysis and build knowledge graphs. This can help better understand the high order connections to better detect any abnormal behaviour.
+
+3:Find a news/article introducing a solution deployed in real-world using trusted hardware or trusted execution environment (TEE). In your answer, submit the link to the article and a 2-3 sentence summary of how the solution prevent attacks. 
+
+https://insights.samsung.com/2018/01/26/starting-from-scratch-trusted-root-in-samsung-mobile-devices/
+
+This article is about how Samsung implemented a TEE which falls under their Knox brand and is built into Samsung phones. This allows each device to have a unique device root key and unique hardware key stored in the TEE. Hence the TEE can additionally protect signed encryption keys and authentication tokens using these unique and secure TEE keys which never leave the TEE. Hence, even if a malicious actor is able to steal the other encryption keys or auth tokens, they would not be able to read them outside the TEE due to the encryption.

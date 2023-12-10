@@ -1,0 +1,48 @@
+# Metadata for Region Census 2010
+---
+Identifier: '24f55cf4-0892-4ad1-8fcb-7d41791eb0e8'
+Name: 'region-census-2010'
+Title: 'Region Census 2010'
+Description:
+  - 'Indicative polygon of region boundary for Singapore Census of Population 2010.'
+  - 'To facilitate urban planning, the Urban Redevelopment Authority (URA) divides
+    Singapore into 5 regions, namely Central, West, North, North-East and East Regions.
+    Each region has a population size of more than 500,000 people and provide a mix
+    of residential, commercial, business and recreational areas. Each region will
+    be served by a Regional Centre to complement the activities in the Central Business
+    District. Singapore Census of Population 2010 is published by Department of Statistics,
+    Singapore.  Note : Published map is based on Urban Redevelopment Authority''''s
+    Master Plan 2008 planning area boundaries and Singapore Land Authority''''s 2010
+    Singapore island profile. The Master Plan 2008 is a forward looking guiding plan
+    for Singapore''''s development in the medium term over the next 10 to 15 years
+    and the planning boundaries may not coincide with existing developments for some
+    areas.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Region Boundary'
+  - 'Singapore Census of Population 2010'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Pamela Poh'
+    Department: 'Urban Redevelopment Authority'
+    Email: 'pamela_poh@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Ad-hoc'
+Last Updated: '2017-09-25T04:20:06.892080'
+Resources:
+  -
+    Identifier: 'b3269e0f-7f88-41bb-97fe-fa59fd2885e6'
+    Title: 'Region Census2010 (KML)'
+    Url: 'https://geo.data.gov.sg/region-census2010/2014/05/06/kml/region-census2010.zip'
+    Format: 'KML'
+    Last Updated: '2014-05-05T16:00:00'
+  -
+    Identifier: '73e457dc-5ddd-4621-bffb-050428df9c9a'
+    Title: 'Region Census2010 (SHP)'
+    Url: 'https://geo.data.gov.sg/region-census2010/2014/05/06/shp/region-census2010.zip'
+    Format: 'SHP'
+    Last Updated: '2014-05-05T16:00:00'

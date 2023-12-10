@@ -1,0 +1,19 @@
+total 0
+dr-x------ 2 student student  0 Oct 16 23:13 .
+dr-xr-xr-x 9 student student  0 Oct 16 23:13 ..
+lr-x------ 1 student student 64 Oct 16 23:13 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:13 1 -> socket:[35586]
+lrwx------ 1 student student 64 Oct 16 23:13 10 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 11 -> socket:[35612]
+lrwx------ 1 student student 64 Oct 16 23:13 12 -> socket:[35613]
+lrwx------ 1 student student 64 Oct 16 23:13 13 -> socket:[35900]
+lrwx------ 1 student student 64 Oct 16 23:13 14 -> socket:[36570]
+lrwx------ 1 student student 64 Oct 16 23:13 15 -> socket:[37897]
+lrwx------ 1 student student 64 Oct 16 23:13 2 -> socket:[35586]
+lrwx------ 1 student student 64 Oct 16 23:13 3 -> socket:[35586]
+lrwx------ 1 student student 64 Oct 16 23:13 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 5 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 6 -> socket:[35608]
+lrwx------ 1 student student 64 Oct 16 23:13 7 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 16 23:13 8 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 16 23:13 9 -> socket:[35610]

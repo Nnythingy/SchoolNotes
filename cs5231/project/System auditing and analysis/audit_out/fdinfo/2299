@@ -1,0 +1,16 @@
+total 0
+dr-x------ 2 student student  0 Oct 25 00:28 .
+dr-xr-xr-x 9 student student  0 Oct 25 00:28 ..
+lr-x------ 1 student student 64 Oct 25 00:28 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 25 00:28 1 -> socket:[45086]
+lrwx------ 1 student student 64 Oct 25 00:28 10 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 11 -> /run/user/1000/update-notifier.pid
+lr-x------ 1 student student 64 Oct 25 00:28 12 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 25 00:28 2 -> socket:[45087]
+lrwx------ 1 student student 64 Oct 25 00:28 3 -> socket:[45089]
+lrwx------ 1 student student 64 Oct 25 00:28 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 5 -> socket:[45094]
+lrwx------ 1 student student 64 Oct 25 00:28 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 7 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 8 -> socket:[45096]
+lrwx------ 1 student student 64 Oct 25 00:28 9 -> anon_inode:[eventfd]

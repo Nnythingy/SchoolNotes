@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 student student  0 Oct 19 16:17 .
+dr-xr-xr-x 9 student student  0 Oct 19 16:17 ..
+lrwx------ 1 student student 64 Oct 19 16:17 0 -> /dev/pts/1
+lrwx------ 1 student student 64 Oct 19 16:17 1 -> /dev/pts/1
+lrwx------ 1 student student 64 Oct 19 16:17 2 -> /dev/pts/1
+lrwx------ 1 student student 64 Oct 19 16:17 4 -> /home/student/proj_tools/.run-attack.sh.swp

@@ -1,0 +1,37 @@
+total 0
+dr-x------ 2 student student  0 Oct 19 16:19 .
+dr-xr-xr-x 9 student student  0 Oct 19 16:09 ..
+lrwx------ 1 student student 64 Oct 19 16:19 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 19 16:19 1 -> socket:[72864]
+lrwx------ 1 student student 64 Oct 19 16:19 10 -> /home/student/.cache/tracker/meta.db-shm
+lrwx------ 1 student student 64 Oct 19 16:19 11 -> anon_inode:[eventfd]
+l-wx------ 1 student student 64 Oct 19 16:19 12 -> /home/student/.local/share/tracker/data/tracker-store.journal
+lr-x------ 1 student student 64 Oct 19 16:19 13 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 19 16:19 14 -> /home/student/.cache/tracker/meta.db-wal
+lr-x------ 1 student student 64 Oct 19 16:19 15 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 19 16:19 16 -> /home/student/.cache/tracker/meta.db-wal
+lr-x------ 1 student student 64 Oct 19 16:19 17 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 19 16:19 18 -> /home/student/.cache/tracker/meta.db-wal
+lrwx------ 1 student student 64 Oct 19 16:19 19 -> socket:[72883]
+lrwx------ 1 student student 64 Oct 19 16:19 2 -> socket:[72865]
+lrwx------ 1 student student 64 Oct 19 16:19 20 -> socket:[72887]
+lrwx------ 1 student student 64 Oct 19 16:19 21 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 19 16:19 22 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 19 16:19 23 -> socket:[72889]
+lr-x------ 1 student student 64 Oct 19 16:19 24 -> /home/student/.local/share/gvfs-metadata/home
+lr-x------ 1 student student 64 Oct 19 16:19 25 -> /home/student/.local/share/gvfs-metadata/home-54f20cad.log
+lr-x------ 1 student student 64 Oct 19 16:19 26 -> pipe:[73086]
+l-wx------ 1 student student 64 Oct 19 16:19 27 -> pipe:[73086]
+lrwx------ 1 student student 64 Oct 19 16:19 28 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 29 -> socket:[73088]
+lrwx------ 1 student student 64 Oct 19 16:19 3 -> socket:[72876]
+lrwx------ 1 student student 64 Oct 19 16:19 30 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 31 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 19 16:19 32 -> socket:[73153]
+lrwx------ 1 student student 64 Oct 19 16:19 33 -> socket:[73093]
+lrwx------ 1 student student 64 Oct 19 16:19 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 5 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 6 -> socket:[72879]
+lrwx------ 1 student student 64 Oct 19 16:19 7 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 19 16:19 8 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 19 16:19 9 -> /home/student/.cache/tracker/meta.db-wal

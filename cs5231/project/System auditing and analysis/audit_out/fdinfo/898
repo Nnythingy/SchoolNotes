@@ -1,0 +1,9 @@
+total 0
+dr-x------ 2 root root  0 Oct 25 00:28 .
+dr-xr-xr-x 9 root root  0 Oct 25 00:25 ..
+lrwx------ 1 root root 64 Oct 25 00:28 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:28 1 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:28 2 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:28 3 -> /dev/vboxguest
+lrwx------ 1 root root 64 Oct 25 00:28 5 -> socket:[26684]
+lrwx------ 1 root root 64 Oct 25 00:28 7 -> /run/vboxadd-service.sh

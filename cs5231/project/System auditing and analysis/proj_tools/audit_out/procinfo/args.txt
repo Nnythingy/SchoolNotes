@@ -1,0 +1,191 @@
+COMMAND
+/sbin/init splash
+[kthreadd]
+[rcu_gp]
+[rcu_par_gp]
+[netns]
+[kworker/0:0H-events_highpri]
+[mm_percpu_wq]
+[rcu_tasks_rude_]
+[rcu_tasks_trace]
+[ksoftirqd/0]
+[rcu_sched]
+[migration/0]
+[idle_inject/0]
+[cpuhp/0]
+[kdevtmpfs]
+[inet_frag_wq]
+[kauditd]
+[khungtaskd]
+[oom_reaper]
+[writeback]
+[kcompactd0]
+[ksmd]
+[khugepaged]
+[kintegrityd]
+[kblockd]
+[blkcg_punt_bio]
+[tpm_dev_wq]
+[ata_sff]
+[md]
+[edac-poller]
+[devfreq_wq]
+[watchdogd]
+[kworker/0:1H-kblockd]
+[kswapd0]
+[ecryptfs-kthrea]
+[kthrotld]
+[acpi_thermal_pm]
+[scsi_eh_0]
+[scsi_tmf_0]
+[scsi_eh_1]
+[scsi_tmf_1]
+[vfio-irqfd-clea]
+[mld]
+[ipv6_addrconf]
+[kworker/u2:5-ext4-rsv-conversion]
+[kworker/0:2-events]
+[kstrp]
+[zswap-shrink]
+[kworker/u3:0]
+[charger_manager]
+[scsi_eh_2]
+[scsi_tmf_2]
+[jbd2/sda5-8]
+[ext4-rsv-conver]
+/lib/systemd/systemd-journald
+[ttm_swap]
+[irq/18-vmwgfx]
+[card0-crtc0]
+[card0-crtc1]
+[card0-crtc2]
+[card0-crtc3]
+[card0-crtc4]
+[card0-crtc5]
+[card0-crtc6]
+[card0-crtc7]
+/lib/systemd/systemd-udevd
+[cryptd]
+[iprt-VBoxWQueue]
+/lib/systemd/systemd-resolved
+/lib/systemd/systemd-timesyncd
+/sbin/auditd
+/usr/lib/accountsservice/accounts-daemon
+/usr/sbin/acpid
+avahi-daemon: running [student-VirtualBox.local]
+/usr/sbin/cron -f
+/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+/usr/sbin/NetworkManager --no-daemon
+/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+/usr/lib/policykit-1/polkitd --no-debug
+/usr/sbin/rsyslogd -n -iNONE
+/usr/lib/snapd/snapd
+/usr/libexec/switcheroo-control
+/lib/systemd/systemd-logind
+/usr/lib/udisks2/udisksd
+/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi-daemon: chroot helper
+/usr/sbin/ModemManager --filter-policy=strict
+/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+/usr/bin/VBoxDRMClient
+sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+/usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+/usr/sbin/gdm3
+/usr/bin/whoopsie -f
+/usr/sbin/kerneloops --test
+/usr/sbin/kerneloops
+/usr/libexec/rtkit-daemon
+/usr/lib/upower/upowerd
+/usr/libexec/colord
+gdm-session-worker [pam/gdm-password]
+/lib/systemd/systemd --user
+(sd-pam)
+/usr/bin/pulseaudio --daemonize=no --log-target=journal
+/usr/libexec/tracker-miner-fs
+/usr/bin/gnome-keyring-daemon --daemonize --login
+/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+/usr/libexec/gvfsd
+/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+/usr/libexec/gvfs-udisks2-volume-monitor
+/usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+/usr/libexec/gvfs-goa-volume-monitor
+/usr/libexec/goa-daemon
+/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+/usr/libexec/goa-identity-service
+/usr/libexec/gvfs-mtp-volume-monitor
+/usr/libexec/gvfs-gphoto2-volume-monitor
+/usr/libexec/gvfs-afc-volume-monitor
+/usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+/usr/bin/VBoxClient --clipboard
+/usr/bin/VBoxClient --seamless
+/usr/bin/VBoxClient --draganddrop
+/usr/bin/VBoxClient --clipboard
+/usr/bin/VBoxClient --seamless
+/usr/bin/VBoxClient --draganddrop
+/usr/bin/VBoxClient --vmsvga-session
+/usr/bin/VBoxClient --vmsvga-session
+/usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+/usr/libexec/gvfsd-metadata
+/usr/libexec/at-spi-bus-launcher
+/usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+/usr/libexec/gnome-session-ctl --monitor
+/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+/usr/bin/gnome-shell
+ibus-daemon --panel disable --xim
+/usr/libexec/ibus-dconf
+/usr/libexec/ibus-extension-gtk3
+/usr/libexec/ibus-x11 --kill-daemon
+/usr/libexec/ibus-portal
+/usr/libexec/at-spi2-registryd --use-gnome-session
+/usr/libexec/xdg-permission-store
+/usr/libexec/gnome-shell-calendar-server
+/usr/libexec/evolution-source-registry
+/usr/libexec/evolution-calendar-factory
+/usr/libexec/dconf-service
+/usr/libexec/evolution-addressbook-factory
+/usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+/usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+/usr/libexec/gsd-a11y-settings
+/usr/libexec/gsd-color
+/usr/libexec/gsd-datetime
+/usr/libexec/gsd-housekeeping
+/usr/libexec/gsd-keyboard
+/usr/libexec/gsd-media-keys
+/usr/libexec/gsd-power
+/usr/libexec/gsd-print-notifications
+/usr/libexec/gsd-rfkill
+/usr/libexec/gsd-screensaver-proxy
+/usr/libexec/gsd-sharing
+/usr/libexec/gsd-smartcard
+/usr/libexec/gsd-sound
+/usr/libexec/gsd-usb-protection
+/usr/libexec/gsd-wacom
+/usr/libexec/gsd-disk-utility-notify
+/usr/libexec/gsd-wwan
+/usr/libexec/gsd-xsettings
+/usr/libexec/evolution-data-server/evolution-alarm-notify
+/usr/libexec/ibus-engine-simple
+/usr/libexec/gsd-printer
+/usr/libexec/gnome-terminal-server
+update-notifier
+/usr/libexec/fwupd/fwupd
+/usr/sbin/cupsd -l
+/usr/sbin/cups-browsed
+[kworker/0:0-events]
+gnome-control-center
+/usr/bin/nautilus --gapplication-service
+[kworker/u2:0-ext4-rsv-conversion]
+/usr/bin/gedit --gapplication-service
+vim /home/student/proj_tools/run-attack.sh
+bash
+ssh student@localhost
+sshd: student [priv]
+/usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+sshd: student@pts/2
+-bash
+[kworker/u2:1-events_unbound]
+sudo ./audit-ctl.sh start
+/bin/bash ./audit-ctl.sh start
+sudo bash /home/student/proj_tools/audit/config.sh
+bash /home/student/proj_tools/audit/config.sh
+ps -eo args

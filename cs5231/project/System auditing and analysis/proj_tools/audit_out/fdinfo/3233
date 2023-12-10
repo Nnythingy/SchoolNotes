@@ -1,0 +1,23 @@
+total 0
+dr-x------ 2 student student  0 Oct 19 16:19 .
+dr-xr-xr-x 9 student student  0 Oct 19 16:17 ..
+lrwx------ 1 student student 64 Oct 19 16:19 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 19 16:19 1 -> socket:[74296]
+lrwx------ 1 student student 64 Oct 19 16:19 10 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 19 16:19 11 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 19 16:19 12 -> /home/student/.local/share/gvfs-metadata/home
+lr-x------ 1 student student 64 Oct 19 16:19 13 -> /home/student/.local/share/gvfs-metadata/home-54f20cad.log
+lr-x------ 1 student student 64 Oct 19 16:19 14 -> pipe:[74321]
+l-wx------ 1 student student 64 Oct 19 16:19 15 -> pipe:[74321]
+lrwx------ 1 student student 64 Oct 19 16:19 16 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 17 -> socket:[74323]
+lrwx------ 1 student student 64 Oct 19 16:19 18 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 19 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 19 16:19 2 -> socket:[74297]
+lrwx------ 1 student student 64 Oct 19 16:19 3 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 5 -> socket:[74301]
+lrwx------ 1 student student 64 Oct 19 16:19 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 19 16:19 7 -> socket:[74309]
+lrwx------ 1 student student 64 Oct 19 16:19 8 -> socket:[74305]
+lrwx------ 1 student student 64 Oct 19 16:19 9 -> anon_inode:[eventfd]

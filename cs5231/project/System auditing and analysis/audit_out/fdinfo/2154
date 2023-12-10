@@ -1,0 +1,37 @@
+total 0
+dr-x------ 2 student student  0 Oct 25 00:28 .
+dr-xr-xr-x 9 student student  0 Oct 25 00:27 ..
+lrwx------ 1 student student 64 Oct 25 00:28 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 25 00:28 1 -> socket:[40487]
+lrwx------ 1 student student 64 Oct 25 00:28 10 -> /home/student/.cache/tracker/meta.db-shm
+lrwx------ 1 student student 64 Oct 25 00:28 11 -> anon_inode:[eventfd]
+l-wx------ 1 student student 64 Oct 25 00:28 12 -> /home/student/.local/share/tracker/data/tracker-store.journal
+lr-x------ 1 student student 64 Oct 25 00:28 13 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 25 00:28 14 -> /home/student/.cache/tracker/meta.db-wal
+lr-x------ 1 student student 64 Oct 25 00:28 15 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 25 00:28 16 -> /home/student/.cache/tracker/meta.db-wal
+lr-x------ 1 student student 64 Oct 25 00:28 17 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 25 00:28 18 -> /home/student/.cache/tracker/meta.db-wal
+lrwx------ 1 student student 64 Oct 25 00:28 19 -> socket:[39679]
+lrwx------ 1 student student 64 Oct 25 00:28 2 -> socket:[40488]
+lrwx------ 1 student student 64 Oct 25 00:28 20 -> socket:[39681]
+lrwx------ 1 student student 64 Oct 25 00:28 21 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 25 00:28 22 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 25 00:28 23 -> socket:[42119]
+lr-x------ 1 student student 64 Oct 25 00:28 24 -> /home/student/.local/share/gvfs-metadata/home
+lr-x------ 1 student student 64 Oct 25 00:28 25 -> /home/student/.local/share/gvfs-metadata/home-ae17a77f.log
+lr-x------ 1 student student 64 Oct 25 00:28 26 -> pipe:[40626]
+l-wx------ 1 student student 64 Oct 25 00:28 27 -> pipe:[40626]
+lrwx------ 1 student student 64 Oct 25 00:28 28 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 29 -> socket:[40628]
+lrwx------ 1 student student 64 Oct 25 00:28 3 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 30 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 31 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 25 00:28 34 -> socket:[42126]
+lrwx------ 1 student student 64 Oct 25 00:28 36 -> socket:[39685]
+lrwx------ 1 student student 64 Oct 25 00:28 4 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 5 -> socket:[39672]
+lrwx------ 1 student student 64 Oct 25 00:28 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 25 00:28 7 -> socket:[39675]
+lr-x------ 1 student student 64 Oct 25 00:28 8 -> /home/student/.cache/tracker/meta.db
+lrwx------ 1 student student 64 Oct 25 00:28 9 -> /home/student/.cache/tracker/meta.db-wal

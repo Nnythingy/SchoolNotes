@@ -1,0 +1,38 @@
+total 0
+dr-x------ 2 student student  0 Oct 25 00:27 .
+dr-xr-xr-x 9 student student  0 Oct 25 00:27 ..
+lr-x------ 1 student student 64 Oct 25 00:27 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 25 00:27 1 -> socket:[36094]
+lr-x------ 1 student student 64 Oct 25 00:27 10 -> /proc/1525/mountinfo
+lr-x------ 1 student student 64 Oct 25 00:27 11 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:27 12 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:27 13 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:27 14 -> /proc/swaps
+lrwx------ 1 student student 64 Oct 25 00:27 15 -> socket:[34928]
+lrwx------ 1 student student 64 Oct 25 00:27 16 -> socket:[33142]
+lrwx------ 1 student student 64 Oct 25 00:27 17 -> socket:[33143]
+lrwx------ 1 student student 64 Oct 25 00:27 18 -> socket:[33144]
+lrwx------ 1 student student 64 Oct 25 00:27 19 -> socket:[33145]
+lrwx------ 1 student student 64 Oct 25 00:27 2 -> socket:[36094]
+lrwx------ 1 student student 64 Oct 25 00:27 20 -> socket:[33146]
+lrwx------ 1 student student 64 Oct 25 00:27 21 -> anon_inode:[timerfd]
+lrwx------ 1 student student 64 Oct 25 00:27 26 -> socket:[33150]
+lrwx------ 1 student student 64 Oct 25 00:27 27 -> socket:[33151]
+lrwx------ 1 student student 64 Oct 25 00:27 28 -> socket:[33152]
+lrwx------ 1 student student 64 Oct 25 00:27 29 -> socket:[33153]
+lrwx------ 1 student student 64 Oct 25 00:27 3 -> socket:[34924]
+lrwx------ 1 student student 64 Oct 25 00:27 30 -> socket:[33154]
+lrwx------ 1 student student 64 Oct 25 00:27 31 -> socket:[33155]
+lrwx------ 1 student student 64 Oct 25 00:27 32 -> socket:[33156]
+lrwx------ 1 student student 64 Oct 25 00:27 33 -> socket:[33157]
+lrwx------ 1 student student 64 Oct 25 00:27 34 -> socket:[33158]
+lrwx------ 1 student student 64 Oct 25 00:27 35 -> socket:[34319]
+lr-x------ 1 student student 64 Oct 25 00:27 36 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:27 37 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:27 38 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 25 00:27 4 -> anon_inode:[eventpoll]
+lrwx------ 1 student student 64 Oct 25 00:27 5 -> anon_inode:[signalfd]
+lr-x------ 1 student student 64 Oct 25 00:27 6 -> anon_inode:inotify
+lr-x------ 1 student student 64 Oct 25 00:27 7 -> /sys/fs/cgroup/unified/user.slice/user-1000.slice/user@1000.service
+lrwx------ 1 student student 64 Oct 25 00:27 8 -> anon_inode:[timerfd]
+lrwx------ 1 student student 64 Oct 25 00:27 9 -> anon_inode:[eventpoll]

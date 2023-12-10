@@ -1,0 +1,78 @@
+2)
+CREATE OR REPLACE FUNCTION update_product(
+    cs5322 IN VARCHAR2, Products IN VARCHAR2)
+RETURN VARCHAR2 AS condition VARCHAR2 (200);
+BEGIN
+    condition := 'SYS_CONTEXT("USERENV", "SESSIONS_USERID") = SELLER_ID';
+    RETURN condition;
+END update_product;
+
+BEGIN
+    DBMS_RLS.ADD_POLICY(
+    object_schema => 'cs5322',
+    object_name => 'Products',
+    policy_name => 'update_product_policy',
+    policy_function => 'update_product',
+    update_check => TRUE,
+END;
+
+4)
+#for this maybe ORDERS table need "draft"?
+#1 - create order draft, 2- create order details, 3- order details does the checking
+CREATE OR REPLACE FUNCTION prevent_product_self_buy(
+    cs5322 IN VARCHAR2, ORDER_DETAILS IN VARCHAR2)
+RETURN VARCHAR2 AS condition VARCHAR2 (200);
+BEGIN
+    #need join order details and order on order id and id to check if draft?
+    #need join order details and products on product id
+    
+    condition := 'SYS_CONTEXT("USERENV", "SESSIONS_USERID") != joined.SELLER_ID';
+    RETURN condition;
+END prevent_product_self_buy;
+
+BEGIN
+    DBMS_RLS.ADD_POLICY(
+    object_schema => 'cs5322',
+    object_name => 'Products',
+    policy_name => 'prevent_product_self_buy_policy',
+    policy_function => 'prevent_product_self_buy',
+END;
+
+5)
+CREATE OR REPLACE FUNCTION update_review(
+    cs5322 IN VARCHAR2, Reviews IN VARCHAR2)
+RETURN VARCHAR2 AS condition VARCHAR2 (200);
+BEGIN
+    condition := 'SYS_CONTEXT("USERENV", "SESSIONS_USERID") = userID';
+    RETURN condition;
+END update_review;
+
+BEGIN
+    DBMS_RLS.ADD_POLICY(
+    object_schema => 'cs5322',
+    object_name => 'Reviews',
+    policy_name => 'update_review_policy',
+    policy_function => 'update_review',
+    update_check => TRUE,
+END;
+
+6)
+CREATE OR REPLACE FUNCTION review_after_delivery_check(
+    cs5322 IN VARCHAR2, Reviews IN VARCHAR2)
+RETURN VARCHAR2 AS condition VARCHAR2 (200);
+BEGIN
+    #join OrderDetails with Reviews with Order on UserID and ProductID
+    #if user ordered the same product before, and 2nd order yet to be sent it is only considered update
+    #need to join with Shipping on OrderID
+    #check deliveryDate not null
+    condition := 'joined.deliveryDate != NULL';
+    RETURN condition;
+END review_after_delivery_check;
+
+BEGIN
+    DBMS_RLS.ADD_POLICY(
+    object_schema => 'cs5322',
+    object_name => 'Reviews',
+    policy_name => 'review_after_delivery_check_policy',
+    policy_function => 'review_after_delivery_check',
+END;

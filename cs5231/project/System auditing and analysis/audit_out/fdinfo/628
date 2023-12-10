@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 root  root   0 Oct 25 00:25 .
+dr-xr-xr-x 9 avahi avahi  0 Oct 25 00:25 ..
+lr-x------ 1 root  root  64 Oct 25 00:25 0 -> /dev/null
+lrwx------ 1 root  root  64 Oct 25 00:25 1 -> socket:[24058]
+lrwx------ 1 root  root  64 Oct 25 00:25 10 -> socket:[25221]
+lr-x------ 1 root  root  64 Oct 25 00:25 11 -> anon_inode:inotify
+lrwx------ 1 root  root  64 Oct 25 00:25 12 -> socket:[24526]
+lrwx------ 1 root  root  64 Oct 25 00:25 13 -> socket:[24527]
+lrwx------ 1 root  root  64 Oct 25 00:25 14 -> socket:[24528]
+lrwx------ 1 root  root  64 Oct 25 00:25 15 -> socket:[24529]
+lrwx------ 1 root  root  64 Oct 25 00:25 16 -> socket:[24530]
+lrwx------ 1 root  root  64 Oct 25 00:25 2 -> socket:[24058]
+lrwx------ 1 root  root  64 Oct 25 00:25 3 -> socket:[20981]
+lrwx------ 1 root  root  64 Oct 25 00:25 4 -> socket:[24296]
+lrwx------ 1 root  root  64 Oct 25 00:25 5 -> socket:[25212]
+lr-x------ 1 root  root  64 Oct 25 00:25 6 -> pipe:[25219]
+l-wx------ 1 root  root  64 Oct 25 00:25 7 -> pipe:[25219]
+lr-x------ 1 root  root  64 Oct 25 00:25 8 -> pipe:[25220]
+l-wx------ 1 root  root  64 Oct 25 00:25 9 -> pipe:[25220]

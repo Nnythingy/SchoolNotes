@@ -1,0 +1,14 @@
+total 0
+dr-x------ 2 root root  0 Oct 25 00:25 .
+dr-xr-xr-x 9 root root  0 Oct 25 00:25 ..
+lrwx------ 1 root root 64 Oct 25 00:25 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:25 1 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:25 10 -> socket:[31095]
+lrwx------ 1 root root 64 Oct 25 00:25 2 -> /dev/null
+lrwx------ 1 root root 64 Oct 25 00:25 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 25 00:25 4 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Oct 25 00:25 5 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 25 00:25 6 -> socket:[25264]
+lrwx------ 1 root root 64 Oct 25 00:25 7 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Oct 25 00:25 8 -> anon_inode:inotify
+lr-x------ 1 root root 64 Oct 25 00:25 9 -> anon_inode:inotify

@@ -1,0 +1,16 @@
+COMMAND    PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd-r  529 systemd-resolve   12u  IPv4  21597      0t0  UDP 127.0.0.53:53 
+systemd-r  529 systemd-resolve   13u  IPv4  21598      0t0  TCP 127.0.0.53:53 (LISTEN)
+avahi-dae  590           avahi   12u  IPv4  24678      0t0  UDP *:5353 
+avahi-dae  590           avahi   13u  IPv6  24679      0t0  UDP *:5353 
+avahi-dae  590           avahi   14u  IPv4  24680      0t0  UDP *:33205 
+avahi-dae  590           avahi   15u  IPv6  24681      0t0  UDP *:56918 
+NetworkMa  594            root   23u  IPv4  52660      0t0  UDP 10.0.2.15:68->10.0.2.2:67 
+sshd       910            root    3u  IPv4  26603      0t0  TCP *:22 (LISTEN)
+sshd       910            root    4u  IPv6  26614      0t0  TCP *:22 (LISTEN)
+cupsd     2296            root    6u  IPv6  51979      0t0  TCP [::1]:631 (LISTEN)
+cupsd     2296            root    7u  IPv4  51980      0t0  TCP 127.0.0.1:631 (LISTEN)
+cups-brow 2298            root    7u  IPv4  52012      0t0  UDP *:631 
+ssh       3260         student    3u  IPv4  74721      0t0  TCP 127.0.0.1:32890->127.0.0.1:22 (ESTABLISHED)
+sshd      3261            root    4u  IPv4  74722      0t0  TCP 127.0.0.1:22->127.0.0.1:32890 (ESTABLISHED)
+sshd      3344         student    4u  IPv4  74722      0t0  TCP 127.0.0.1:22->127.0.0.1:32890 (ESTABLISHED)

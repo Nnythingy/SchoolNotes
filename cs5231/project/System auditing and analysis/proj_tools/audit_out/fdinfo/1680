@@ -1,0 +1,44 @@
+total 0
+dr-x------ 2 student student  0 Oct 16 23:13 .
+dr-xr-xr-x 9 student student  0 Oct 16 23:13 ..
+lr-x------ 1 student student 64 Oct 16 23:13 0 -> /dev/null
+lrwx------ 1 student student 64 Oct 16 23:13 1 -> socket:[35791]
+lrwx------ 1 student student 64 Oct 16 23:13 10 -> socket:[35881]
+lrwx------ 1 student student 64 Oct 16 23:13 11 -> socket:[35913]
+lrwx------ 1 student student 64 Oct 16 23:13 12 -> socket:[35916]
+lrwx------ 1 student student 64 Oct 16 23:13 13 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 14 -> socket:[35918]
+lrwx------ 1 student student 64 Oct 16 23:13 15 -> socket:[35924]
+lr-x------ 1 student student 64 Oct 16 23:13 16 -> pipe:[39491]
+lr-x------ 1 student student 64 Oct 16 23:13 17 -> anon_inode:inotify
+lrwx------ 1 student student 64 Oct 16 23:13 18 -> anon_inode:[timerfd]
+lr-x------ 1 student student 64 Oct 16 23:13 19 -> /home/student/.local/share/gvfs-metadata/root (deleted)
+lrwx------ 1 student student 64 Oct 16 23:13 2 -> socket:[35791]
+lrwx------ 1 student student 64 Oct 16 23:13 20 -> anon_inode:[timerfd]
+lrwx------ 1 student student 64 Oct 16 23:13 21 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 22 -> socket:[36199]
+l-wx------ 1 student student 64 Oct 16 23:13 23 -> pipe:[39491]
+lrwx------ 1 student student 64 Oct 16 23:13 24 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 25 -> socket:[39492]
+lrwx------ 1 student student 64 Oct 16 23:13 26 -> anon_inode:[timerfd]
+lrwx------ 1 student student 64 Oct 16 23:13 27 -> socket:[36476]
+lrwx------ 1 student student 64 Oct 16 23:13 28 -> socket:[36569]
+lrwx------ 1 student student 64 Oct 16 23:13 29 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 3 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 30 -> anon_inode:[eventfd]
+lr-x------ 1 student student 64 Oct 16 23:13 31 -> /home/student/.local/share/gvfs-metadata/home (deleted)
+lr-x------ 1 student student 64 Oct 16 23:13 32 -> /home/student/.local/share/gvfs-metadata/home-87da02b5.log (deleted)
+lrwx------ 1 student student 64 Oct 16 23:13 33 -> socket:[38336]
+lr-x------ 1 student student 64 Oct 16 23:13 34 -> /home/student/.local/share/gvfs-metadata/trash:
+lr-x------ 1 student student 64 Oct 16 23:13 35 -> /home/student/.local/share/gvfs-metadata/trash:-f36b6bba.log
+lrwx------ 1 student student 64 Oct 16 23:13 36 -> /home/student/.cache/event-sound-cache.tdb.2db62cacf90748d9a42baaaa064a8130.x86_64-pc-linux-gnu
+lrwx------ 1 student student 64 Oct 16 23:13 37 -> anon_inode:[timerfd]
+lr-x------ 1 student student 64 Oct 16 23:13 38 -> /home/student/.local/share/gvfs-metadata/root-f565d9ae.log (deleted)
+lrwx------ 1 student student 64 Oct 16 23:13 39 -> anon_inode:[timerfd]
+lrwx------ 1 student student 64 Oct 16 23:13 4 -> anon_inode:[eventfd]
+l-wx------ 1 student student 64 Oct 19 16:06 42 -> /run/systemd/inhibit/20.ref
+lrwx------ 1 student student 64 Oct 16 23:13 5 -> socket:[35876]
+lrwx------ 1 student student 64 Oct 16 23:13 6 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 7 -> socket:[35883]
+lrwx------ 1 student student 64 Oct 16 23:13 8 -> anon_inode:[eventfd]
+lrwx------ 1 student student 64 Oct 16 23:13 9 -> socket:[35912]
