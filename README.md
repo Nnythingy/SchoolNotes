@@ -36,3 +36,9 @@ Hi! These are the study materials I have used when taking these mods.
  [ST2334 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/st2334) | [SC1101E B+](https://github.com/Nnythingy/SchoolNotes/tree/main/sc1101e)
  | | [SC4880D audit](https://github.com/Nnythingy/SchoolNotes/tree/main/sc4880d)
 
+## AY23/24 ##
+ Sem 1 | Sem 2
+ ------ | ------
+ [CS5231 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5231) | 
+ [CS5322 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5322) | 
+ [GET1030 B](https://github.com/Nnythingy/SchoolNotes/tree/main/get1030) |  
