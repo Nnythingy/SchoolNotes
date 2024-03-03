@@ -1,8 +1,0 @@
-break main; run
-print &a
-info address f
-watch c
-disassemble g
-break g; continue; backtrace
-x/xg $rsp
-info proc
