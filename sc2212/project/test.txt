@@ -1,0 +1,74 @@
+vol1 iss1
+- The Present and Future of Cybercrime, Cyberterrorism, and Cybersecurity
+- A Failure to Regulate? The Demands and Dilemmas of Tackling Illegal Content and Behaviour on Social Media
+- Spreading Propaganda in Cyberspace: Comparing Cyber-Resource Usage of Al Qaeda and ISIS
+- Juvenile Hackers: An Empirical Test of Self-Control Theory and Social Bonding Theory
+- Architecture of aggression in cyberspace. Testing cyber aggression in young adults in Hungary
+- An Argument for Interdisciplinary Programs in Cybersecurity
+
+vol2 iss1
+- Awareness and Perception of Cybercrimes and Cybercriminals
+- Phishing and Cybercrime Risks in a University Student Community
+- Examining Perceptions of Online Harassment among Constables in England and Wales
+- The profile of the international cyber offender in the U.S.
+- Cybercrime and Digital Forensics: Bridging the gap in Legislation, Investigation and Prosecution of Cybercrime in Nigeria
+
+vol2 iss2
+- The Future of Cybercrime Prevention Strategies: Human Factors and A Holistic Approach to Cyber Intelligence
+- A Test of Structural Model for Fear of Crime in Social Networking Sites
+Seong-Sik Lee, Kyung-shick Choi, Sinyong Choi, and Elizabeth Englander
+- An Exploratory Perception Analysis of Consensual and Nonconsensual Image Sharing
+- Blockchain Security: Situational Crime Prevention Theory and Distributed Cyber Systems
+
+vol3 iss1
+- Review of Fundamental to Know about the Future
+- Illegal Gambling and Its Operation via the Darknet and Bitcoin: An Application of Routine Activity Theory
+- An Empirical study to determine the role of file-system in modification of hash value
+- A Reverse Digital Divide: Comparing Information Security Behaviors of Generation Y and Generation Z Adults
+- Book Review: The Cyber Risk Handbook By Domenic Antonucci
+
+vol3 iss2
+- Toward Mitigating, Minimizing, and Preventing Cybercrimes and Cybersecurity Risks
+- The Effects of Self-control on the Cyber Victim-Offender Overlap
+- Cyber-Situational Crime Prevention and the Breadth of Cybercrimes among Higher Education Institutions
+- Proposal for the Development and Addition of a Cybersecurity Assessment Section into Technology Involving Global Public Health
+- Book Review: Computer capers: Tales of electronic thievery, embezzlement, and fraud. By Thomas Whiteside
+
+vol4 iss1
+- The Challenges of Identifying Dangers Online and Predictors of Victimization
+- Assessing the Credibility of Cyber Adversaries
+- Cyberbullying: Its Social and Psychological Harms Among Schoolers
+- Cyber-victimization Trends in Trinidad & Tobago: The Results of An Empirical Research
+
+vol4 iss2
+- Editorial introduction to the special issue: Supporting future scholarship on cybercrime
+- North Korean Cyber Attacks and Policy Responses: An Interdisciplinary Theoretical Framework
+- Malware Infections in the U.S. during the COVID-19 Pandemic: An Empirical Study
+- Level of Engagement with Social Networking Services and Fear of Online Victimization: The Role of Online Victimization Experiences
+
+vol5 iss1
+- Understanding Cybercrime Offending and Victimization Patterns from a Global Perspective
+- The Relationship between Parenting Practices and Cyberbullying Perpetration: The Mediating Role of Moral Beliefs
+- Social Construction of Internet Fraud as Innovation among Youths in Nigeria
+- Cybersecurity Risk in U.S. Critical Infrastructure: An Analysis of Publicly Available U.S. Government Alerts and Advisories
+
+vol5 iss2
+- Dynamics of Dark Web Financial Marketplaces: An Exploratory Study of Underground Fraud and Scam Business
+- Kerberoasting: Case Studies of an Attack on a Cryptographic Authentication Technology
+
+vol5 iss3
+- Understanding Deviance and Victimization in Cyber Space among Diverse Populations
+- Aggressive Reality Docuseries and Cyberbullying: A Partial Test of Glaser’s Differential Identification Theory
+- “Elder Scam” Risk Profiles: Individual and Situational Factors of Younger and Older Age Groups’ Fraud Victimization
+- Emerging Trends in Cybercrime Awareness in Nigeria
+- Book Review: Digital Forensics and Cyber Investigation
+
+vol6 iss1
+- Research Trends in Cybercrime and Cybersecurity: A Review Based on Web of Science Core Collection Database
+- Threat Construction and Framing of Cyberterrorism in the U.S. News Media
+- Prevalence and Trends of Depression among Cyberbullied Adolescents - Youth Risk Behavior Survey, United States, 2011 – 2019
+- Understanding the Connection Between Hackers and Their Hacks: Analyzing USDOJ Reports for Hacker Profiles
+
+vol6 iss2
+- Victimization by Deepfake in the Metaverse: Building a Practical Management Framework
+- Harnessing Large Language Models to Simulate Realistic Human Responses to Social Engineering Attacks: A Case Study

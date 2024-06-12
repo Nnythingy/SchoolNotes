@@ -1,0 +1,925 @@
+{
+	"info": {
+		"_postman_id": "48259bd7-bf97-4a5b-995a-b45865f42596",
+		"name": "Botbot",
+		"description": "OpenAPI v3 specs for Botbot's tummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11428019"
+	},
+	"item": [
+		{
+			"name": "/",
+			"item": [
+				{
+					"name": "home",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								""
+							]
+						},
+						"description": "Welcome to botbot's tummy!"
+					},
+					"response": [
+						{
+							"name": "Home - Help",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"message\": \"<string>\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "botbot",
+			"item": [
+				{
+					"name": "v2",
+					"item": [
+						{
+							"name": "users",
+							"item": [
+								{
+									"name": "showall",
+									"item": [
+										{
+											"name": "Retrieves all meowmeows",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/botbot/v2/users/showall",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"botbot",
+														"v2",
+														"users",
+														"showall"
+													]
+												},
+												"description": "Displays all meow users with basic information"
+											},
+											"response": [
+												{
+													"name": "See basic info about all users",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/users/showall",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																"users",
+																"showall"
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "[\n  {\n    \"email\": \"<string>\"\n  },\n  {\n    \"email\": \"<string>\"\n  }\n]"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "register",
+									"item": [
+										{
+											"name": "Register new meowmeow",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"username\": \"<string>\",\n  \"password\": \"<string>\",\n  \"email\": \"<string>\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/botbot/v2/users/register",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"botbot",
+														"v2",
+														"users",
+														"register"
+													]
+												},
+												"description": "Register new meow user"
+											},
+											"response": [
+												{
+													"name": "Sucessfully created meowmeow",
+													"originalRequest": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															},
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"username\": \"<string>\",\n  \"password\": \"<string>\",\n  \"email\": \"<string>\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/users/register",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																"users",
+																"register"
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"message\": \"<string>\",\n  \"status\": \"fail\"\n}"
+												},
+												{
+													"name": "Invalid request",
+													"originalRequest": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"username\": \"<string>\",\n  \"password\": \"<string>\",\n  \"email\": \"<string>\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/users/register",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																"users",
+																"register"
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "login",
+									"item": [
+										{
+											"name": "Login to meowmeow portal",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"username\": \"<string>\",\n  \"password\": \"<string>\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/botbot/v2/users/login",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"botbot",
+														"v2",
+														"users",
+														"login"
+													]
+												},
+												"description": "Login"
+											},
+											"response": [
+												{
+													"name": "Sucessfully logged in",
+													"originalRequest": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															},
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"username\": \"<string>\",\n  \"password\": \"<string>\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/users/login",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																"users",
+																"login"
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"auth_token\": \"<string>\",\n  \"message\": \"<string>\",\n  \"status\": \"fail\"\n}"
+												},
+												{
+													"name": "Invalid request",
+													"originalRequest": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															},
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"username\": \"<string>\",\n  \"password\": \"<string>\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/users/login",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																"users",
+																"login"
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"status\": \"fail\",\n  \"message\": \"<string>\"\n}"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "{username}",
+							"item": [
+								{
+									"name": "show",
+									"item": [
+										{
+											"name": "Retrieves meowmeow details",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/botbot/v2/:username/show",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"botbot",
+														"v2",
+														":username",
+														"show"
+													],
+													"variable": [
+														{
+															"key": "username",
+															"value": "<string>",
+															"description": "(Required) retrieve meowname data"
+														}
+													]
+												},
+												"description": "Displays user by meowname"
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "email",
+									"item": [
+										{
+											"name": "update",
+											"item": [
+												{
+													"name": "Update meowmeow email",
+													"request": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/x-www-form-urlencoded"
+															},
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"email\": \"<string>\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/meowmeow1/email/update",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																"meowmeow1",
+																"email",
+																"update"
+															]
+														},
+														"description": "Update a meowmeow email"
+													},
+													"response": [
+														{
+															"name": "Sucessfully updated meowmeow email",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Content-Type",
+																		"value": "application/json"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"email\": \"<string>\"\n}",
+																	"options": {
+																		"raw": {
+																			"headerFamily": "json",
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/botbot/v2/:username/email/update",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"botbot",
+																		"v2",
+																		":username",
+																		"email",
+																		"update"
+																	],
+																	"variable": [
+																		{
+																			"key": "username"
+																		}
+																	]
+																}
+															},
+															"status": "No Content",
+															"code": 204,
+															"_postman_previewlanguage": "text",
+															"header": [],
+															"cookie": [],
+															"body": ""
+														},
+														{
+															"name": "Invalid request",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Content-Type",
+																		"value": "application/json"
+																	},
+																	{
+																		"key": "Accept",
+																		"value": "application/json"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"email\": \"<string>\"\n}",
+																	"options": {
+																		"raw": {
+																			"headerFamily": "json",
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/botbot/v2/:username/email/update",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"botbot",
+																		"v2",
+																		":username",
+																		"email",
+																		"update"
+																	],
+																	"variable": [
+																		{
+																			"key": "username"
+																		}
+																	]
+																}
+															},
+															"status": "Bad Request",
+															"code": 400,
+															"_postman_previewlanguage": "json",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "application/json"
+																}
+															],
+															"cookie": [],
+															"body": "{\n  \"status\": \"fail\",\n  \"message\": \"<string>\"\n}"
+														},
+														{
+															"name": "User not authorized",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Content-Type",
+																		"value": "application/json"
+																	},
+																	{
+																		"key": "Accept",
+																		"value": "application/json"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"email\": \"<string>\"\n}",
+																	"options": {
+																		"raw": {
+																			"headerFamily": "json",
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/botbot/v2/:username/email/update",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"botbot",
+																		"v2",
+																		":username",
+																		"email",
+																		"update"
+																	],
+																	"variable": [
+																		{
+																			"key": "username"
+																		}
+																	]
+																}
+															},
+															"status": "Unauthorized",
+															"code": 401,
+															"_postman_previewlanguage": "json",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "application/json"
+																}
+															],
+															"cookie": [],
+															"body": "{\n  \"status\": \"fail\",\n  \"message\": \"<string>\"\n}"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "password",
+									"item": [
+										{
+											"name": "update",
+											"item": [
+												{
+													"name": "Update meowmeow password",
+													"request": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															},
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"password\": \"<string>\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/botbot/v2/:username/password/update",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"botbot",
+																"v2",
+																":username",
+																"password",
+																"update"
+															],
+															"variable": [
+																{
+																	"key": "username",
+																	"value": "<string>",
+																	"description": "(Required) username to update password"
+																}
+															]
+														},
+														"description": "Update meowmeow password"
+													},
+													"response": [
+														{
+															"name": "Sucessfully updated meowmeow password",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Content-Type",
+																		"value": "application/json"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"password\": \"<string>\"\n}",
+																	"options": {
+																		"raw": {
+																			"headerFamily": "json",
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/botbot/v2/:username/password/update",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"botbot",
+																		"v2",
+																		":username",
+																		"password",
+																		"update"
+																	],
+																	"variable": [
+																		{
+																			"key": "username"
+																		}
+																	]
+																}
+															},
+															"status": "No Content",
+															"code": 204,
+															"_postman_previewlanguage": "text",
+															"header": [],
+															"cookie": [],
+															"body": ""
+														},
+														{
+															"name": "Invalid request",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Content-Type",
+																		"value": "application/json"
+																	},
+																	{
+																		"key": "Accept",
+																		"value": "application/json"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"password\": \"<string>\"\n}",
+																	"options": {
+																		"raw": {
+																			"headerFamily": "json",
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/botbot/v2/:username/password/update",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"botbot",
+																		"v2",
+																		":username",
+																		"password",
+																		"update"
+																	],
+																	"variable": [
+																		{
+																			"key": "username"
+																		}
+																	]
+																}
+															},
+															"status": "Bad Request",
+															"code": 400,
+															"_postman_previewlanguage": "json",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "application/json"
+																}
+															],
+															"cookie": [],
+															"body": "{\n  \"status\": \"fail\",\n  \"message\": \"<string>\"\n}"
+														},
+														{
+															"name": "User not authorized",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Content-Type",
+																		"value": "application/json"
+																	},
+																	{
+																		"key": "Accept",
+																		"value": "application/json"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"password\": \"<string>\"\n}",
+																	"options": {
+																		"raw": {
+																			"headerFamily": "json",
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/botbot/v2/:username/password/update",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"botbot",
+																		"v2",
+																		":username",
+																		"password",
+																		"update"
+																	],
+																	"variable": [
+																		{
+																			"key": "username"
+																		}
+																	]
+																}
+															},
+															"status": "Unauthorized",
+															"code": 401,
+															"_postman_previewlanguage": "json",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "application/json"
+																}
+															],
+															"cookie": [],
+															"body": "{\n  \"status\": \"fail\",\n  \"message\": \"<string>\"\n}"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:5000"
+		}
+	]
+}
