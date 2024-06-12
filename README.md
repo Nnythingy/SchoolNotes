@@ -32,13 +32,13 @@ Hi! These are the study materials I have used when taking these mods.
  ------ | ------
  [CS4236 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs4236) | [CS5321 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5321)
  [IS3103 B](https://github.com/Nnythingy/SchoolNotes/tree/main/is3103) | [CS5331 A-](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5331)
- [SC2217 B](https://github.com/Nnythingy/SchoolNotes/tree/main/sc2217) | [IFS4101 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/ifs4102)
+ [SC2217 B](https://github.com/Nnythingy/SchoolNotes/tree/main/sc2217) | [IFS4102 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/ifs4102)
  [ST2334 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/st2334) | [SC1101E B+](https://github.com/Nnythingy/SchoolNotes/tree/main/sc1101e)
  | | [SC4880D audit](https://github.com/Nnythingy/SchoolNotes/tree/main/sc4880d)
 
 ## AY23/24 ##
  Sem 1 | Sem 2
  ------ | ------
- [CS5231 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5231) | 
- [CS5322 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5322) | 
- [GET1030 B](https://github.com/Nnythingy/SchoolNotes/tree/main/get1030) |  
+ [CS5231 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5231) | [CS4238 B](https://github.com/Nnythingy/SchoolNotes/tree/main/cs4238)
+ [CS5322 B+](https://github.com/Nnythingy/SchoolNotes/tree/main/cs5322) | [IFS4103 A+](https://github.com/Nnythingy/SchoolNotes/tree/main/ifs4103)
+ [GET1030 B](https://github.com/Nnythingy/SchoolNotes/tree/main/get1030) | [SC2212 A](https://github.com/Nnythingy/SchoolNotes/tree/main/sc2212)
